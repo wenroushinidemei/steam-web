@@ -5,7 +5,7 @@
 
 # 项目git注意：
 
-## 遇到报错：
+## 遇到报错:
 
 fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': OpenSSL SSL_read: Connection was reset, errno 10054
 
@@ -21,7 +21,7 @@ fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': Fa
 # css开发规范
 
 1. 使用scss预编译插件开发项目样式，使用scss嵌套开发模式，根部class或id携带自己名：
-  class = 'box_you'》.box_you input{...}
+    class = 'box_you'》.box_you input{...}
 3. css样式书写规范（先写display、position再写盒子模型样式、弹性布局、再写动画），尽量遵守，方便互相查看和差错：
 
   display:flex;
@@ -35,7 +35,7 @@ fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': Fa
   font-size:12px;
 
   /*xxxx*/
-  
+
   justify-content:center;
 
   /*xxxx*/
@@ -73,3 +73,9 @@ fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': Fa
 5. 严格遵守缩进规则。
 6. 减少拼音命名，可以网上翻译函数的功能用作命名，通过注释我们可以快速看懂函数想要干什么。
 7. 通过按住Ctrl点击函数和类名我们可以快速找打定义的位置，此时可以通过他人注释知道这个函数和类的结构和目的。
+
+
+
+
+
+dfghjkl;
