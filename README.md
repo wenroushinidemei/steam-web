@@ -3,6 +3,21 @@
 
 使用axios、egg、es6、scss等技术进行搭建。
 
+# 项目git注意：
+
+## 遇到报错：
+
+fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+打开你下载的Git Bash，在开始菜单里，然后输入：git config --global http.sslVerify "false" 回车执行即可解决！
+
+fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': Failed to connect to github.com port 443: Timed out
+
+超时报错，再次push或则pull即可。
+
+## .gitignore：
+.gitignore是git忽视配置文件，因为node_modlues没必要上传，所以我们通过.gitignore将node_modlues文件忽视了，上传和更新时会自动无视它。所以我们有时候需要npm i 一下，把配置中记录的模块都下载更新一次。
+
 # css开发规范
 
 1. 使用scss预编译插件开发项目样式，使用scss嵌套开发模式，根部class或id携带自己名：
