@@ -1,0 +1,10 @@
+2021-09-23 10:22:59,068 INFO 13376 [egg:logger] init all loggers with options: {"dir":"F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-09-23 10:22:59,083 INFO 13376 [egg:core] dump config after load, 10ms
+2021-09-23 10:22:59,152 INFO 13376 [egg-watcher] Start watching: ["F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks_proxy","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app.js"]
+2021-09-23 10:22:59,152 INFO 13376 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app"
+2021-09-23 10:22:59,152 INFO 13376 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config"
+2021-09-23 10:22:59,153 INFO 13376 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks"
+2021-09-23 10:22:59,153 INFO 13376 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks_proxy"
+2021-09-23 10:22:59,153 INFO 13376 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app.js"
+2021-09-23 10:22:59,153 INFO 13376 [egg-watcher:agent] watcher start success
+2021-09-23 10:22:59,176 INFO 13376 [egg:core] dump config after ready, 21ms

@@ -1,0 +1,6 @@
+2021-09-23 10:23:00,966 INFO 13376 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65219038ms at 2021-09-24 04:30:00.004
+2021-09-23 10:23:00,967 INFO 13376 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49019034ms at 2021-09-24 00:00:00.001
+2021-09-23 10:23:00,968 INFO 13376 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49020033ms at 2021-09-24 00:00:01.001
+2021-09-23 10:23:00,592 INFO 12612 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-09-23 10:23:00,592 INFO 12612 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-09-23 10:23:00,592 INFO 12612 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
