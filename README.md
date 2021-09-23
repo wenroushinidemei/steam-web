@@ -1,6 +1,8 @@
 # steam-web
 力求制作以假乱真的steam官网。
 
+使用axios、egg、es6、scss等技术进行搭建。
+
 # css开发规范
 1. 使用scss预编译插件开发项目样式，使用scss嵌套开发模式，根部class或id携带自己名：
   class = 'box_you'》.box_you input{...}
