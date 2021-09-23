@@ -1,19 +1,35 @@
 {
-  "session": {
-    "maxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
-    "logValue": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js"
+  "cluster": {
+    "listen": {
+      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "hostname": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "allowMethods": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "user": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "password": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
+    },
+    "app": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "agent": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "default": {
+      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
   },
   "security": {
-    "domainWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "ignoreJSON": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
       "type": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "cookieName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "sessionName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
@@ -22,6 +38,9 @@
       "queryName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "protocolWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "value": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
@@ -60,6 +79,13 @@
       "ipExceptionList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
@@ -172,7 +198,9 @@
     "license": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
@@ -253,13 +281,6 @@
   "coreMiddleware": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
   "workerStartTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
   "serverTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
-      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
-    }
-  },
   "clusterClient": {
     "maxWaitTime": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "responseTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
