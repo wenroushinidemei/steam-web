@@ -8,5 +8,8 @@ module.exports = app => {
     router.get('/gameModule', controller.game.selects);
     // 从数据库查询单个游戏信息
     router.get('/game', controller.game.select);
+// 登录状态持久化
+    // router.get('/test',controller.testLi.selects);
 
+    router.get('/test', controller.home.test);
 }

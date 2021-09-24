@@ -79,7 +79,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -92,8 +92,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -167,11 +167,11 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "localhost",
+        "host": "192.168.6.49",
         "port": "3306",
         "user": "root",
         "password": "<String len: 6>",
-        "database": "test"
+        "database": "steam"
       }
     },
     "env": "local",
@@ -314,8 +314,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-onerror",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -325,8 +325,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-session",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -336,8 +336,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-i18n",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -347,8 +347,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-watcher",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -360,8 +360,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-multipart",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -373,8 +373,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-security",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -388,8 +388,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-development",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -401,8 +401,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-logrotator",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -412,8 +412,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-schedule",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-schedule@3.6.6@egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-static",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -436,8 +436,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-jsonp",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -447,8 +447,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-view",
+      "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\plugin.js",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view",
       "version": "2.1.3"
     },
     "cors": {
@@ -459,7 +459,7 @@
       "optionalDependencies": [],
       "env": [],
       "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-cors",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-cors@2.2.3@egg-cors",
       "version": "2.2.3"
     },
     "mysql": {
@@ -470,7 +470,7 @@
       "optionalDependencies": [],
       "env": [],
       "from": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\plugin.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\egg-mysql",
+      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
     }
   }

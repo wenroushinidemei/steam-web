@@ -24,8 +24,8 @@ class LoginController extends Controller {
                 msg: res,
             };
         }
-
     }
+    
 }
 
 module.exports = LoginController;
