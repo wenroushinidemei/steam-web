@@ -7,6 +7,7 @@ a {
     text-decoration: none;
     color: #b8b6b4;
 }
+
 span {
     color: #b8b6b4;
     font-size: 12px;
@@ -26,7 +27,6 @@ li {
         width: 940px;
         height: 104px;
         background-color: #171A21;
-        // border: 1px solid blanchedalmond;
         margin: 0 auto;
         display: flex;
         position: relative;
@@ -43,8 +43,7 @@ li {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            line-height: 68px;
-            margin-top: 18px;
+            margin-top: 40px;
             margin-left: 20px;
             position: relative;
 
@@ -55,14 +54,78 @@ li {
             a:hover {
                 color: #FFFFFF;
             }
+
+            .hidden-nav1 {
+                width: 80px;
+                height: 165px;
+                background-color: #171A21;
+                position: absolute;
+                left: 10px;
+                top: 20px;
+                display: none;
+
+                li {
+                    padding: 2px;
+                    margin-left: 8px;
+
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                a:hover {
+                    color: #FFFFFF;
+                }
+
+            }
+
+            a:first-child:hover+.hidden-nav1 {
+                display: block;
+            }
+
+            .hidden-nav1:hover {
+                display: block;
+            }
+
+
+            .hidden-nav2 {
+                width: 80px;
+                height: 140px;
+                background-color: #171A21;
+                position: absolute;
+                left: 50px;
+                top: 20px;
+                display: none;
+
+                li {
+                    padding: 2px;
+                    margin-left: 8px;
+
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                a:hover {
+                    color: #FFFFFF;
+                }
+            }
+
+            a:first-child:hover+.hidden-nav2 {
+                display: block;
+            }
+
+            .hidden-nav2:hover {
+                display: block;
+            }
         }
+
 
         .header-right {
             width: 165px;
             height: 25px;
             line-height: 25px;
             position: absolute;
-            // background-color: burlywood;
             display: flex;
             right: 5px;
             top: 5px;
@@ -96,7 +159,7 @@ li {
                 color: #FFFFFF;
             }
 
-    
+
             select {
                 font-size: 12px;
                 color: #b8b6b4;
@@ -112,28 +175,16 @@ li {
             }
         }
     }
-}
 
-.hidden-nav {
-    width: 88px;
-    height: 165px;
-    background-color: #171A21;
-    position: absolute;
-    left: 432px;
-    top: 60px;
-    display: none; 
-    li {
-        color: #b8b6b4;
-        font-size: 12px;
-        margin-left: 10px;
-        padding: 5px;
+    a:first-child:hover+.hidden-nav2 {
+        display: block;
     }
 
-    a:hover {
-        color: #FFFFFF;
+    .hidden-nav2:hover {
+        display: block;
     }
-
 }
+
 
 .footer {
     width: 100%;
@@ -165,49 +216,50 @@ li {
             color: #8F98A0;
             font-size: 12px;
             line-height: 16px;
-            margin-left:10px;
-            margin-top:8px;  
-            
-            a{
+            margin-left: 10px;
+            margin-top: 8px;
+
+            a {
                 color: #C6D4DF
             }
 
             a:hover {
                 color: #FFFFFF;
-            }               
+            }
         }
 
-        .image{
+        .image {
             // width: 92px;
             // height: 26px;
             // background-color: wheat;
-            position: absolute; 
-            right: 0px; 
+            position: absolute;
+            right: 0px;
             top: 5px;
         }
     }
-    .footer-bottom{
+
+    .footer-bottom {
         width: 940px;
         height: 19px;
         margin: 0 auto;
         margin-top: 15px;
         // background-color: yellowgreen;
 
-        a{
+        a {
             font-size: 13px;
             color: #C6D4DF;
         }
+
         a:hover {
             color: #FFFFFF;
-        } 
+        }
 
-        img{
+        img {
             width: 16px;
             height: 16px;
             margin: -3px;
-            
+
         }
     }
- 
-    
+
 }

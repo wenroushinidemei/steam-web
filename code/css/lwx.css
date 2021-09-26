@@ -54,8 +54,7 @@ li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  line-height: 68px;
-  margin-top: 18px;
+  margin-top: 40px;
   margin-left: 20px;
   position: relative;
 }
@@ -66,6 +65,68 @@ li {
 
 .header-box .header .header-nav a:hover {
   color: #FFFFFF;
+}
+
+.header-box .header .header-nav .hidden-nav1 {
+  width: 80px;
+  height: 165px;
+  background-color: #171A21;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  display: none;
+}
+
+.header-box .header .header-nav .hidden-nav1 li {
+  padding: 2px;
+  margin-left: 8px;
+}
+
+.header-box .header .header-nav .hidden-nav1 li a {
+  font-size: 11px;
+}
+
+.header-box .header .header-nav .hidden-nav1 a:hover {
+  color: #FFFFFF;
+}
+
+.header-box .header .header-nav a:first-child:hover + .hidden-nav1 {
+  display: block;
+}
+
+.header-box .header .header-nav .hidden-nav1:hover {
+  display: block;
+}
+
+.header-box .header .header-nav .hidden-nav2 {
+  width: 80px;
+  height: 140px;
+  background-color: #171A21;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  display: none;
+}
+
+.header-box .header .header-nav .hidden-nav2 li {
+  padding: 2px;
+  margin-left: 8px;
+}
+
+.header-box .header .header-nav .hidden-nav2 li a {
+  font-size: 11px;
+}
+
+.header-box .header .header-nav .hidden-nav2 a:hover {
+  color: #FFFFFF;
+}
+
+.header-box .header .header-nav a:first-child:hover + .hidden-nav2 {
+  display: block;
+}
+
+.header-box .header .header-nav .hidden-nav2:hover {
+  display: block;
 }
 
 .header-box .header .header-right {
@@ -121,25 +182,12 @@ li {
   color: #FFFFFF;
 }
 
-.hidden-nav {
-  width: 88px;
-  height: 165px;
-  background-color: #171A21;
-  position: absolute;
-  left: 432px;
-  top: 60px;
-  display: none;
+.header-box a:first-child:hover + .hidden-nav2 {
+  display: block;
 }
 
-.hidden-nav li {
-  color: #b8b6b4;
-  font-size: 12px;
-  margin-left: 10px;
-  padding: 5px;
-}
-
-.hidden-nav a:hover {
-  color: #FFFFFF;
+.header-box .hidden-nav2:hover {
+  display: block;
 }
 
 .footer {
