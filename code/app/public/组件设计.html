@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(27, 40, 56);
+        }
+
+        .box_xxx {
+            /* 盒子属性 */
+            width: 940px;
+            height: 380px;
+            /* 消除内部div之间的默认间隔 */
+            font-size: 0;
+        }
+
+        .box_xxx .gamebox {
+            height: 353px;
+            transition: all 0.5s;
+            background-color: rgb(11,21,30);
+        }
+
+        .box_xxx .gamebox .left {
+            display: inline-block;
+            height: 353px;
+            width: 616px;
+            /* 通过基线对齐让两边的块级内联元素对齐！ */
+            vertical-align: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        .box_xxx .gamebox .right {
+            display: inline-block;
+            height: 353px;
+            width: 314px;
+
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .box_xxx .gamebox .right .game_name{
+            font-size: 24px;
+            color: white;
+        }
+        .box_xxx .gamebox .right .imgshow {
+            width: 344px;
+            height: 164px;
+            margin-left: -30px;
+        }
+
+        .box_xxx .gamebox .right .imgshow div {
+            /* display: inline-block; 使用会出现问题！换成浮动*/
+            box-sizing: content-box;
+            float: left;
+            height: 69px;
+            width: 162px;
+            padding: 10px 10px 0 0;
+            background-color: aqua;
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+        .box_xxx .gamebox .right .game_state{
+            font-size: 21px;
+            color: white;
+        }
+        .box_xxx .gamebox .right>div .game_price{
+            font-size: 12px;
+            color: white;
+        }
+        .box_xxx .tip {
+            height: 27px;
+            text-align: center;
+        }
+
+        .box_xxx .tip ul {
+            display: inline-block;
+        }
+
+        .box_xxx .tip ul li {
+            display: inline-block;
+            height: 9px;
+            width: 15px;
+            border-radius: 2px;
+            margin: 12px 2px;
+            background-color: hsla(202, 60%, 100%, 0.2);
+        }
+
+        .box_xxx .tip ul li:hover {
+            background-color: hsla(202, 60%, 100%, 0.3);
+            cursor: pointer;
+        }
+
+        .box_xxx .tip ul li.focus {
+            background-color: hsla(202, 60%, 100%, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box_xxx">
+        <div class="gamebox" >
+        </div>
+        <div class="tip">
+            <ul>
+                <li class="focus" data-i = '0'></li>
+                <li data-i = '1'></li>
+                <li data-i = '2'></li>
+                <li data-i = '3'></li>
+                <li data-i = '4'></li>
+                <li data-i = '5'></li>
+                <li data-i = '6'></li>
+                <li data-i = '7'></li>
+                <li data-i = '8'></li>
+                <li data-i = '9'></li>
+                <li data-i = '10'></li>
+                <li data-i = '11'></li>
+            </ul>
+        </div>
+        <div class="last_game">
+            <img src="" alt="">
+        </div>
+        <div class="next_game">
+            <img src="" alt="">
+        </div>
+    </div>
+    <script>
+        // 当前的展示的游戏序号
+        let index = 1;
+        let game_list = [];
+        let gamebox = document.querySelector('.box_xxx .gamebox')
+        let xhr = new XMLHttpRequest()
+        xhr.open('get', 'http://steam.web:80/test');
+        xhr.onload = () => {
+            console.log(game_list = JSON.parse(xhr.responseText))
+            console.log(JSON.parse(game_list[0].imgurls))
+            show(game_list[0])
+        }
+        xhr.send(null);
+
+        // 负责进行游戏展示的切换
+        function show(game){
+            let imgs = JSON.parse(game.imgurls)
+            gamebox.innerHTML = `
+            <div class="left" style="background-image: url(${imgs[1]})" >
+            </div>
+            <div class="right">
+                <p class="game_name">${game.gameName}</p>
+                <div class="imgshow">
+                    <div style="background-image: url(${imgs[0]})"></div>
+                    <div style="background-image: url(${imgs[1]})"></div>
+                    <div style="background-image: url(${imgs[2]})"></div>
+                    <div style="background-image: url(${imgs[3]})"></div>
+                </div>
+                <p class="game_state">${game.state}</p>
+                <div>
+                    <p class="game_price">${game.price}</p>
+                    <div></div>
+                </div>
+            </div>
+            `
+        }
+
+        document.querySelectorAll('.box_xxx .tip li').forEach(li => li.addEventListener('click', tipClick))
+        // 监听tip的点击事件
+        function tipClick(event) {
+            // 全局游戏序号通过自定义属性来需改。
+            index = this.dataset.i
+            show(game_list[index])
+            // 将所有li进行遍历，将此时唯一的带有focus类名的li中类名消除。
+            Array.from(this.parentNode.children).every(li=>li.className=='focus'?li.className='':true)
+            // 当前点击给予类名。
+            this.className="focus"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,513 @@
+2021-09-24 10:29:29,473 ERROR 15444 [-/192.168.6.14/-/14ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15444
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:30:14,345 ERROR 15444 [-/192.168.6.14/-/2ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15444
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:30:17,842 ERROR 15444 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15444
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:30:41,955 ERROR 13644 [-/192.168.6.14/-/10ms GET /test] nodejs.ReferenceError: res is not defined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:9:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13644
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:31:07,353 ERROR 13644 [-/192.168.6.14/-/1ms GET /test] nodejs.ReferenceError: res is not defined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:9:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13644
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:32:00,584 ERROR 18444 [-/192.168.6.14/-/4ms GET /test] nodejs.TypeError: Cannot set property 'body' of undefined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18444
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:33:34,125 ERROR 18444 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot set property 'body' of undefined
+    at TestController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18444
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:35:19,304 ERROR 9932 [-/192.168.6.14/-/3ms GET /test] nodejs.TypeError: Cannot set property 'body' of undefined
+    at TestController.index (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9932
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:35:40,932 ERROR 5280 [-/192.168.6.14/-/4ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at TestController.index (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testLi.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 5280
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:36:54,468 ERROR 13892 [-/192.168.6.14/-/3ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at TestController.index (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testli.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13892
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:36:57,437 ERROR 13892 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at TestController.index (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\testli.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13892
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:38:40,086 ERROR 12420 [-/192.168.6.14/-/4ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:10:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12420
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:39:15,730 ERROR 16572 [-/192.168.6.14/-/3ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:10:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 16572
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:39:18,333 ERROR 16572 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:10:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 16572
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:40:01,448 ERROR 13520 [-/192.168.6.14/-/5ms GET /test] nodejs.TypeError: Cannot set property 'body' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:12:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13520
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:41:11,457 ERROR 17728 [-/192.168.6.14/-/3ms GET /test] nodejs.TypeError: Cannot set property 'body' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:12:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17728
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:41:55,183 ERROR 13380 [-/192.168.6.14/-/4ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:10:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13380
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:42:03,198 ERROR 13380 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:10:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13380
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:43:08,915 ERROR 13884 [-/192.168.6.14/-/5ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:11:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13884
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:43:11,373 ERROR 13884 [-/192.168.6.14/-/1ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:11:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13884
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:43:14,886 ERROR 13884 [-/192.168.6.14/-/0ms GET /test] nodejs.TypeError: Cannot read property 'service' of undefined
+    at HomeController.test (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\home.js:11:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13884
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:43:54,674 ERROR 14984 [-/192.168.6.14/-/8ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgameone' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameOne`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgameone' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameOne`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14984
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:43:57,392 ERROR 14984 [-/192.168.6.14/-/6ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgameone' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameOne`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgameone' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameOne`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14984
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:44:03,942 ERROR 14984 [-/192.168.6.14/-/6ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgameone' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameOne`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgameone' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameOne`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 14984
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:48:14,220 ERROR 17668 [-/192.168.6.14/-/13ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgameone' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameOne`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgameone' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameOne`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 17668
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:48:37,304 ERROR 10180 [-/192.168.6.14/-/8ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgametwo' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameTwo`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgametwo' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameTwo`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 10180
+hostname: DESKTOP-69ODE32
+
+2021-09-24 10:48:39,236 ERROR 10180 [-/192.168.6.14/-/3ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'steam.indexgametwo' doesn't exist
+    at Query.Sequence._packetToError (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `indexGameTwo`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'steam.indexgametwo' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `indexGameTwo`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 10180
+hostname: DESKTOP-69ODE32
+
