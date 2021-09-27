@@ -5,6 +5,15 @@
 
 # 项目git注意：
 
+## 注意事项:
+
+为了一次成功，请push或pull之前完成下面的操作：
+
+1. 关闭文件夹（打开了项目）
+2. 关闭vscode软件
+3. 向github内执行git config --global http.sslVerify "false"。
+4. 实在不行请关闭github desktop重复执行123步骤再打开软件重新pull或push
+
 ## 遇到报错:
 
 fatal: unable to access 'https://github.com/wenroushinidemei/steam-web.git/': OpenSSL SSL_read: Connection was reset, errno 10054
