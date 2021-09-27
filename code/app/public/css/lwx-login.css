@@ -1,6 +1,45 @@
 .content {
   width: 100%;
-  height: 900px;
+  height: 80%;
   background-color: #212429;
+}
+
+.content .login {
+  width: 940px;
+  height: 800px;
+  border: 1px solid wheat;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content .login .login-left {
+  width: 620px;
+  height: 800px;
+  background-color: cornflowerblue;
+}
+
+.content .login .login-left .login-box {
+  width: 580px;
+  height: 352px;
+  border: 1px solid red;
+  margin: 40px 20px 20px 20px;
+  text-align: center;
+}
+
+.content .login .login-left .login-box h1 {
+  font-size: 34px;
+  color: #FFFFFF;
+  margin: 0px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .login .login-right {
+  width: 320px;
+  height: 800px;
+  background-color: violet;
+}
+
+.footer {
+  position: relative;
 }
 /*# sourceMappingURL=lwx-login.css.map */
