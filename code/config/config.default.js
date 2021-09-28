@@ -2,7 +2,7 @@ const config = {
     cluster: {
         listen: {
             port: 80,
-            hostname: 'steam.web'
+           // hostname: 'steam.web'
         }
     },
     // cors跨域资源共享配置
