@@ -781,3 +781,213 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 9108
 hostname: DESKTOP-69ODE32
 
+2021-09-28 15:50:23,471 ERROR 11660 [-/192.168.6.53/-/14ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:50:24,660 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:50:25,525 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:13,550 ERROR 11660 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:14,988 ERROR 11660 [-/192.168.6.53/-/10ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:20,130 ERROR 11660 [-/192.168.6.53/-/5ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:21,044 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:27,965 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:28,964 ERROR 11660 [-/192.168.6.53/-/8ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,145 ERROR 11660 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,319 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,514 ERROR 11660 [-/192.168.6.53/-/5ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:30,190 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:30,394 ERROR 11660 [-/192.168.6.53/-/3ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
