@@ -3,25 +3,20 @@
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #b8b6b4;
-}
-
-span {
-    color: #b8b6b4;
-    font-size: 12px;
-}
-
-li {
-    list-style-type: none;
-}
-
 .header-box_lwx {
     width: 100%;
     height: 104px;
     background-color: #171A21;
     padding: 0px 16px 0px 16px;
+   
+    span {
+        color: #b8b6b4;
+        font-size: 12px;
+    }
+    
+    li {
+        list-style-type: none;
+    }
 
     .header {
         width: 940px;
@@ -31,7 +26,7 @@ li {
         display: flex;
         position: relative;
 
-        img {
+        &>img {
             width: 179px;
             height: 47px;
             margin-top: 29px;
@@ -49,6 +44,8 @@ li {
 
             a {
                 font-size: 14px;
+                text-decoration: none;
+                color: #b8b6b4;
             }
 
             a:hover {
@@ -134,7 +131,7 @@ li {
                 width: 20px;
                 height: 20px;
                 position: absolute;
-                top: -29px;
+                top: 0px;
                 right: 165px;
                 padding: 3px 4px 2px 7px;
                 background-color: #5c7e10;
@@ -146,6 +143,7 @@ li {
                 font-family: motiva sans-serif;
                 background-color: #5c7e10;
                 padding-right: 7px;
+                text-decoration: none;
 
             }
 
@@ -153,6 +151,8 @@ li {
                 font-size: 12px;
                 margin-right: 8px;
                 margin-left: 8px;
+                color: #b8b6b4;
+                text-decoration: none;
             }
 
             a:hover {
@@ -166,6 +166,7 @@ li {
                 width: 47px;
                 border-style: none;
                 margin-left: 4px;
+                text-decoration: none;
                 background-color: #171A21;
 
             }
@@ -177,7 +178,7 @@ li {
     }
 
     a:first-child:hover+.hidden-nav2 {
-        display: block;
+      display: block;
     }
 
     .hidden-nav2:hover {
@@ -259,6 +260,10 @@ li {
             height: 16px;
             margin: -3px;
 
+        }
+        span {
+            color: #b8b6b4;
+            font-size: 12px;
         }
     }
 
