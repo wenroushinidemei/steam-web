@@ -8,6 +8,7 @@
     <title>登录</title>
     <link rel="stylesheet" href="../css/lwx-home.css">
     <link rel="stylesheet" href="../css/lwx-login.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -94,7 +95,6 @@
             </div>
         </div>
 
-
         <!-- 登录表单 -->
         <div class="login_lwx">
             <div class="login">
@@ -103,21 +103,23 @@
                     <div class="login-box">
                         <div class="content">
                             <h1>登录</h1>
+                            <div class="tipbox">您输入的帐户名称或密码错误。</div>
 
-                            <form class="form">
+                            <form class="form" onsubmit="event.preventDefault()" >
                                 <div class="login-text">Steam账户名称</div>
-                                <input type="text" value="">
+                                <input id="account" type="text">
 
                                 <div class="login-text">密码</div>
-                                <input type="password">
-                                <button>登录</button>
+                                <input id="password" type="password">
+                                <button id="btn-login">登录</button>
                                 <p><a href="">忘记您的密码？</a></p>
                             </form>
                         </div>
                     </div>
-        .
-            </div>
-           
+                    .
+                </div>
+
+
                 <div class="login-right">
                     <div>加入Steam，探索数千款精彩<br>游戏。</div>
                     <a href="">了解更多</a>
@@ -171,6 +173,38 @@
             </div>
         </div>
     </div>
+    <script>
+       
+
+        let account = document.getElementById("account");
+        let password = document.getElementById("password");
+        let btn = document.getElementById("btn-login");
+        btn.onclick = function () {
+            console.dir(account.value);
+            console.dir(password.value);
+            axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
+            url: '/login',
+            method: 'post',
+            baseURL: 'http://steam.web:80/',
+            data: {
+                account: account.value,
+                password: password.value
+            },
+            headers: {
+                'content-type': 'application/json'
+            }
+        }).then(res => {
+            console.log(res)
+            if (res.code = 600) {
+                
+            }
+        }).catch(err => {
+            console.log(err);
+        })
+
+        }
+
+    </script>
 </body>
 
 </html>

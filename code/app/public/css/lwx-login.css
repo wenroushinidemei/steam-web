@@ -43,6 +43,16 @@
   margin-bottom: 5px;
 }
 
+.login_lwx .login .login-box .content .tipbox {
+  width: 230px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #b44040;
+}
+
 .login_lwx .login .login-box .content .form > input {
   width: 300px;
   background: #32353C;

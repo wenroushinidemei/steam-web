@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game-show-yjg{
+.show-Header{
+    margin:  0 auto;
+    width: 940px;
+    height: 31px;
+    border: 1px solid;
+    display: flex;
+    background-color: #c6d4df;
+    font-size: 13px;
+    text-align: center;
+    line-height: 31px;
+    .head-1{
+        width: 120px;
+        height: 31px;
+        padding-left: 2px;
+    }
+    .head-2{
+        width: 72px;
+        height: 24px;
+        padding-left: 2px;
+    }
+    .head-3{
+        width: 98px;
+        height: 24px;
+        padding-left: 2px;
+    }
+    .head-4{
+        width: 46px;
+        height: 24px;
+        padding-left: 2px;
+    }
+  
+}
+//头部移入显示效果
+.head-1:hover{
+    color: white;
+    cursor: pointer;
+}
+.head-2:hover{
+    color: white;
+    cursor: pointer;
+}
+.head-3:hover{
+    color: white;
+    cursor: pointer;
+}
+.head-4:hover{
+    color: white;
+    cursor: pointer;
+}
+
+//内容栏********
+.content{
+margin:0 auto;
+width: 940px;
+height: 770px;
+display: flex;
+background: linear-gradient( to bottom, rgba(42,71,94,1.0) 5%, rgba(42,71,94,0.0) 70%);
+.content-Left{
+    width: 618px;
+    height: 770px;
+    .content-1{
+        width: 618px;
+        height: 35.77px;
+        text-align: center;
+        line-height: 35.77px;
+        // background-color: hotpink;
+        .content-bigbox{
+            margin-left: 442px;
+
+        }
+        .more{
+            width: 60px;
+            height: 25.5px;
+            display: inline-block;
+            border: 1px solid;
+            text-align: center;
+            line-height: 25.5px;
+            a{
+                text-decoration: none;
+                color: #c6d4df;
+            }
+        }
+      
+    }
+    .content-2{
+        width: 618px;
+        height: 69px;
+        display: flex;
+        border: 1px solid;  
+        .small-Left{
+            width: 184px;
+            height: 69px;
+            background-color: yellow;
+        }
+        .small-Right{
+            width: 100%;
+            height: 64px;
+            display: flex;
+            // background-color: red;
+            .small-1{
+                width: 284px;
+                height: 64px;
+                // background-color: pink;
+                .small-s-top{
+                    width: 284px;
+                    height: 18px;
+                    // background-color: green;
+                    font-size: 18px;
+                }
+                .small-s-bottom{
+                    width: 284px;
+                    height: 40px;
+                }
+                
+
+            }
+            .small-2{
+                width: 120px;
+                height: 42px;
+                // background-color: red;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .line{
+                    text-decoration: line-through;
+                }
+                .rebate{
+                    background-color: green;
+                }
+
+            }
+        }
+    }
+
+}
+
+.content-Right{
+    // display: none;
+    width: 292px;
+    height: 740px;
+    background-color: yellow;
+    // padding-left: 30px;
+    // text-align: center;
+   .right-head{
+       width: 292px;
+       height: 32px;
+       background-color: red;
+   } 
+   .right-middle{
+       width: 272px;
+       height: 48px;
+       background-color: #c6d4df;
+       .blude{
+           color: blue;
+       }
+   }
+}
+.right-mnue{
+    width: 292px;
+    span{
+        border: 1px solid;
+        color: white;
+        background-color: #4F6577;
+    }
+    span:hover{
+        color: blue;
+        cursor: pointer;
+    }
+}
+
+.image-1{
+    display: flex;
+    flex-direction: column;
+    
+    div{
+        width: 258px;
+        height: 134px;
+        border: 1px solid;
+    }
+    .qtt-1{
+        background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+    }
+    .qtt-2{
+        background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_ad67b7bbc68bfd02c8f02bb1c7ac44be1941426d.600x338.jpg);
+    }
+    .qtt-3{
+        background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+    }
+    .qtt-4{
+        background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+    }
+}
+
+}
+
+//左内容移入
+.content-2 :hover{
+   background-color: #c7d5e0;
+}
+
+
+//右内容移入
+
+
+}
+
+//@at-root
+.yjg-title{
+    margin:  0 auto;
+    width:940px;
+    height: 116px;
+    line-height: 116px;
+    text-align: center;
+    background-color: #123953;
+    .yjg-title-1{
+        width: 940px;
+        height: 45px;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 3px 4px 0px black;
+    }
+    .yjg-title-2{
+        width: 940px;
+        height: 22px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3cc3f1;
+    }
+}
+
+//轮播图*******
+.yjg-carousel{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    background-color: purple;
+    .ww-1{
+        width: 940px;
+        height: 200px;
+        position: absolute;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        // justify-content: center;
+        align-items: center;
+        div{
+            width: 229px;
+            height: 134px;
+            border: 1px solid;
+            img{
+                display: inline-block;
+                width: 229px;
+                height: 107px;
+            }
+        }
+    }
+    .yjg-logoleft{
+        width: 45px;
+        height: 108px;
+        background-color: red;
+        position: absolute;
+        text-align: center;
+        line-height: 108px;
+        left: -46px;
+        bottom: -200px;
+         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+         background-repeat: no-repeat;
+         background-position-x:-23px;
+         background-position-y:30px;
+        }
+        .yjg-logoright{
+        width: 45px;
+        height: 108px;
+        background-color: red;
+        position: absolute;
+        text-align: center;
+        line-height: 108px;
+        right: -46px;
+        bottom: -200px;
+         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+         background-repeat: no-repeat;
+         background-position-x:23px;
+         background-position-y:30px;
+        }
+        .btn{
+            display: flex;
+            justify-content: space-around;
+            width: 70px;
+            height: 15px;
+            background-color: green;
+            position: absolute;
+            bottom: -225px;
+            left: 50%;
+            .btn1{
+                width: 31px;
+                height: 15px;
+                border: 1px solid;
+                
+            }
+            .btn2{
+                width: 31px;
+                height: 15px;
+                border: 1px solid;
+                padding-left: 2px;
+            }
+
+        }
+}
+
