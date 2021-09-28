@@ -706,3 +706,78 @@ hostname: DESKTOP-69ODE32
 pid: 15328
 hostname: DESKTOP-69ODE32
 
+2021-09-28 15:03:47,612 ERROR 1480 [-/192.168.6.57/-/12ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot read property 'service' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 1480
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:04:39,575 ERROR 18460 [-/192.168.6.57/-/10ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot set property 'body' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18460
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:04:42,567 ERROR 18460 [-/192.168.6.57/-/3ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot set property 'body' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18460
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:34:01,837 ERROR 9108 [-/192.168.6.53/-/31ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9108
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:34:22,242 ERROR 9108 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9108
+hostname: DESKTOP-69ODE32
+
