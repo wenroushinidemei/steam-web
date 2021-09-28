@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game-show-yjg .yjg-title {
+  margin: 0 auto;
+  width: 940px;
+  height: 116px;
+  line-height: 116px;
+  text-align: center;
+  background-color: #123953;
+}
+
+.game-show-yjg .yjg-title .yjg-title-1 {
+  width: 940px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 3px 4px 0px black;
+}
+
+.game-show-yjg .yjg-title .yjg-title-2 {
+  width: 940px;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #3cc3f1;
+}
+
+.game-show-yjg .yjg-carousel {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+  background-color: purple;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 {
+  width: 940px;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 div {
+  width: 229px;
+  height: 134px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 div img {
+  display: inline-block;
+  width: 229px;
+  height: 107px;
+}
+
+.game-show-yjg .yjg-carousel .yjg-logoleft {
+  width: 45px;
+  height: 108px;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  left: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: -23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel .yjg-logoright {
+  width: 45px;
+  height: 108px;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  right: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: 23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel .btn {
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.game-show-yjg .yjg-carousel .btn .btn1 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel .btn .btn2 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+  padding-left: 2px;
+}
+
+.game-show-yjg .show-Header {
+  margin: 0 auto;
+  width: 940px;
+  height: 31px;
+  border: 1px solid;
+  display: flex;
+  background-color: #c6d4df;
+  font-size: 13px;
+  text-align: center;
+  line-height: 31px;
+}
+
+.game-show-yjg .show-Header .head-1 {
+  width: 120px;
+  height: 31px;
+  padding-left: 2px;
+}
+
+.game-show-yjg .show-Header .head-2 {
+  width: 72px;
+  height: 24px;
+  padding-left: 2px;
+}
+
+.game-show-yjg .show-Header .head-3 {
+  width: 98px;
+  height: 24px;
+  padding-left: 2px;
+}
+
+.game-show-yjg .show-Header .head-4 {
+  width: 46px;
+  height: 24px;
+  padding-left: 2px;
+}
+
+.game-show-yjg .head-1:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.game-show-yjg .head-2:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.game-show-yjg .head-3:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.game-show-yjg .head-4:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.game-show-yjg .content {
+  margin: 0 auto;
+  width: 940px;
+  height: 770px;
+  display: flex;
+  background: linear-gradient(to bottom, #2a475e 5%, rgba(42, 71, 94, 0) 70%);
+}
+
+.game-show-yjg .content .content-Left {
+  width: 618px;
+  height: 770px;
+}
+
+.game-show-yjg .content .content-Left .content-1 {
+  width: 618px;
+  height: 35.77px;
+  text-align: center;
+  line-height: 35.77px;
+}
+
+.game-show-yjg .content .content-Left .content-1 .content-bigbox {
+  margin-left: 442px;
+}
+
+.game-show-yjg .content .content-Left .content-1 .more {
+  width: 60px;
+  height: 25.5px;
+  display: inline-block;
+  border: 1px solid;
+  text-align: center;
+  line-height: 25.5px;
+}
+
+.game-show-yjg .content .content-Left .content-1 .more a {
+  text-decoration: none;
+  color: #c6d4df;
+}
+
+.game-show-yjg .content .content-Left .content-2 {
+  width: 618px;
+  height: 69px;
+  display: flex;
+  border: 1px solid;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Left {
+  width: 184px;
+  height: 69px;
+  background-color: yellow;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right {
+  width: 100%;
+  height: 64px;
+  display: flex;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-1 {
+  width: 284px;
+  height: 64px;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-1 .small-s-top {
+  width: 284px;
+  height: 18px;
+  font-size: 18px;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-1 .small-s-bottom {
+  width: 284px;
+  height: 40px;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-2 {
+  width: 120px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-2 .line {
+  text-decoration: line-through;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-2 .rebate {
+  background-color: green;
+}
+
+.game-show-yjg .content .content-Right {
+  width: 292px;
+  height: 740px;
+  background-color: yellow;
+}
+
+.game-show-yjg .content .content-Right .right-head {
+  width: 292px;
+  height: 32px;
+  background-color: red;
+}
+
+.game-show-yjg .content .content-Right .right-middle {
+  width: 272px;
+  height: 48px;
+  background-color: #c6d4df;
+}
+
+.game-show-yjg .content .content-Right .right-middle .blude {
+  color: blue;
+}
+
+.game-show-yjg .content .right-mnue {
+  width: 292px;
+}
+
+.game-show-yjg .content .right-mnue span {
+  border: 1px solid;
+  color: white;
+  background-color: #4F6577;
+}
+
+.game-show-yjg .content .right-mnue span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.game-show-yjg .content .image-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-show-yjg .content .image-1 div {
+  width: 258px;
+  height: 134px;
+  border: 1px solid;
+}
+
+.game-show-yjg .content .image-1 .qtt-1 {
+  background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+}
+
+.game-show-yjg .content .image-1 .qtt-2 {
+  background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_ad67b7bbc68bfd02c8f02bb1c7ac44be1941426d.600x338.jpg);
+}
+
+.game-show-yjg .content .image-1 .qtt-3 {
+  background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+}
+
+.game-show-yjg .content .image-1 .qtt-4 {
+  background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg);
+}
+
+.game-show-yjg .content-2 :hover {
+  background-color: #c7d5e0;
+}
+/*# sourceMappingURL=yjg-home.css.map */
