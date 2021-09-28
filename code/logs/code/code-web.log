@@ -511,3 +511,198 @@ name: "ER_NO_SUCH_TABLEError"
 pid: 10180
 hostname: DESKTOP-69ODE32
 
+2021-09-28 09:19:53,633 ERROR 4456 [-/192.168.6.14/-/296ms POST /login] nodejs.TypeError: Cannot read property 'service' of undefined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 4456
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:21:16,366 ERROR 9128 [-/192.168.6.14/-/25ms POST /login] nodejs.TypeError: Cannot read property 'request' of undefined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:7:25)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9128
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:21:32,552 ERROR 9128 [-/192.168.6.14/-/1ms POST /login] nodejs.TypeError: Cannot read property 'request' of undefined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:7:25)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9128
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:27:03,579 ERROR 5948 [-/192.168.6.14/-/9ms POST /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 5948
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:34:40,844 ERROR 5136 [-/192.168.6.14/-/2ms POST /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 5136
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:35:08,284 ERROR 5976 [-/192.168.6.14/-/4ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 5976
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:35:59,546 ERROR 16696 [-/192.168.6.14/-/5ms GET /test] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 16696
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:37:58,696 ERROR 1068 [-/192.168.6.14/-/2ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 1068
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:38:00,874 ERROR 1068 [-/192.168.6.14/-/0ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:39:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 1068
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:39:49,116 ERROR 19272 [-/192.168.6.14/-/8ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:43:22)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 19272
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:40:58,781 ERROR 18816 [-/192.168.6.14/-/6ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.ss (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:43:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18816
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:43:06,721 ERROR 18244 [-/192.168.6.14/-/24ms GET /login] nodejs.ReferenceError: res is not defined
+    at LoginController.ss (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:43:24)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18244
+hostname: DESKTOP-69ODE32
+
+2021-09-28 09:45:57,783 ERROR 15328 [-/192.168.6.14/-/41ms POST /login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg@2.30.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg@2.30.0@egg\app\extend\context.js:22:66)
+    at LoginController.ss (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:21:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+
+pid: 15328
+hostname: DESKTOP-69ODE32
+
