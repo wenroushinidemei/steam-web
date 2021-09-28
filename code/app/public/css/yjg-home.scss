@@ -3,6 +3,113 @@
     padding: 0;
 }
 .game-show-yjg{
+    .yjg-title{
+        margin:  0 auto;
+        width:940px;
+        height: 116px;
+        line-height: 116px;
+        text-align: center;
+        background-color: #123953;
+        .yjg-title-1{
+            width: 940px;
+            height: 45px;
+        font-size: 32px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        text-shadow: 3px 4px 0px black;
+        }
+        .yjg-title-2{
+            width: 940px;
+            height: 22px;
+        font-size: 15px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #3cc3f1;
+        }
+    }
+    
+    //轮播图*******
+    .yjg-carousel{
+        width: 940px;
+        margin: 0 auto;
+        position: relative;
+        height: 200px;
+        background-color: purple;
+        .ww-1{
+            width: 940px;
+            height: 200px;
+            position: absolute;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            // justify-content: center;
+            align-items: center;
+            div{
+                width: 229px;
+                height: 134px;
+                border: 1px solid;
+                img{
+                    display: inline-block;
+                    width: 229px;
+                    height: 107px;
+                }
+            }
+        }
+        .yjg-logoleft{
+            width: 45px;
+            height: 108px;
+            background-color: red;
+            position: absolute;
+            text-align: center;
+            line-height: 108px;
+            left: -45px;
+            bottom: 0px;
+             background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+             background-repeat: no-repeat;
+             background-position-x:-23px;
+             background-position-y:30px;
+            }
+            .yjg-logoright{
+            width: 45px;
+            height: 108px;
+            background-color: red;
+            position: absolute;
+            text-align: center;
+            line-height: 108px;
+            right: -45px;
+            bottom: 0px;
+             background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+             background-repeat: no-repeat;
+             background-position-x:23px;
+             background-position-y:30px;
+            }
+            .btn{
+                display: flex;
+                justify-content: space-around;
+                width: 70px;
+                height: 15px;
+                background-color: green;
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                .btn1{
+                    width: 31px;
+                    height: 15px;
+                    border: 1px solid;
+                    
+                }
+                .btn2{
+                    width: 31px;
+                    height: 15px;
+                    border: 1px solid;
+                    padding-left: 2px;
+                }
+    
+            }
+    }
 .show-Header{
     margin:  0 auto;
     width: 940px;
@@ -210,110 +317,110 @@ background: linear-gradient( to bottom, rgba(42,71,94,1.0) 5%, rgba(42,71,94,0.0
 }
 
 //@at-root
-.yjg-title{
-    margin:  0 auto;
-    width:940px;
-    height: 116px;
-    line-height: 116px;
-    text-align: center;
-    background-color: #123953;
-    .yjg-title-1{
-        width: 940px;
-        height: 45px;
-    font-size: 32px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: white;
-    text-shadow: 3px 4px 0px black;
-    }
-    .yjg-title-2{
-        width: 940px;
-        height: 22px;
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #3cc3f1;
-    }
-}
+// .yjg-title{
+//     margin:  0 auto;
+//     width:940px;
+//     height: 116px;
+//     line-height: 116px;
+//     text-align: center;
+//     background-color: #123953;
+//     .yjg-title-1{
+//         width: 940px;
+//         height: 45px;
+//     font-size: 32px;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     letter-spacing: 1px;
+//     color: white;
+//     text-shadow: 3px 4px 0px black;
+//     }
+//     .yjg-title-2{
+//         width: 940px;
+//         height: 22px;
+//     font-size: 15px;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     letter-spacing: 4px;
+//     color: #3cc3f1;
+//     }
+// }
 
-//轮播图*******
-.yjg-carousel{
-    width: 940px;
-    margin: 0 auto;
-    position: relative;
-    background-color: purple;
-    .ww-1{
-        width: 940px;
-        height: 200px;
-        position: absolute;
-        background-color: red;
-        display: flex;
-        justify-content: space-around;
-        // justify-content: center;
-        align-items: center;
-        div{
-            width: 229px;
-            height: 134px;
-            border: 1px solid;
-            img{
-                display: inline-block;
-                width: 229px;
-                height: 107px;
-            }
-        }
-    }
-    .yjg-logoleft{
-        width: 45px;
-        height: 108px;
-        background-color: red;
-        position: absolute;
-        text-align: center;
-        line-height: 108px;
-        left: -46px;
-        bottom: -200px;
-         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-         background-repeat: no-repeat;
-         background-position-x:-23px;
-         background-position-y:30px;
-        }
-        .yjg-logoright{
-        width: 45px;
-        height: 108px;
-        background-color: red;
-        position: absolute;
-        text-align: center;
-        line-height: 108px;
-        right: -46px;
-        bottom: -200px;
-         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-         background-repeat: no-repeat;
-         background-position-x:23px;
-         background-position-y:30px;
-        }
-        .btn{
-            display: flex;
-            justify-content: space-around;
-            width: 70px;
-            height: 15px;
-            background-color: green;
-            position: absolute;
-            bottom: -225px;
-            left: 50%;
-            .btn1{
-                width: 31px;
-                height: 15px;
-                border: 1px solid;
+// //轮播图*******
+// .yjg-carousel{
+//     width: 940px;
+//     margin: 0 auto;
+//     position: relative;
+//     background-color: purple;
+//     .ww-1{
+//         width: 940px;
+//         height: 200px;
+//         position: absolute;
+//         background-color: red;
+//         display: flex;
+//         justify-content: space-around;
+//         // justify-content: center;
+//         align-items: center;
+//         div{
+//             width: 229px;
+//             height: 134px;
+//             border: 1px solid;
+//             img{
+//                 display: inline-block;
+//                 width: 229px;
+//                 height: 107px;
+//             }
+//         }
+//     }
+//     .yjg-logoleft{
+//         width: 45px;
+//         height: 108px;
+//         background-color: red;
+//         position: absolute;
+//         text-align: center;
+//         line-height: 108px;
+//         left: -46px;
+//         bottom: -200px;
+//          background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+//          background-repeat: no-repeat;
+//          background-position-x:-23px;
+//          background-position-y:30px;
+//         }
+//         .yjg-logoright{
+//         width: 45px;
+//         height: 108px;
+//         background-color: red;
+//         position: absolute;
+//         text-align: center;
+//         line-height: 108px;
+//         right: -46px;
+//         bottom: -200px;
+//          background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+//          background-repeat: no-repeat;
+//          background-position-x:23px;
+//          background-position-y:30px;
+//         }
+//         .btn{
+//             display: flex;
+//             justify-content: space-around;
+//             width: 70px;
+//             height: 15px;
+//             background-color: green;
+//             position: absolute;
+//             bottom: -225px;
+//             left: 50%;
+//             .btn1{
+//                 width: 31px;
+//                 height: 15px;
+//                 border: 1px solid;
                 
-            }
-            .btn2{
-                width: 31px;
-                height: 15px;
-                border: 1px solid;
-                padding-left: 2px;
-            }
+//             }
+//             .btn2{
+//                 width: 31px;
+//                 height: 15px;
+//                 border: 1px solid;
+//                 padding-left: 2px;
+//             }
 
-        }
-}
+//         }
+// }
 

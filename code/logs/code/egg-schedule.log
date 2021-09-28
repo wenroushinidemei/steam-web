@@ -268,3 +268,6 @@
 2021-09-28 11:46:33,308 INFO 13024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
 2021-09-28 11:46:33,308 INFO 13024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
 2021-09-28 11:46:33,308 INFO 13024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-09-28 14:44:38,078 INFO 6800 [egg-schedule]: register schedule H:\steam-web1\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-09-28 14:44:38,078 INFO 6800 [egg-schedule]: register schedule H:\steam-web1\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-09-28 14:44:38,078 INFO 6800 [egg-schedule]: register schedule H:\steam-web1\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
