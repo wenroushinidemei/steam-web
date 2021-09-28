@@ -1,6 +1,7 @@
 {
   "cluster": {
     "listen": {
+<<<<<<< HEAD
       "port": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "hostname": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
@@ -23,10 +24,35 @@
     "default": {
       "database": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js",
       "connectionLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js"
+=======
+      "port": "H:\\steam-web1\\code\\config\\config.default.js",
+      "hostname": "H:\\steam-web1\\code\\config\\config.default.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "H:\\steam-web1\\code\\config\\config.default.js",
+    "allowMethods": "H:\\steam-web1\\code\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "H:\\steam-web1\\code\\config\\config.default.js",
+      "port": "H:\\steam-web1\\code\\config\\config.default.js",
+      "user": "H:\\steam-web1\\code\\config\\config.default.js",
+      "password": "H:\\steam-web1\\code\\config\\config.default.js",
+      "database": "H:\\steam-web1\\code\\config\\config.default.js"
+    },
+    "app": "H:\\steam-web1\\code\\config\\config.default.js",
+    "agent": "H:\\steam-web1\\code\\config\\config.default.js",
+    "default": {
+      "database": "H:\\steam-web1\\code\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "H:\\steam-web1\\code\\node_modules\\egg-mysql\\config\\config.default.js"
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
     }
   },
   "security": {
     "csrf": {
+<<<<<<< HEAD
       "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
       "ignoreJSON": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
       "type": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
@@ -113,10 +139,99 @@
     "eventSources": {
       "default": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\config\\config.default.js"
+=======
+      "enable": "H:\\steam-web1\\code\\config\\config.default.js",
+      "ignoreJSON": "H:\\steam-web1\\code\\config\\config.default.js",
+      "type": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "H:\\steam-web1\\code\\config\\config.default.js",
+    "protocolWhiteList": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "H:\\steam-web1\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "H:\\steam-web1\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "H:\\steam-web1\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "H:\\steam-web1\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "H:\\steam-web1\\code\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "H:\\steam-web1\\code\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "H:\\steam-web1\\code\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "H:\\steam-web1\\code\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "H:\\steam-web1\\code\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "H:\\steam-web1\\code\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "H:\\steam-web1\\code\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "H:\\steam-web1\\code\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "H:\\steam-web1\\code\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "H:\\steam-web1\\code\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "H:\\steam-web1\\code\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "H:\\steam-web1\\code\\node_modules\\egg-watcher\\config\\config.default.js"
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
     }
   },
   "customLogger": {
     "scheduleLogger": {
+<<<<<<< HEAD
       "consoleLevel": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule\\config\\config.default.js",
       "file": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule\\config\\config.default.js"
     }
@@ -286,4 +401,175 @@
     "responseTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "onClientError": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
+=======
+      "consoleLevel": "H:\\steam-web1\\code\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "H:\\steam-web1\\code\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "H:\\steam-web1\\code\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "H:\\steam-web1\\code\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "H:\\steam-web1\\code\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "H:\\steam-web1\\code\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "H:\\steam-web1\\code\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "H:\\steam-web1\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "H:\\steam-web1\\code\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "H:\\steam-web1\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "H:\\steam-web1\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "H:\\steam-web1\\code\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "name": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "keys": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "version": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "description": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "main": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "dev": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "author": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "license": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "strict": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "depth": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "env": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "level": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "logging": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "H:\\steam-web1\\code\\node_modules\\egg\\config\\config.default.js"
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
 }
