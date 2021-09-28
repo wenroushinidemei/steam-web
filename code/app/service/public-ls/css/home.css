@@ -9,8 +9,7 @@ li {
 
 a {
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .nav_lishuang {
@@ -24,10 +23,8 @@ a {
 }
 
 .nav_lishuang .nav_bg {
-  background: -webkit-gradient(linear, left top, right top, color-stop(11.38%, rgba(62, 103, 150, 0.919)), color-stop(25.23%, rgba(58, 120, 177, 0.8)), to(#0f216e));
   background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, #0f216e 100%);
-  -webkit-box-shadow: 0 0 3px rgba(41, 42, 43, 0.8);
-          box-shadow: 0 0 3px rgba(41, 42, 43, 0.8);
+  box-shadow: 0 0 3px rgba(41, 42, 43, 0.8);
   width: 940px;
   position: absolute;
   margin-top: 31px;
@@ -38,8 +35,6 @@ a {
 .nav_lishuang .nav_bg .nav {
   height: 35px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -75,7 +70,6 @@ a {
 }
 
 .nav_lishuang .nav_bg .nav .tab:hover {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(33, 162, 255, 0.25)), color-stop(50%, rgba(33, 162, 255, 0.15)), to(rgba(50, 50, 51, 0)));
   background: linear-gradient(90deg, rgba(33, 162, 255, 0.25) 0%, rgba(33, 162, 255, 0.15) 50%, rgba(50, 50, 51, 0) 100%);
   text-shadow: 0px 2px 3px rgba(26, 27, 27, 0.3);
 }
@@ -92,20 +86,16 @@ a {
   top: 33.6px;
   left: 0px;
   z-index: 200;
-  -webkit-box-shadow: 0 0 12px #141414;
-          box-shadow: 0 0 12px #141414;
-  background: -webkit-gradient(linear, left top, right top, color-stop(1.89%, rgba(33, 162, 255, 0.1)), color-stop(50%, rgba(50, 50, 51, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(11.6%, #575860), color-stop(54.73%, #3A4852), to(#2C2D34));
+  box-shadow: 0 0 12px #141414;
   background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .nav_lishuang .nav_bg .nav .drop .drop_body,
 .nav_lishuang .nav_bg .nav .drop2 .drop_body,
 .nav_lishuang .nav_bg .nav .drop3 .drop_body {
-  background: -webkit-gradient(linear, left top, right top, color-stop(1.89%, rgba(33, 162, 255, 0.1)), color-stop(50%, rgba(50, 50, 51, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(11.6%, #575860), color-stop(54.73%, #3A4852), to(#2C2D34));
   background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
   border: none;
 }
@@ -114,18 +104,13 @@ a {
 .nav_lishuang .nav_bg .nav .drop2 .drop_body .item,
 .nav_lishuang .nav_bg .nav .drop3 .drop_body .item {
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   border-bottom: 2px solid #ffffff00;
   padding: 3px 1px 2px 1px;
   margin: 0px 10px 3px 13px;
-  -webkit-transition-property: border;
   transition-property: border;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
   color: #D8D8D8;
   cursor: pointer;
   text-transform: none;
@@ -142,25 +127,17 @@ a {
 .nav_lishuang .nav_bg .nav .drop3 .drop_body .item:hover {
   color: #fff;
   border-bottom: 2px solid #ffffffff;
-  -webkit-transition-property: border, color;
   transition-property: border, color;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
 }
 
 .nav_lishuang .nav_bg .nav .drop .drop_body .list,
 .nav_lishuang .nav_bg .nav .drop2 .drop_body .list,
 .nav_lishuang .nav_bg .nav .drop3 .drop_body .list {
   min-width: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .nav_lishuang .nav_bg .nav .drop .drop_body .list .title,
@@ -201,20 +178,15 @@ a {
   margin-left: -2px;
   border-bottom: 2px solid #ffffff00;
   color: #e4e3e3;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   padding-bottom: 0px;
   margin-bottom: -4px;
   padding-top: 3px;
   font-size: 13px;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
-  -webkit-transition-property: border, color;
   transition-property: border, color;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
 }
 
 .nav_lishuang .nav_bg .nav .drop .drop_body .list .list-title a:hover,
@@ -222,12 +194,9 @@ a {
 .nav_lishuang .nav_bg .nav .drop3 .drop_body .list .list-title a:hover {
   color: white;
   border-bottom: 2px solid #ffffffff;
-  -webkit-transition-property: border, color;
   transition-property: border, color;
-  -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
 }
 
 .nav_lishuang .nav_bg .nav .drop .drop_body .xian,
@@ -257,29 +226,21 @@ a {
   margin-top: 2px;
   width: 940px;
   padding: 8px 5px 8px 5px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .nav_lishuang .nav_bg .drop3 .drop_body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .nav_lishuang .nav_bg .space {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   width: 20px;
 }
 
 .nav_lishuang .nav_bg .search_area {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
   max-width: 210px;
 }
 
@@ -300,8 +261,6 @@ a {
   height: 27px;
   padding: 0px 6px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   z-index: 150;
   cursor: text;
