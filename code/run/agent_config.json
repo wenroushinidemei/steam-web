@@ -79,7 +79,11 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
+<<<<<<< HEAD
       "templatePath": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+=======
+      "templatePath": "H:\\steam-web1\\code\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -92,8 +96,13 @@
     "watcher": {
       "type": "development",
       "eventSources": {
+<<<<<<< HEAD
         "default": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+=======
+        "default": "H:\\steam-web1\\code\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "H:\\steam-web1\\code\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       }
     },
     "customLogger": {
@@ -117,7 +126,11 @@
       "fileExtensions": [],
       "whitelist": null,
       "allowArrayField": false,
+<<<<<<< HEAD
       "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\code",
+=======
+      "tmpdir": "C:\\Users\\yang\\AppData\\Local\\Temp\\egg-multipart-tmp\\code",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "cleanSchedule": {
         "cron": "0 30 4 * * *",
         "disable": false
@@ -142,14 +155,22 @@
     },
     "static": {
       "prefix": "/public/",
+<<<<<<< HEAD
       "dir": "D:\\H5\\stack\\steam\\steam-web\\code\\app\\public",
+=======
+      "dir": "H:\\steam-web1\\code\\app\\public",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
+<<<<<<< HEAD
       "root": "D:\\H5\\stack\\steam\\steam-web\\code\\app\\view",
+=======
+      "root": "H:\\steam-web1\\code\\app\\view",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -203,9 +224,15 @@
         "egg-mysql": "^3.0.0"
       }
     },
+<<<<<<< HEAD
     "baseDir": "D:\\H5\\stack\\steam\\steam-web\\code",
     "HOME": "C:\\Users\\Administrator",
     "rundir": "D:\\H5\\stack\\steam\\steam-web\\code\\run",
+=======
+    "baseDir": "H:\\steam-web1\\code",
+    "HOME": "C:\\Users\\yang",
+    "rundir": "H:\\steam-web1\\code\\run",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
     "dump": {
       "ignore": "<Set>"
     },
@@ -237,7 +264,11 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
+<<<<<<< HEAD
       "dir": "D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code",
+=======
+      "dir": "H:\\steam-web1\\code\\logs\\code",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -314,8 +345,13 @@
         "jsonp"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-onerror",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-onerror",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.1.0"
     },
     "session": {
@@ -325,8 +361,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-session",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "3.3.0"
     },
     "i18n": {
@@ -336,8 +377,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-i18n",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.1.1"
     },
     "watcher": {
@@ -347,8 +393,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-watcher",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "3.1.1"
     },
     "multipart": {
@@ -360,8 +411,13 @@
         "schedule"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-multipart",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.13.1"
     },
     "security": {
@@ -373,8 +429,13 @@
         "session"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-security",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.9.0"
     },
     "development": {
@@ -388,8 +449,13 @@
       "env": [
         "local"
       ],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-development",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.7.0"
     },
     "logrotator": {
@@ -401,8 +467,13 @@
       ],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-logrotator",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "3.1.0"
     },
     "schedule": {
@@ -412,8 +483,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-schedule",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "3.6.6"
     },
     "static": {
@@ -423,8 +499,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-static",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.2.0"
     },
     "jsonp": {
@@ -436,8 +517,13 @@
         "security"
       ],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-jsonp",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-jsonp",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.0.0"
     },
     "view": {
@@ -447,8 +533,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view",
+=======
+      "from": "H:\\steam-web1\\code\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-view",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.1.3"
     },
     "cors": {
@@ -458,8 +549,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-cors",
+=======
+      "from": "H:\\steam-web1\\code\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-cors",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "2.2.3"
     },
     "mysql": {
@@ -469,8 +565,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
+<<<<<<< HEAD
       "from": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\plugin.js",
       "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-mysql",
+=======
+      "from": "H:\\steam-web1\\code\\config\\plugin.js",
+      "path": "H:\\steam-web1\\code\\node_modules\\egg-mysql",
+>>>>>>> 9c6b1bee9439522db58a36ae8ab78a3d4ede9183
       "version": "3.0.0"
     }
   }
