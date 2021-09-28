@@ -1,289 +1,289 @@
 {
   "cluster": {
     "listen": {
-      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "hostname": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "path": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "port": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "hostname": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "cors": {
-    "origin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-    "allowMethods": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
+    "origin": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+    "allowMethods": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "user": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "password": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
+      "host": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "port": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "user": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "password": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "database": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js"
     },
-    "app": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-    "agent": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "app": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+    "agent": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
     "default": {
-      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
-      "connectionLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+      "database": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
   "security": {
     "csrf": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "ignoreJSON": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-      "type": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "useSession": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "cookieName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "sessionName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "headerName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "bodyName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "queryName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "refererWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "ignoreJSON": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+      "type": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
-    "protocolWhiteList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
+    "protocolWhiteList": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "value": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.local.js",
-      "maxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "includeSubdomains": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "value": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "value": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "policy": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "ipExceptionList": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
-      "checkAddress": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "maxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "key": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "encrypt": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "logValue": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js"
+    "maxAge": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    "shtml": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
-    "callback": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
-    "csrf": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
-    "templatePath": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
-    "dirs": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
-    "queryField": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
-    "cookieField": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
-    "cookieDomain": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "type": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
-      "development": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+      "default": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js",
-      "file": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+    "directory": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "autoFields": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "fieldSize": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "fields": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "fileSize": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "files": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "whitelist": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "allowArrayField": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-    "tmpdir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "mode": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
-      "disable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js"
+      "cron": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
-    "ignoreDirs": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
-    "fastReady": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
-    "reloadOnDebug": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
-    "overrideDefault": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
-    "overrideIgnore": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "maxFiles": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
-    "maxDays": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
-    "dir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
-    "dynamic": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
-    "preload": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
-    "buffer": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+    "prefix": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
-    "cache": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.local.js",
-    "defaultExtension": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
-    "defaultViewEngine": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
-    "mapping": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js"
+    "root": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "name": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "keys": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "cookies": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "proxy": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "maxIpsCount": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "maxProxyCount": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "protocolHeaders": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "ipHeaders": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "hostHeaders": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+  "env": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "keys": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "version": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "description": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "main": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+    "name": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "test": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "dev": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "test": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     },
-    "keywords": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "author": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "license": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+    "keywords": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-bin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-cors": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-mysql": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "egg": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "HOME": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "rundir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+  "baseDir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "ignore": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "notFound": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "sitefile": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "middlewares": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "httpClient": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "bodyparser": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "pageUrl": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "encoding": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "formLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "jsonLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "textLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "strict": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+    "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "depth": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "parameterLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "arrayLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "onerror": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "encoding": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "env": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "level": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "consoleLevel": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "outputJSON": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "buffer": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "appLogName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "coreLogName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "agentLogName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "errorLogName": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+    "dir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.local.js"
+      "consoleLevel": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "timeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "maxSockets": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "keepAlive": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "maxSockets": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "keepAlive": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "logging": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "enable": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "workerStartTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "serverTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
   "clusterClient": {
-    "maxWaitTime": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-    "responseTimeout": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+  "onClientError": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
 }
