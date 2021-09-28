@@ -46,10 +46,18 @@
 .login_lwx .login .login-box .content .tipbox {
   width: 230px;
   color: #FFFFFF;
-  font-size: 14px;
+  height: 0;
+  padding: 0 16px;
+  font-size: 0;
   margin-bottom: 20px;
-  padding: 16px;
   background: rgba(0, 0, 0, 0.2);
+  transition: all .5s ease;
+}
+
+.login_lwx .login .login-box .content .tipbox-show {
+  font-size: 14px;
+  padding: 16px;
+  height: auto;
   border: 1px solid #b44040;
 }
 

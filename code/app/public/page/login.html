@@ -105,7 +105,7 @@
                             <h1>登录</h1>
                             <div class="tipbox">您输入的帐户名称或密码错误。</div>
 
-                            <form class="form" onsubmit="event.preventDefault()" >
+                            <form class="form" onsubmit="event.preventDefault()">
                                 <div class="login-text">Steam账户名称</div>
                                 <input id="account" type="text">
 
@@ -174,36 +174,38 @@
         </div>
     </div>
     <script>
-       
-
         let account = document.getElementById("account");
         let password = document.getElementById("password");
         let btn = document.getElementById("btn-login");
         btn.onclick = function () {
-            console.dir(account.value);
-            console.dir(password.value);
-            axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
-            url: '/login',
-            method: 'post',
-            baseURL: 'http://steam.web:80/',
-            data: {
-                account: account.value,
-                password: password.value
-            },
-            headers: {
-                'content-type': 'application/json'
+            if (account.value != '' && password.value != '') {
+                // console.dir(account.value);
+                // console.dir(password.value);
+                axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
+                    url: '/login',
+                    method: 'post',
+                    baseURL: 'http://steam.web:80/',
+                    data: {
+                        account: account.value,
+                        password: password.value
+                    },
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                }).then(res => {
+                    console.log(res)
+                    if (res.data.code != 600) {
+                        let tipbox = document.querySelector(".tipbox")
+                        console.log(tipbox.classList)
+                        tipbox.classList.add("tipbox-show")
+                    }
+                }).catch(err => {
+                    console.log(err);
+                })
+            } else {
+                console.log('没写账户或密码！')
             }
-        }).then(res => {
-            console.log(res)
-            if (res.code = 600) {
-                
-            }
-        }).catch(err => {
-            console.log(err);
-        })
-
         }
-
     </script>
 </body>
 

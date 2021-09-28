@@ -45,13 +45,22 @@
                     margin-bottom: 5px;
 
                 }
-                .tipbox{
+
+                .tipbox {
                     width: 230px;
                     color: #FFFFFF;
-                    font-size: 14px;
+                    height: 0;
+                    padding: 0 16px;
+                    font-size: 0;
                     margin-bottom: 20px;
+                    background: rgba(0, 0, 0, 0.2);
+                    transition: all .5s ease;
+                }
+
+                .tipbox-show {
+                    font-size: 14px;
                     padding: 16px;
-                    background: rgba( 0, 0, 0, 0.2 );
+                    height: auto;
                     border: 1px solid #b44040
                 }
 
@@ -136,6 +145,7 @@
             font-size: 14px;
             margin: 10px 0 0;
         }
+
         &>a:hover {
             color: #66C0F4;
         }
