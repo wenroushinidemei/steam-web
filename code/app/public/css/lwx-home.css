@@ -8,6 +8,7 @@
   height: 104px;
   background-color: #171A21;
   padding: 0px 16px 0px 16px;
+  box-sizing: border-box;
 }
 
 .header-box_lwx span {
@@ -184,8 +185,7 @@
   width: 100%;
   height: 183px;
   background-color: #171A21;
-  position: absolute;
-  bottom: 0px;
+  padding: 1px;
 }
 
 .footer_lwx .footer-top {
