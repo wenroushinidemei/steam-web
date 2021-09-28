@@ -3,6 +3,120 @@
   padding: 0;
 }
 
+.game-show-yjg .yjg-title {
+  margin: 0 auto;
+  width: 940px;
+  height: 116px;
+  line-height: 116px;
+  text-align: center;
+  background-color: #123953;
+}
+
+.game-show-yjg .yjg-title .yjg-title-1 {
+  width: 940px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 3px 4px 0px black;
+}
+
+.game-show-yjg .yjg-title .yjg-title-2 {
+  width: 940px;
+  height: 22px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #3cc3f1;
+}
+
+.game-show-yjg .yjg-carousel {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+  background-color: purple;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 {
+  width: 940px;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 div {
+  width: 229px;
+  height: 134px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel .ww-1 div img {
+  display: inline-block;
+  width: 229px;
+  height: 107px;
+}
+
+.game-show-yjg .yjg-carousel .yjg-logoleft {
+  width: 45px;
+  height: 108px;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  left: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: -23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel .yjg-logoright {
+  width: 45px;
+  height: 108px;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  right: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: 23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel .btn {
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.game-show-yjg .yjg-carousel .btn .btn1 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel .btn .btn2 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+  padding-left: 2px;
+}
+
 .game-show-yjg .show-Header {
   margin: 0 auto;
   width: 940px;
@@ -214,118 +328,5 @@
 
 .game-show-yjg .content-2 :hover {
   background-color: #c7d5e0;
-}
-
-.yjg-title {
-  margin: 0 auto;
-  width: 940px;
-  height: 116px;
-  line-height: 116px;
-  text-align: center;
-  background-color: #123953;
-}
-
-.yjg-title .yjg-title-1 {
-  width: 940px;
-  height: 45px;
-  font-size: 32px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: white;
-  text-shadow: 3px 4px 0px black;
-}
-
-.yjg-title .yjg-title-2 {
-  width: 940px;
-  height: 22px;
-  font-size: 15px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #3cc3f1;
-}
-
-.yjg-carousel {
-  width: 940px;
-  margin: 0 auto;
-  position: relative;
-  background-color: purple;
-}
-
-.yjg-carousel .ww-1 {
-  width: 940px;
-  height: 200px;
-  position: absolute;
-  background-color: red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.yjg-carousel .ww-1 div {
-  width: 229px;
-  height: 134px;
-  border: 1px solid;
-}
-
-.yjg-carousel .ww-1 div img {
-  display: inline-block;
-  width: 229px;
-  height: 107px;
-}
-
-.yjg-carousel .yjg-logoleft {
-  width: 45px;
-  height: 108px;
-  background-color: red;
-  position: absolute;
-  text-align: center;
-  line-height: 108px;
-  left: -46px;
-  bottom: -200px;
-  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-  background-repeat: no-repeat;
-  background-position-x: -23px;
-  background-position-y: 30px;
-}
-
-.yjg-carousel .yjg-logoright {
-  width: 45px;
-  height: 108px;
-  background-color: red;
-  position: absolute;
-  text-align: center;
-  line-height: 108px;
-  right: -46px;
-  bottom: -200px;
-  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-  background-repeat: no-repeat;
-  background-position-x: 23px;
-  background-position-y: 30px;
-}
-
-.yjg-carousel .btn {
-  display: flex;
-  justify-content: space-around;
-  width: 70px;
-  height: 15px;
-  background-color: green;
-  position: absolute;
-  bottom: -225px;
-  left: 50%;
-}
-
-.yjg-carousel .btn .btn1 {
-  width: 31px;
-  height: 15px;
-  border: 1px solid;
-}
-
-.yjg-carousel .btn .btn2 {
-  width: 31px;
-  height: 15px;
-  border: 1px solid;
-  padding-left: 2px;
 }
 /*# sourceMappingURL=yjg-home.css.map */
