@@ -61,7 +61,7 @@
 
                 <!-- 语言下拉框 -->
                 <div class="lanuage">
-                    <a href="">语言</a>
+                    <a href="" id="lanuage">语言</a>
                     <div class="select">
                         <p><a href="">繁體中文 ( 繁体中文 )</a></p>
                         <p><a href="">日本語 ( 日语 )</a></p>
@@ -177,9 +177,9 @@
         let lanuage = document.getElementById("lanuage");
         let select = document.getElementsByClassName(".select");
         lanuage.onclick = function () {
+            console.log(1)
             event.preventDefault()
             let langlist = document.querySelector(".lanuage>.select")
-            // setTimeout(
             document.onclick = function () {
                 if (event.target == lanuage) {
                     if (langlist.classList[1] == "select-show") {
