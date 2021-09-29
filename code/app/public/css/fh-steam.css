@@ -32,8 +32,8 @@ li {
 .box_selected_fh .box_gutter .gift_card img {
   width: 210px;
   height: 116px;
-  background-color: yellow;
   border: none;
+  cursor: pointer;
 }
 
 .box_selected_fh .box_gutter .gutter_header {
@@ -46,15 +46,62 @@ li {
   margin: 7px 0px;
 }
 
-.box_selected_fh .box_gutter #pad img {
+.box_selected_fh .box_gutter #pad div {
+  margin: 7px 0px;
+  cursor: pointer;
+}
+
+.box_selected_fh .box_gutter #pad div:hover {
+  color: #fff;
+}
+
+.box_selected_fh .box_gutter #pad div span {
+  display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 4px;
   background-color: saddlebrown;
+  background: url(https://store.st.dl.pinyuncloud.com/public/images/v6/store_menu_icons.png?v=2) no-repeat;
 }
 
-.box_selected_fh .box_gutter #pad div {
-  margin: 7px 0px;
+.box_selected_fh .box_gutter #pad div .curators {
+  background-position: -16px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .tag {
+  background-position: -32px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .queue {
+  background-position: -48px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .new {
+  background-position: -64px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .hot {
+  background-position: -80px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .newGames {
+  background-position: -112px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .upcoming {
+  background-position: -128px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .discounts {
+  background-position: -144px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .vr {
+  background-position: -160px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .controller {
+  background-position: -176px 0px;
 }
 
 .box_selected_fh .box_content {
@@ -91,6 +138,19 @@ li {
 .box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .left {
   width: 616px;
   background-color: #fff;
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background-color: red;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .left div {
+  width: 616px;
+  height: 353px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
 }
 
 .box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right {

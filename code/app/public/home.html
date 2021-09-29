@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/lwx-home.css">
     <link rel="stylesheet" href="./css/yjg-home.css">
     <link rel="stylesheet" href="./css/fh-steam.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -107,29 +109,30 @@
                 <div class="box_gutter">
                     <!-- 图片 礼物卡 -->
                     <div class="gift_card">
-                        <img src="" alt="">
+                        <img src="	https://store.st.dl.pinyuncloud.com/public/images//gift/steamcards_promo_02.png"
+                            alt="">
                         <br>
-                        礼物卡
+                        礼物
                     </div>
 
                     <!-- 现在推出 -->
-                    <div class="gutter_header" id="pad">
-                        现已在Steam上推出
+                    <div class="gutter_header nowLaunch" id="pad">
+                        <div>现已在Steam上推出</div>
                     </div>
 
                     <!-- 推荐 -->
                     <div class="gutter_header">推荐</div>
                     <div class="gutter_header" id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span></span>
                             由好友推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="curators"></span>
                             由鉴赏家推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="tag"></span>
                             标签
                         </div>
                     </div>
@@ -138,11 +141,11 @@
                     <div class="gutter_header">探索队列</div>
                     <div id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span class="queue"></span>
                             推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="new"></span>
                             新品
                         </div>
                     </div>
@@ -151,27 +154,27 @@
                     <div class="gutter_header">浏览分类</div>
                     <div class="gutter_header" id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span class="hot"></span>
                             热销商品
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="newGames"></span>
                             新品
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="upcoming"></span>
                             即将推出
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="discounts"></span>
                             优惠
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="vr"></span>
                             虚拟现实
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="controller"></span>
                             支持控制器
                         </div>
                     </div>
@@ -211,8 +214,19 @@
                         <h2 class="title_selected">精选和优惠</h2>
                         <div class="box_maincap">
                             <div class="carousel_items">
-                                <div class="left">
-
+                                 <!-- <div class="left">  
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
                                 </div>
                                 <div class="right">
                                     <div class="game_name">啦啦啦啦啦</div>
@@ -231,23 +245,24 @@
                                         <img src="" class="pic_windows">
                                     </div>
 
-                                </div>
+                                </div>  -->
 
                             </div>
 
 
                             <div class="carousel_thumbs">
-                                <div class="swpear1" id="focus"></div>
-                                <div class="swpear2"></div>
-                                <div class="swpear3"></div>
-                                <div class="swpear4"></div>
-                                <div class="swpear5"></div>
-                                <div class="swpear6"></div>
-                                <div class="swpear7"></div>
-                                <div class="swpear8"></div>
-                                <div class="swpear9"></div>
-                                <div class="swpear10"></div>
-                                <div class="swpear11"></div>
+                                <div data-index="1" id="focus"></div>
+                                <div data-index="2"></div>
+                                <div data-index="3"></div>
+                                <div data-index="4"></div>
+                                <div data-index="5"></div>
+                                <div data-index="6"></div>
+                                <div data-index="7"></div>
+                                <div data-index="8"></div>
+                                <div data-index="9"></div>
+                                <div data-index="10"></div>
+                                <div data-index="11"></div>
+                                <div data-index="12"></div>
                             </div>
                             <div class="arrow_left"></div>
                             <div class="arrow_right"></div>
