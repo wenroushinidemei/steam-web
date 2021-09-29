@@ -51,7 +51,7 @@ li {
             color: #66c0f4;
             margin: 7px 0px;
 
-           
+
 
             div {
                 margin: 7px 0px;
@@ -59,59 +59,59 @@ li {
                 // height: 16px;
                 // word-wrap: break-word;
 
-                &:hover{
+                &:hover {
                     color: #fff;
                 }
 
                 span {
-                   display: inline-block;
-                   width: 16px;
-                   height: 16px;
-                   margin-right: 4px;
-                   background-color: saddlebrown;
-                   background: url(	https://store.st.dl.pinyuncloud.com/public/images/v6/store_menu_icons.png?v=2) no-repeat;
-               }
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 4px;
+                    background-color: saddlebrown;
+                    background: url(https://store.st.dl.pinyuncloud.com/public/images/v6/store_menu_icons.png?v=2) no-repeat;
+                }
 
-               .curators{
-                background-position: -16px 0px
-               }
+                .curators {
+                    background-position: -16px 0px
+                }
 
-               .tag{
-                background-position: -32px 0px;
-               }
+                .tag {
+                    background-position: -32px 0px;
+                }
 
-               .queue{
-                background-position: -48px 0px;
-               }
+                .queue {
+                    background-position: -48px 0px;
+                }
 
-               .new{
-                background-position: -64px 0px;
-               }
+                .new {
+                    background-position: -64px 0px;
+                }
 
-               .hot{
-                background-position: -80px 0px;
-               }
+                .hot {
+                    background-position: -80px 0px;
+                }
 
-               .newGames{
-                background-position: -112px 0px;
-               }
+                .newGames {
+                    background-position: -112px 0px;
+                }
 
-               .upcoming{
-                background-position: -128px 0px;
-               }
+                .upcoming {
+                    background-position: -128px 0px;
+                }
 
-               
-               .discounts{
-                background-position: -144px 0px;
-               }
 
-               .vr{
-                background-position: -160px 0px;
-               }
+                .discounts {
+                    background-position: -144px 0px;
+                }
 
-               .controller{
-                background-position: -176px 0px;
-               }
+                .vr {
+                    background-position: -160px 0px;
+                }
+
+                .controller {
+                    background-position: -176px 0px;
+                }
             }
         }
 
@@ -129,7 +129,7 @@ li {
         .box_cluster {
             height: 412px;
             padding-bottom: 40px;
-            background-color: brown;
+            // background-color: brown;
 
             .title_selected {
                 height: 20px;
@@ -142,10 +142,12 @@ li {
             .box_maincap {
                 height: 380px;
                 margin-top: 5px;
+                position: relative;
 
 
-                .carousel_items {
+                .carousel {
                     height: 353px;
+                    width: 940px;
                     background-color: #0A141D;
                     display: flex;
                     justify-content: space-between;
@@ -155,24 +157,17 @@ li {
                         background-color: #fff;
                         z-index: 100;
                         cursor: pointer;
-                        position: relative;
-                        background-color: red;
+                        display: inline-block;
+                        height: 353px;
 
-                        div{
-                            width: 616px;
-                            height: 353px;
-                            position: absolute;
-                            top: 0px;
-                            left: 0px;
-                            background-color: blue;
-
-                        }
                     }
 
                     .right {
                         width: 314px;
                         color: white;
                         position: relative;
+
+
 
                         .game_name {
                             height: 70;
@@ -191,15 +186,14 @@ li {
                             display: flex;
                             flex-wrap: wrap;
                             position: absolute;
-                            right: 10px;
+                            right: 0px;
                             top: 70px;
-
 
                             img {
                                 width: 162px;
                                 height: 69px;
                                 padding: 10px 10px 0px 0px;
-                                background-color: blue;
+
 
                             }
                         }
@@ -208,7 +202,7 @@ li {
                             width: 298px;
                             height: 56px;
                             margin-top: 8px;
-                            padding-left: 6px;
+                            // padding-left: 6px;
                             position: absolute;
                             left: 10px;
                             top: 233px;
@@ -246,6 +240,26 @@ li {
 
                             .price {
                                 display: inline-block;
+                                display: flex;
+                                font-size: 11px;
+
+                                .discount_pct {
+                                    color: #a4d007;
+                                    background: #4c6b22;
+                                    display: inline-block;
+                                    padding: 0px 3px;
+                                    font-size: 12px;
+                                    border: none;
+                                }
+
+                                .pass{
+                                    color: #7193a6;
+                                }
+
+                                .now{
+                                    color: #acdbf5;
+                                    padding-left: 4px;
+                                }
                             }
 
                             img {
@@ -263,11 +277,14 @@ li {
                 .carousel_thumbs {
                     height: 37px;
                     padding-bottom: 4px;
-
                     display: flex;
                     justify-content: center;
 
-                    div {
+                    li.focus{
+                        background-color: hsla(202, 60%, 100%, 0.4);
+                    }
+
+                    li {
                         width: 15px;
                         height: 9px;
                         margin: 12px 2px;
@@ -276,6 +293,63 @@ li {
                         background-color: hsla(202, 60%, 100%, 0.2);
                         cursor: pointer;
 
+
+                        &:hover{
+                            background-color: hsla(202, 60%, 100%, 0.3);
+                        }
+
+                    }
+                }
+
+                .arrow{
+                    padding: 36px 11px;
+                    width: 23px;
+                    height: 36px;
+                    cursor: pointer;
+                    // z-index: 3;
+                    position: absolute;
+                    top: 122px;
+
+                   
+                    
+                }
+
+                .arrow_left:hover{
+                    // background-color: rgba(0,0,0,0.3);
+                    background: linear-gradient( to right, rgba(219, 213, 213, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+                   
+                }
+                
+
+                .arrow_left{
+                    left: -46px; 
+                    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+
+                    div{
+                        height: 36px;
+                        width: 23px;
+                        background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                        background-position-x: 23px;
+                    }
+                }
+
+                .arrow_right:hover{
+                    // background-color: rgba(0,0,0,0.3);
+                    background: linear-gradient( to right, rgba(192, 185, 185, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+                    
+                    background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%); 
+                }
+
+                .arrow_right{
+                   
+                    right: -46px;  
+                    background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
+
+                    div{
+                        height: 36px;
+                        width: 23px;
+                        background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                        
                     }
                 }
             }
@@ -365,7 +439,6 @@ li {
                 width: 100%;
                 height: 350px;
                 margin-bottom: 5px;
-
                 display: flex;
 
                 .left_img {
@@ -503,11 +576,11 @@ li {
                 }
             }
         }
-    
-        
+
+
     }
 
-    
+
 
 
 
