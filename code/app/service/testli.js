@@ -4,7 +4,7 @@ class TestService extends Service {
     // 查询模块内的游戏信息集合(注意数组)
     async all() {
         const list = await this.app.mysql.select('indexGame');
-        console.log(list);
+        console.log('测试成功！');
         return  list
     }
 }

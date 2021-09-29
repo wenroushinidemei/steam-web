@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/lwx-home.css">
     <link rel="stylesheet" href="./css/ls-home.css">
     <link rel="stylesheet" href="./css/yjg-home.css">
+    <link rel="stylesheet" href="./css/fh-steam.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -295,8 +298,6 @@
                         </div>
                     </div>
 
-
-
                     <!-- 精选推荐 -->
                     <div></div>
                     <!-- 游戏展示 -->
@@ -321,6 +322,278 @@
                                 </p>
 
                                 <!-- <div class="content-2">
+
+        <div>
+            <!-- 二次导航栏 -->
+            <div></div>
+            <!-- 精选推荐 -->
+            <div class="box_selected_fh">
+                <!-- 左边列表 -->
+                <div class="box_gutter">
+                    <!-- 图片 礼物卡 -->
+                    <div class="gift_card">
+                        <img src="	https://store.st.dl.pinyuncloud.com/public/images//gift/steamcards_promo_02.png"
+                            alt="">
+                        <br>
+                        礼物
+                    </div>
+
+                    <!-- 现在推出 -->
+                    <div class="gutter_header nowLaunch" id="pad">
+                        <div>现已在Steam上推出</div>
+                    </div>
+
+                    <!-- 推荐 -->
+                    <div class="gutter_header">推荐</div>
+                    <div class="gutter_header" id="pad">
+                        <div>
+                            <span></span>
+                            由好友推荐
+                        </div>
+                        <div>
+                            <span class="curators"></span>
+                            由鉴赏家推荐
+                        </div>
+                        <div>
+                            <span class="tag"></span>
+                            标签
+                        </div>
+                    </div>
+
+                    <!-- 探索队列 -->
+                    <div class="gutter_header">探索队列</div>
+                    <div id="pad">
+                        <div>
+                            <span class="queue"></span>
+                            推荐
+                        </div>
+                        <div>
+                            <span class="new"></span>
+                            新品
+                        </div>
+                    </div>
+
+                    <!-- 浏览分类 -->
+                    <div class="gutter_header">浏览分类</div>
+                    <div class="gutter_header" id="pad">
+                        <div>
+                            <span class="hot"></span>
+                            热销商品
+                        </div>
+                        <div>
+                            <span class="newGames"></span>
+                            新品
+                        </div>
+                        <div>
+                            <span class="upcoming"></span>
+                            即将推出
+                        </div>
+                        <div>
+                            <span class="discounts"></span>
+                            优惠
+                        </div>
+                        <div>
+                            <span class="vr"></span>
+                            虚拟现实
+                        </div>
+                        <div>
+                            <span class="controller"></span>
+                            支持控制器
+                        </div>
+                    </div>
+
+                    <!-- 按类型浏览 -->
+                    <div class="gutter_header">按类型浏览</div>
+                    <div class="gutter_header" id="pad">
+                        <div>免费游玩</div>
+                        <div>抢先体验</div>
+                        <div>休闲</div>
+                        <div>体育</div>
+                        <div>冒险</div>
+                        <div>动作</div>
+                        <div>大型多人在线</div>
+                        <div>模拟</div>
+                        <div>独立</div>
+                        <div>竞速</div>
+                        <div>策略</div>
+                        <div>角色扮演</div>
+                    </div>
+
+                    <!-- 最近查看 -->
+                    <div class="gutter_header">最近查看</div>
+                    <div class="gutter_header" id="pad">
+                        <div>Wallpaper Engine:壁纸引擎</div>
+                        <div>新枪弹辩驳v3 大家自相残杀的新学期</div>
+                        <div>极限竞速：地平线4</div>
+                    </div>
+
+
+                </div>
+
+                <!--右边大盒子：包括三个 -->
+                <div class="box_content">
+
+                    <div class="box_cluster">
+                        <h2 class="title_selected">精选和优惠</h2>
+                        <div class="box_maincap">
+                            <div class="carousel_items">
+                                 <!-- <div class="left">  
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
+                                    <div style="background-image: url(${imgs[0]})"></div>
+                                    <div style="background-image: url(${imgs[1]})"></div>
+                                    <div style="background-image: url(${imgs[2]})"></div>
+                                    <div style="background-image: url(${imgs[3]})"></div>
+                                </div>
+                                <div class="right">
+                                    <div class="game_name">啦啦啦啦啦</div>
+                                    <div class="screenshots">
+                                        <img class="first" src="" />
+                                        <img class="second" src="" />
+                                        <img class="third" src="" />
+                                        <img class="four" src="" />
+                                    </div>
+                                    <div class="reason">
+                                        <h2 class="main_default">现已推出</h2>
+                                        <h2 class="hotshop">热销商品</h2>
+                                    </div>
+                                    <div class="box_bottom">
+                                        <div class="price">￥64.00</div>
+                                        <img src="" class="pic_windows">
+                                    </div>
+
+                                </div>  -->
+
+                            </div>
+
+
+                            <div class="carousel_thumbs">
+                                <div data-index="1" id="focus"></div>
+                                <div data-index="2"></div>
+                                <div data-index="3"></div>
+                                <div data-index="4"></div>
+                                <div data-index="5"></div>
+                                <div data-index="6"></div>
+                                <div data-index="7"></div>
+                                <div data-index="8"></div>
+                                <div data-index="9"></div>
+                                <div data-index="10"></div>
+                                <div data-index="11"></div>
+                                <div data-index="12"></div>
+                            </div>
+                            <div class="arrow_left"></div>
+                            <div class="arrow_right"></div>
+                        </div>
+                    </div>
+
+                    <div class="box_special">
+                        <div class="box_title">
+                            <h2 class="special_title">特别优惠</h2>
+                            <div class="more">浏览更多</div>
+                        </div>
+                        <div class="box_middle">
+
+                        </div>
+                        <div class="carousel_thumbs">
+                            <div class="swpear1" id="focus"></div>
+                            <div class="swpear2"></div>
+                            <div class="swpear3"></div>
+                            <div class="swpear4"></div>
+                        </div>
+                    </div>
+
+                    <div class="box_newshops">
+                        <h1>社区推荐</h1>
+                        <h2>
+                            <span>本日推荐游戏</span>
+                            <span class="more">按标签和更多方式进行自定义和探索</span>
+                        </h2>
+                        <!-- 本日推荐游戏 -->
+                        <div class="box_app">
+                            <div class="left_img">
+                                <img src="" alt="">
+                                <div class="box_price">
+                                    <span class="percentage">-20%</span>
+                                    <div class="price">
+                                        <div class="pass">￥249.00</div>
+                                        <div class="now">￥149.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right_col">
+                                <div class="box_review">
+                                    <div class="description"></div>
+                                    <div class="view_more">
+                                        阅读整篇评测
+                                    </div>
+                                    <div class="author_block">
+                                        <img src="" alt="">
+                                        <div>
+                                            <div class="author_name">dfgh</div>
+                                            <div class="hours">评测时已游玩<span>32</span>小时</div>
+                                            <div class="vote_info">有<span>2</span>觉得这篇评测有价值</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 鼠标移动上去 弹出 -->
+                                <!-- <div class="box_review focus"></div> -->
+                                <!-- 点击切换评测 -->
+                                <div class="change-page">
+                                    <div class="prev">
+                                        <</div> <div class="desc">2篇评测之2
+                                    </div>
+                                    <div class="next">></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel_thumbs">
+                            <div class="swpear1" id="focus"></div>
+                            <div class="swpear2"></div>
+                            <div class="swpear3"></div>
+                            <div class="swpear4"></div>
+                            <div class="swpear5"></div>
+                            <div class="swpear6"></div>
+                            <div class="swpear7"></div>
+                            <div class="swpear8"></div>
+                            <div class="swpear9"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- 游戏展示 -->
+            <div class="game-show-yjg">
+                <!--头部标题栏-->
+                <div class="show-Header">
+                    <div class="head-1">新品与热门商品</div>
+                    <div class="head-2">热销商品</div>
+                    <div class="head-3">热门即将推出</div>
+                    <div class="head-4">优惠</div>
+                </div>
+                <!--内容栏-->
+                <div class="content">
+                    <div class="content-Left">
+                        <p class="content-1">
+                            <span class="content-bigbox">
+                                <span class="more1">查看更多:</span>
+                                <span class="more">
+                                    <a href="">新品</a>
+                                </span>
+                            </span>
+                        </p>
+
+                        <!-- <div class="content-2">
                             <div class="small-Left"><img src="" alt=""></div>
                             <div class="small-Right">
                                 <div class="small-1">
@@ -449,7 +722,69 @@
                     <img src="./img/t.gif" alt="t">
                     <a href="">@Steam</a>
                 </div>
+
+                </div>
+
+
+                <div class="yjg-carousel">
+                    <div class="ww-1">
+                        <div><img
+                                src="https://media.st.dl.pinyuncloud.com/steam/apps/955050/header_292x136_schinese.jpg?t=1622653727"
+                                alt=""></div>
+                        <div><img
+                                src="https://media.st.dl.pinyuncloud.com/steam/apps/955050/header_292x136_schinese.jpg?t=1622653727"
+                                alt=""></div>
+                        <div><img
+                                src="https://media.st.dl.pinyuncloud.com/steam/apps/955050/header_292x136_schinese.jpg?t=1622653727"
+                                alt=""></div>
+                        <div><img
+                                src="https://media.st.dl.pinyuncloud.com/steam/apps/955050/header_292x136_schinese.jpg?t=1622653727"
+                                alt=""></div>
+                    </div>
+                    <div class="ww-1">2222</div>
+                    <div class="ww-1">3333</div>
+
+                    <div class="yjg-logoleft"></div>
+                    <div class="yjg-logoright"></div>
+
+                    <div class="btn">
+                        <div class="btn1"></div>
+                        <div class="btn2"></div>
+                    </div>
+                </div>
             </div>
+        </div>
+
+    </div>
+
+
+    <!--整个底部区域 -->
+    <div class="footer_lwx">
+
+        <!-- 底部 -->
+        <div class="footer-top">
+
+            <!-- 左边的图片 -->
+            <img src="./img/02.png" alt="Valve">
+
+            <!-- 文字部分 -->
+            <div class="text">
+                <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
+                <span>所有的价格均已包含增值税（如适用）。</span>
+                &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
+                <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
+                <a href="">退款</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Cookie</a><span>
+            </div>
+
+            <!-- 右边的图片 -->
+            <div class="image">
+                <img src="./img/04.png" alt="steam">
+
+            </div>
+        </div>
+
 
             <script src="./js/ls-home.js"></script>
         </div>
@@ -475,6 +810,29 @@
         </script>
 
         <script src="./js/yjg-homess.js"></script>
+
+        <!-- 最底部一行的文字 -->
+        <div class="footer-bottom">
+            <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
+            <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
+            <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
+            <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
+            <a href="">客服</a><span> &nbsp;|&nbsp; </span>
+            <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
+            <img src="./img/f.gif" alt="f">
+            <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
+            <img src="./img/t.gif" alt="t">
+            <a href="">@Steam</a>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="./js/yjg-homess.js"></script>
+    <script src="./js/fh-home.js"></script>
+
 
 </body>
 

@@ -108,6 +108,7 @@
             background-color: hsla(202, 60%, 100%, 0.4);
         }
     </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -182,9 +183,28 @@
             show(game_list[index])
             // 将所有li进行遍历，将此时唯一的带有focus类名的li中类名消除。
             Array.from(this.parentNode.children).every(li=>li.className=='focus'?li.className='':true)
-            // 当前点击给予类名。ssss
+            // 当前点击给予类名。
             this.className="focus"
         }
+
+
+
+//         axios({
+//             method:'Get',
+//             url:'/gameModule',
+//             baseURL:'http://steam.web:80/',
+//             params:{
+//                 module:'newProducts'
+//             }
+//         }).then(res=>{
+//             console.log(res.data)
+//             console.log(1)
+
+//         }).catch(err=>{
+//             console.log(err)
+//         })
+// console.log(2)
+
     </script>
 </body>
 
