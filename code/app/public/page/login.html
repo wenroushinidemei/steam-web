@@ -12,11 +12,9 @@
 </head>
 
 <body>
-    <div>
-        <!-- 头部 -->
+        
         <!-- 整个头部区域 -->
         <div class="header-box_lwx">
-
             <!-- 头部 -->
             <div class="header">
 
@@ -91,91 +89,92 @@
                             <p><a href="">tiếng Việt ( 越南语 )</a></p>
                             <p><a href="">Українська ( 乌克兰语 )</a></p>
                             <p><a href="">帮助我们翻译Steam</a></p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 登录表单 -->
-        <div class="login_lwx">
-            <div class="login">
+            <!-- 登录表单 -->
+            <div class="login_lwx">
+                <div class="login">
+                    <div class="login-left">
+                        <div class="login-box">
+                            <div class="content">
+                                <h1>登录</h1>
+                                <div class="tipbox">您输入的帐户名称或密码错误。</div>
 
-                <div class="login-left">
-                    <div class="login-box">
-                        <div class="content">
-                            <h1>登录</h1>
-                            <div class="tipbox">您输入的帐户名称或密码错误。</div>
+                                <form class="form" onsubmit="event.preventDefault()">
+                                    <div class="login-text">Steam账户名称</div>
+                                    <input id="account" type="text">
 
-                            <form class="form" onsubmit="event.preventDefault()">
-                                <div class="login-text">Steam账户名称</div>
-                                <input id="account" type="text">
-
-                                <div class="login-text">密码</div>
-                                <input id="password" type="password">
-                                <button id="btn-login">登录</button>
-                                <p><a href="">忘记您的密码？</a></p>
-                            </form>
+                                    <div class="login-text">密码</div>
+                                    <input id="password" type="password">
+                                    <button id="btn-login">登录</button>
+                                    <p><a href="">忘记您的密码？</a></p>
+                                </form>
+                            </div>
                         </div>
+                        .
                     </div>
-                    .
-                </div>
 
 
-                <div class="login-right">
-                    <div>加入Steam，探索数千款精彩<br>游戏。</div>
-                    <a href="">了解更多</a>
-                    <img src="../img/join.png" alt="join">
-                    <div>免费加入且简单使用。</div>
-                    <span>加入Steam</span>
+                    <div class="login-right">
+                        <div>加入Steam，探索数千款精彩<br>游戏。</div>
+                        <a href="">了解更多</a>
+                        <img src="../img/join.png" alt="join">
+                        <div>免费加入且简单使用。</div>
+                        <span>加入Steam</span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-
-        <!-- 底部 -->
-        <div class="footer_lwx">
 
             <!-- 底部 -->
-            <div class="footer-top">
+            <div class="footer_lwx">
 
-                <!-- 左边的图片 -->
-                <img src="../img/02.png" alt="Valve">
+                <!-- 底部 -->
+                <div class="footer-top">
 
-                <!-- 文字部分 -->
-                <div class="text">
-                    <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
-                    <span>所有的价格均已包含增值税（如适用）。</span>
-                    &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">退款</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">Cookie</a><span>
+                    <!-- 左边的图片 -->
+                    <img src="../img/02.png" alt="Valve">
+
+                    <!-- 文字部分 -->
+                    <div class="text">
+                        <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
+                        <span>所有的价格均已包含增值税（如适用）。</span>
+                        &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
+                        <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
+                        <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
+                        <a href="">退款</a><span> &nbsp;|&nbsp; </span>
+                        <a href="">Cookie</a><span>
+                    </div>
+
+                    <!-- 右边的图片 -->
+                    <div class="image">
+                        <img src="../img/04.png" alt="Steam">
+                    </div>
                 </div>
 
-                <!-- 右边的图片 -->
-                <div class="image">
-                    <img src="../img/04.png" alt="Steam">
+                <!-- 最底部一行的文字 -->
+                <div class="footer-bottom">
+                    <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">客服</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
+                    <img src="../img/f.gif" alt="f">
+                    <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
+                    <img src="../img/t.gif" alt="t">
+                    <a href="">@Steam</a>
+
                 </div>
             </div>
+        
 
-            <!-- 最底部一行的文字 -->
-            <div class="footer-bottom">
-                <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
-                <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
-                <a href="">客服</a><span> &nbsp;|&nbsp; </span>
-                <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
-                <img src="../img/f.gif" alt="f">
-                <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
-                <img src="../img/t.gif" alt="t">
-                <a href="">@Steam</a>
-
-            </div>
-        </div>
-    </div>
-
+  
 
     <script>
         let account = document.getElementById("account");
