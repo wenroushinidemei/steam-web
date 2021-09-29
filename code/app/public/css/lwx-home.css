@@ -207,6 +207,14 @@
   color: #FFFFFF;
 }
 
+.header-box_lwx .header .header-right image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+
 .header-box_lwx a:first-child:hover + .hidden-nav2 {
   display: block;
 }
