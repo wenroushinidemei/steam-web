@@ -1,9 +1,9 @@
+
+
 .login_lwx {
     width: 100%;
     height: 80%;
     background: radial-gradient(30% 40% at 40% 30%, rgba(33, 36, 41, .5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url(../img/bgi.jpg) -42vw 0 no-repeat, #212429;
-
-
 
     .login {
         width: 940px;
@@ -45,13 +45,22 @@
                     margin-bottom: 5px;
 
                 }
-                .tipbox{
+
+                .tipbox {
                     width: 230px;
                     color: #FFFFFF;
-                    font-size: 14px;
+                    height: 0;
+                    padding: 0 16px;
+                    font-size: 0;
                     margin-bottom: 20px;
+                    background: rgba(0, 0, 0, 0.2);
+                    transition: all .5s ease;
+                }
+
+                .tipbox-show {
+                    font-size: 14px;
                     padding: 16px;
-                    background: rgba( 0, 0, 0, 0.2 );
+                    height: auto;
                     border: 1px solid #b44040
                 }
 
@@ -107,7 +116,6 @@
 
                     }
 
-
                 }
 
             }
@@ -136,6 +144,7 @@
             font-size: 14px;
             margin: 10px 0 0;
         }
+
         &>a:hover {
             color: #66C0F4;
         }
@@ -161,10 +170,6 @@
             border: 1px solid rgba(255, 255, 255, 1);
         }
     }
-}
-
-.footer_lwx {
-    position: relative;
 }
 
 body {

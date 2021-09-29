@@ -1,3 +1,5 @@
 # My configurations:
 code/node_modules
 code/logs
+*.log
+
