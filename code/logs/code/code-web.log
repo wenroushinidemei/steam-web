@@ -706,3 +706,747 @@ hostname: DESKTOP-69ODE32
 pid: 15328
 hostname: DESKTOP-69ODE32
 
+2021-09-28 15:03:47,612 ERROR 1480 [-/192.168.6.57/-/12ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot read property 'service' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:7:29)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 1480
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:04:39,575 ERROR 18460 [-/192.168.6.57/-/10ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot set property 'body' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18460
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:04:42,567 ERROR 18460 [-/192.168.6.57/-/3ms GET /gameModule?module=TodayRrecommendation%0A] nodejs.TypeError: Cannot set property 'body' of undefined
+    at GameController.selects (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:10:18)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18460
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:34:01,837 ERROR 9108 [-/192.168.6.53/-/31ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9108
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:34:22,242 ERROR 9108 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9108
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:50:23,476 ERROR 11660 [-/192.168.6.53/-/14ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:50:24,667 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:50:25,528 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:13,554 ERROR 11660 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:14,998 ERROR 11660 [-/192.168.6.53/-/10ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:20,132 ERROR 11660 [-/192.168.6.53/-/5ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:21,046 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:27,974 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:28,972 ERROR 11660 [-/192.168.6.53/-/8ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,153 ERROR 11660 [-/192.168.6.53/-/6ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,327 ERROR 11660 [-/192.168.6.53/-/9ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:29,517 ERROR 11660 [-/192.168.6.53/-/5ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:30,192 ERROR 11660 [-/192.168.6.53/-/4ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 15:52:30,396 ERROR 11660 [-/192.168.6.53/-/3ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:29:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11660
+hostname: DESKTOP-69ODE32
+
+2021-09-28 17:46:59,613 ERROR 21928 [-/127.0.0.1/-/10ms GET /] nodejs.ReferenceError: popularGoods is not defined
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:7:67)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:36:12
+
+pid: 21928
+hostname: monkey
+
+2021-09-28 17:47:32,676 ERROR 31840 [-/127.0.0.1/-/16ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'model' in 'where clause'
+    at Query.Sequence._packetToError (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:65:19)
+    at D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `indexGame` WHERE `model` = 'popularGoods' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'model' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `indexGame` WHERE `model` = 'popularGoods' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 31840
+hostname: monkey
+
+2021-09-28 17:52:37,615 ERROR 28940 [-/127.0.0.1/-/17ms GET /] nodejs.SyntaxError: Unexpected token h in JSON at position 172
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:11:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 28940
+hostname: monkey
+
+2021-09-28 17:54:03,380 ERROR 19080 [-/127.0.0.1/-/10ms GET /] nodejs.SyntaxError: Unexpected token h in JSON at position 172
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:11:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 19080
+hostname: monkey
+
+2021-09-28 17:56:30,630 ERROR 20940 [-/127.0.0.1/-/19ms GET /] nodejs.SyntaxError: Unexpected token h in JSON at position 172
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:11:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 20940
+hostname: monkey
+
+2021-09-28 17:59:36,687 ERROR 548 [-/127.0.0.1/-/11ms GET /] nodejs.SyntaxError: Unexpected token h in JSON at position 172
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:11:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 548
+hostname: monkey
+
+2021-09-28 18:01:31,718 ERROR 8088 [-/127.0.0.1/-/18ms GET /] nodejs.SyntaxError: Unexpected token h in JSON at position 172
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:12:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8088
+hostname: monkey
+
+2021-09-28 18:11:23,046 ERROR 25224 [-/127.0.0.1/-/14ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:12:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25224
+hostname: monkey
+
+2021-09-28 18:12:14,902 ERROR 25224 [-/127.0.0.1/-/6ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:12:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25224
+hostname: monkey
+
+2021-09-28 18:14:23,071 ERROR 16188 [-/127.0.0.1/-/14ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:14:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: monkey
+
+2021-09-28 18:14:24,404 ERROR 16188 [-/127.0.0.1/-/4ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:14:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 16188
+hostname: monkey
+
+2021-09-28 18:23:23,475 ERROR 23736 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:8:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:36:12
+
+pid: 23736
+hostname: monkey
+
+2021-09-28 18:23:50,270 ERROR 24528 [-/127.0.0.1/-/11ms GET /] nodejs.ReferenceError: insert is not defined
+    at SqlService.insert (D:\H5\stack\steam\steam-web\code\app\service\sql.js:490:18)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:8:47)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+
+pid: 24528
+hostname: monkey
+
+2021-09-28 18:24:32,020 ERROR 15480 [-/127.0.0.1/-/15ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SqlService.insert (D:\H5\stack\steam\steam-web\code\app\service\sql.js:498:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:8:20)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+
+pid: 15480
+hostname: monkey
+
+2021-09-28 18:38:53,896 ERROR 21564 [-/127.0.0.1/-/14ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'model' in 'field list'
+    at Query.Sequence._packetToError (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:65:19)
+    at D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:54:5
+    sql: INSERT INTO `indexGame`(`imgurls`, `price`, `gameName`, `content`, `userComments`, `model`) VALUES('[\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673\",\"https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_a1117e2cdd31ca22400a6bad931cba316a05a37c.600x338.jpg\"]', '[\"免费\"]', 'Dagon: by H. P. Lovecraft', '[\"洛夫克拉夫特式\",\", 恐怖\",\", 氛围\",\", 视觉小说\"]', '[\"总体用户评测：\",\"好评如潮\",\" (1.511)\"]', 'popularGoods')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'model' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `indexGame`(`imgurls`, `price`, `gameName`, `content`, `userComments`, `model`) VALUES('[\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673\\\",\\\"https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_a1117e2cdd31ca22400a6bad931cba316a05a37c.600x338.jpg\\\"]', '[\\\"免费\\\"]', 'Dagon: by H. P. Lovecraft', '[\\\"洛夫克拉夫特式\\\",\\\", 恐怖\\\",\\\", 氛围\\\",\\\", 视觉小说\\\"]', '[\\\"总体用户评测：\\\",\\\"好评如潮\\\",\\\" (1.511)\\\"]', 'popularGoods')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 21564
+hostname: monkey
+
+2021-09-28 18:40:52,833 ERROR 31472 [-/127.0.0.1/-/13ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:10:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 31472
+hostname: monkey
+
+2021-09-28 18:41:44,611 ERROR 5860 [-/127.0.0.1/-/12ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:8:26)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+
+pid: 5860
+hostname: monkey
+
+2021-09-28 18:47:16,681 ERROR 38124 [-/127.0.0.1/-/12ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.a (D:\H5\stack\steam\steam-web\code\app\controller\home.js:25:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 38124
+hostname: monkey
+
+2021-09-28 18:48:21,530 ERROR 7864 [-/127.0.0.1/-/12ms GET /] nodejs.ReferenceError: result is not defined
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:8:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:36:12
+
+pid: 7864
+hostname: monkey
+
+2021-09-28 18:53:35,454 ERROR 30076 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: a.parseJSON is not a function
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:10:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\koa-static-cache\index.js:41:56
+
+pid: 30076
+hostname: monkey
+
+2021-09-28 18:56:39,105 ERROR 12120 [-/127.0.0.1/-/14ms GET /] nodejs.SyntaxError: Unexpected token [ in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:10:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12120
+hostname: monkey
+
+2021-09-28 18:59:01,766 ERROR 3116 [-/127.0.0.1/-/12ms GET /] nodejs.SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:10:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3116
+hostname: monkey
+
+2021-09-28 19:09:29,196 ERROR 9632 [-/127.0.0.1/-/10ms GET /] nodejs.SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:10:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9632
+hostname: monkey
+
+2021-09-28 19:18:49,096 ERROR 22144 [-/127.0.0.1/-/11ms GET /] nodejs.ReferenceError: imgurls is not defined
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:9:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\koa-static-cache\index.js:41:56
+
+pid: 22144
+hostname: monkey
+
+2021-09-28 19:28:48,787 ERROR 29116 [-/127.0.0.1/-/14ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'model' in 'field list'
+    at Query.Sequence._packetToError (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (D:\H5\stack\steam\steam-web\code\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\H5\stack\steam\steam-web\code\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:65:19)
+    at D:\H5\stack\steam\steam-web\code\node_modules\co\index.js:54:5
+    sql: INSERT INTO `indexGame`(`imgurls`, `price`, `gameName`, `content`, `userComments`, `model`) VALUES('[\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673\",\"https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg\",\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_a1117e2cdd31ca22400a6bad931cba316a05a37c.600x338.jpg\"]', '[\"免费\"]', 'Dagon: by H. P. Lovecraft', '[\"洛夫克拉夫特式\",\", 恐怖\",\", 氛围\",\", 视觉小说\"]', '[\"总体用户评测：\",\"好评如潮\",\" (1.511)\"]', 'popularGoods')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'model' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `indexGame`(`imgurls`, `price`, `gameName`, `content`, `userComments`, `model`) VALUES('[\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673\\\",\\\"https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg\\\",\\\"https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_a1117e2cdd31ca22400a6bad931cba316a05a37c.600x338.jpg\\\"]', '[\\\"免费\\\"]', 'Dagon: by H. P. Lovecraft', '[\\\"洛夫克拉夫特式\\\",\\\", 恐怖\\\",\\\", 氛围\\\",\\\", 视觉小说\\\"]', '[\\\"总体用户评测：\\\",\\\"好评如潮\\\",\\\" (1.511)\\\"]', 'popularGoods')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 29116
+hostname: monkey
+
+2021-09-28 19:33:09,119 ERROR 15868 [-/127.0.0.1/-/10ms GET /] nodejs.ReferenceError: model is not defined
+    at SqlService.insert (D:\H5\stack\steam\steam-web\code\app\service\sql.js:489:264)
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:7:46)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\H5\stack\steam\steam-web\code\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+    at next (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:45:18)
+    at D:\H5\stack\steam\steam-web\code\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\H5\stack\steam\steam-web\code\node_modules\koa-compose\index.js:44:32)
+
+pid: 15868
+hostname: monkey
+
+2021-09-28 19:34:40,747 ERROR 33048 [-/127.0.0.1/-/12ms GET /] nodejs.TypeError: Cannot read property 'imgurls' of null
+    at HomeController.show (D:\H5\stack\steam\steam-web\code\app\controller\home.js:11:38)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\H5\stack\steam\steam-web\code\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\H5\stack\steam\steam-web\code\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\H5\stack\steam\steam-web\code\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\H5\stack\steam\steam-web\code\node_modules\koa-static-cache\index.js:41:56
+
+pid: 33048
+hostname: monkey
+
