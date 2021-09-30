@@ -57,6 +57,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/search",
+    "regexp": "/^\\/search(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/test",
     "regexp": "/^\\/test(?:\\/(?=$))?$/",
     "stack": [
