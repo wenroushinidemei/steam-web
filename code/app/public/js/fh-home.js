@@ -134,7 +134,7 @@ axios({
     // console.log(JSON.parse(res.data[0].imgurls));
     gameList3 = res.data;
     showpart3(gameList3[0]);
-    
+
 }).catch(err => {
     console.log(err)
 })
@@ -180,6 +180,7 @@ function showpart3(game) {
         </div>
     </div>
     `
+    
 }
 
 let todaylis = document.querySelectorAll('.today_thumbs li')
