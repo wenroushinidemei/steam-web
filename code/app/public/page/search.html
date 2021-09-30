@@ -16,28 +16,49 @@
     <div class=""></div>
 
     <!-- 主要内容，不设置高度，高度由内部的两个div撑开 -->
-    <div class="">
+    <div class="" style="width: 100%;">
 
         <!-- 定高的部分 -->
         <div class=""></div>
 
         <!-- 搜索展示和懒加载 -->
         <div class="search_ly">
+            <!-- form表单负责收集信息进行提交，因为input信息较多 -->
+            <form action="">
+                <div class="searchList">
+                    <div class="searchInput">
+                        <!-- 这里使用的是value值而不是placeholder -->
+                        <input id="search_text" type="text" value="输入搜索词或标签">
+                        <input id="search_btn" type="button" value="搜索">
+                        <!-- 排序box -->
+                        <div class="sortbox">
+                            <span>排序依据</span>
+                            <select name="sort_item" id="sort_item">
+                                <option value="Correlation">相关性</option>
+                                <option value="issue-date">发行日期</option>
+                                <option value="name">名称</option>
+                                <option value="to-high">价格从低到高</option>
+                                <option value="to-low">价格从高到低</option>
+                                <option value="User-Reviews">用户评测</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="searchMsg">
+                        103,782 个匹配的搜索结果。
+                    </div>
+                    <div class="gameList"></div>
+                </div>
 
-            <div class="searchList">
-
-            </div>
-
-            <div class="searchCondition">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-
+                <div class="searchCondition">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </form>
         </div>
 
     </div>
