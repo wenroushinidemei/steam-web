@@ -172,7 +172,27 @@
         </div>
     </div>
 
-<!-- 点击显示隐藏语言列表 -->
+    <!-- 登录弹窗 -->
+    <div class="content-lwx">
+        <div class="login-box">
+            <div class="close">X</div>
+            <h1>STEAM令牌</h1>
+            <img src="../img/开锁.png" alt="">
+            <div class="text">
+                <h2>成功!</h2>
+                <p>现在，您可以在这里访问您的 Steam 账户。</p>
+            </div>
+            <p>如果这是一台公用计算机，请务必在您结束会话时注销 Steam。</p>
+            <div class="steam">
+                转到 Steam !
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- 点击显示隐藏语言列表 -->
     <script>
         let lanuage = document.getElementById("lanuage");
         let select = document.getElementsByClassName(".select");
@@ -193,8 +213,19 @@
         }
     </script>
 
-<!-- 登录 -->
+    <!-- 登录 -->
     <script>
+        let flag = false;
+
+        let contentBox = document.querySelector(".content-lwx");
+        let flagContent = false;
+        let close = document.querySelector(".close");
+        close.onclick = function () {
+            flagContent = !flagContent;
+            contentBox.style.display = "none";
+        }
+
+
         let account = document.getElementById("account");
         let password = document.getElementById("password");
         let btn = document.getElementById("btn-login");
@@ -219,6 +250,11 @@
                         let tipbox = document.querySelector(".tipbox")
                         console.log(tipbox.classList)
                         tipbox.classList.add("tipbox-show")
+                    } else {
+                        flagContent = !flagContent;
+                        if (flagContent) {
+                            contentBox.style.display = "block";
+                        }
                     }
                 }).catch(err => {
                     console.log(err);
@@ -228,7 +264,7 @@
             }
         }
     </script>
-   
+
 </body>
 
 </html>

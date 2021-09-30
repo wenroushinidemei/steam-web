@@ -1,0 +1,44 @@
+.leave {
+  width: 99vw;
+  height: 95vh;
+  background-color: #1B2838;
+  position: relative;
+}
+
+.leave .leaving {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 35%;
+}
+
+.leave .leaving > span {
+  color: #E0DBD5;
+  text-align: center;
+  font-size: 25px;
+}
+
+.leave .leaving > p {
+  color: #C5CAC9;
+  font-size: 15px;
+}
+
+.leave .leaving > img {
+  width: 30px;
+  height: 30px;
+  animation: loading 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+/*# sourceMappingURL=lwx-leave.css.map */
