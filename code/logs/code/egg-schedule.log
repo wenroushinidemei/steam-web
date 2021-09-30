@@ -1030,3 +1030,12 @@
 2021-09-29 20:21:28,963 INFO 11228 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-09-29 20:21:28,963 INFO 11228 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-09-29 20:21:28,963 INFO 11228 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-09-30 09:06:57,643 INFO 4420 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-09-30 09:06:57,643 INFO 4420 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-09-30 09:06:57,643 INFO 4420 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-09-30 09:10:53,713 INFO 11972 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69546290ms at 2021-10-01 04:30:00.003
+2021-09-30 09:10:53,714 INFO 11972 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53346287ms at 2021-10-01 00:00:00.001
+2021-09-30 09:10:53,714 INFO 11972 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53347286ms at 2021-10-01 00:00:01.000
+2021-09-30 09:10:53,489 INFO 12068 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-09-30 09:10:53,489 INFO 12068 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-09-30 09:10:53,489 INFO 12068 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

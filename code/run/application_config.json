@@ -328,7 +328,7 @@
       "listen": {
         "path": "",
         "port": 80,
-        "hostname": ""
+        "hostname": "steam.web"
       }
     },
     "clusterClient": {
