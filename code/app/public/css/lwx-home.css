@@ -28,7 +28,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  z-index: 1000;
+  z-index: 20;
 }
 
 .header-box_lwx .header > img {
