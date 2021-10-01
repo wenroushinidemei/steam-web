@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
+    text-decoration: none;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 .search_ly {
     width: 940px;
     margin: 0 auto;
+    overflow: hidden;
 
     // 右侧的搜索和展示
     .searchList {
@@ -83,6 +85,8 @@ body {
             font-family: Arial, Helvetica, sans-serif;
             color: #fff;
             font-size: 0;
+            overflow: hidden;
+            margin-bottom: 5px;
 
             &>div {
                 float: right;
@@ -105,8 +109,107 @@ body {
             .set_tab:hover {
                 background-color: rgba(255, 255, 255, 0.1);
             }
-            .set_tab_click{
+
+            .set_tab_click {
                 background-color: #c7d5e0;
+            }
+        }
+
+        .gameList {
+            &>a {
+                display: block;
+                height: 45px;
+                border: 1px solid transparent;
+                margin-bottom: 5px;
+                font-size: 12px;
+                color: #c6d4df;
+                background-color: rgba($color: #000000, $alpha: 0.2);
+
+                &:hover {
+                    border-color: rgba(139, 185, 224, 0.2);
+                    background-color: rgba($color: #000000, $alpha: 0.4);
+                }
+
+                // 一行游戏信息种四个div的统一样式
+                &>div {
+                    height: 45px;
+                    float: left;
+
+                    &:nth-child(3) {
+                        float: right;
+                    }
+
+                    &:nth-child(4) {
+                        float: right;
+                    }
+                }
+
+                font-family: "Motiva Sans",
+                Sans-serif;
+
+                .game_img {
+                    width: 120px;
+                    margin-right: 2px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .game_name {
+                    width: 250px;
+                    padding-left: 5px;
+
+                    &>p {
+                        height: 50%;
+                        line-height: 25.5px;
+                    }
+                }
+
+                .game_time {
+                    width: 85px + 3.5px + 30px;
+                    color: #4c6c8c;
+
+                    &>span {
+                        display: inline-block;
+                        height: 45px;
+                        width: 85px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        line-height: 45px;
+                    }
+
+                    .assess {
+                        margin-left: 5px;
+                        margin-bottom: (45px / 2) - (16px / 2);
+                        height: 16px;
+                        width: 16px;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .game_price {
+                    position: relative;
+                    width: 40px + 3.5px + 100px;
+                    margin-right: 11px;
+                    text-align: right;
+                    line-height: 45px;
+
+                    .discount {
+                        position: absolute;
+                        height: 45px;
+                        width: 40px;
+                        left: 0;
+                        top: 0;
+
+                        &>span {
+                            margin-top: 10px;
+                            padding: 5px;
+                            color: #8bc53f;
+                            background-color: #4c6b22;
+                            text-align: center;
+                        }
+                    }
+                }
             }
         }
     }
