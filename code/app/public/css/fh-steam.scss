@@ -159,6 +159,8 @@ li {
                         cursor: pointer;
                         display: inline-block;
                         height: 353px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
 
                     }
 
@@ -402,6 +404,7 @@ li {
             margin-top: 40px;
             color: #fff;
             font-weight: normal;
+            position: relative;
             // background-color: yellow;
 
 
@@ -444,12 +447,17 @@ li {
                 .left_img {
                     width: 616px;
                     height: 350px;
-                    background-color: #66c0f4;
+                    // background-color: #66c0f4;
                     position: relative;
+                    pointer-events: auto;
 
                     img {
-                        width: 100%;
-                        height: 100%;
+                        width: 616px;
+                        height: 350px;
+                        // border: none;
+                        // background-repeat: no-repeat;
+                        // background-size: cover;
+                       
                     }
 
                     .box_price {
@@ -458,6 +466,7 @@ li {
                         bottom: 20px;
                         display: flex;
                         justify-content: center;
+                       
 
 
                         .percentage {
@@ -493,7 +502,7 @@ li {
                     width: 319px;
                     height: 350px;
                     padding-right: 5px;
-                    // background-color: red;
+                    background: linear-gradient( to bottom, #506c86 5%, #10143100 96%);
 
 
                     .box_review {
@@ -503,7 +512,7 @@ li {
 
                         .description {
                             height: 210px;
-                            background-color: brown;
+                            // background-color: brown;
                         }
 
                         .view_more {
@@ -575,6 +584,83 @@ li {
                     }
                 }
             }
+        
+            .today_thumbs {
+                height: 37px;
+                padding-bottom: 4px;
+                display: flex;
+                justify-content: center;
+
+                li.focus{
+                    background-color: hsla(202, 60%, 100%, 0.4);
+                }
+
+                li {
+                    width: 15px;
+                    height: 9px;
+                    margin: 12px 2px;
+                    border-radius: 2px;
+                    transition: background-color 0.2s;
+                    background-color: hsla(202, 60%, 100%, 0.2);
+                    cursor: pointer;
+
+
+                    &:hover{
+                        background-color: hsla(202, 60%, 100%, 0.3);
+                    }
+
+                }
+            }
+
+            .arrowpart3{
+                padding: 36px 11px;
+                width: 23px;
+                height: 36px;
+                cursor: pointer;
+                // z-index: 999;
+                position: absolute;
+                top: calc(50% - 54px);
+            }
+
+            .arrow_left:hover{
+                // background-color: rgba(0,0,0,0.3);
+                background: linear-gradient( to right, rgba(219, 213, 213, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+               
+            }
+            
+
+            .arrow_left{
+                left: -46px; 
+                background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+
+                div{
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                    background-position-x: 23px;
+                }
+            }
+
+            .arrow_right:hover{
+                // background-color: rgba(0,0,0,0.3);
+                background: linear-gradient( to right, rgba(192, 185, 185, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
+                
+                background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%); 
+            }
+
+            .arrow_right{
+               
+                right: -46px;  
+                background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
+
+                div{
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                    
+                }
+            }
+        
         }
 
 

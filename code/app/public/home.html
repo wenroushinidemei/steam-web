@@ -444,10 +444,10 @@
                                 <li data-index="12"></li>
                             </ul>
 
-                            <div class="arrow_left arrow">
+                            <div class="arrow_left arrow" onclick="leftArrow()" >
                                 <div></div>
                             </div>
-                            <div class="arrow_right arrow">
+                            <div class="arrow_right arrow" onclick="rightArrow()" >
                                 <div></div>
                             </div>
                         </div>
@@ -477,8 +477,7 @@
                         </h2>
                         <!-- 本日推荐游戏 -->
                         <div class="box_app">
-                            <div class="left_img">
-                                <img src="" alt="">
+                            <!-- <div class="left_img">
                                 <div class="box_price">
                                     <span class="percentage">-20%</span>
                                     <div class="price">
@@ -486,9 +485,9 @@
                                         <div class="now">￥149.00</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>  -->
 
-                            <div class="right_col">
+                             <!-- <div class="right_col">
                                 <div class="box_review">
                                     <div class="description"></div>
                                     <div class="view_more">
@@ -498,33 +497,40 @@
                                         <img src="" alt="">
                                         <div>
                                             <div class="author_name">dfgh</div>
-                                            <div class="hours">评测时已游玩<span>32</span>小时</div>
-                                            <div class="vote_info">有<span>2</span>觉得这篇评测有价值</div>
+                                            <div class="hours"></div>
+                                            <div class="vote_info"></div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- 鼠标移动上去 弹出 -->
-                                <!-- <div class="box_review focus"></div> -->
+                                </div>  -->
                                 <!-- 点击切换评测 -->
-                                <div class="change-page">
+                                 <!-- <div class="change-page">
                                     <div class="prev">&lt;</div>
                                     <div class="desc">2篇评测之2</div>
                                     <div class="next">&gt;</div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
 
-                        <div class="carousel_thumbs">
-                            <div class="swpear1" id="focus"></div>
-                            <div class="swpear2"></div>
-                            <div class="swpear3"></div>
-                            <div class="swpear4"></div>
-                            <div class="swpear5"></div>
-                            <div class="swpear6"></div>
-                            <div class="swpear7"></div>
-                            <div class="swpear8"></div>
-                            <div class="swpear9"></div>
+                        <ul class="today_thumbs">
+                            <li data-index="1" class="focus"></li>
+                            <li data-index="2"></li>
+                            <li data-index="3"></li>
+                            <li data-index="4"></li>
+                            <li data-index="5"></li>
+                            <li data-index="6"></li>
+                            <li data-index="7"></li>
+                            <li data-index="8"></li>
+                            <li data-index="9"></li>
+                            <li data-index="10"></li>
+                            
+                        </ul>
+
+                        <div class="arrow_left arrowpart3" onclick="todayleftArrow()" >
+                            <div></div>
+                        </div>
+                        <div class="arrow_right arrowpart3" onclick="todayrightArrow()" >
+                            <div></div>
                         </div>
 
                     </div>
@@ -705,7 +711,7 @@
         }
     </script>
     <script src="./js/yjg-homess.js"></script>
-    <!-- <script src="./js/fh-home.js"></script> -->
+    <script src="./js/fh-home.js"></script>
     <script src="./js/ls-home.js"></script>
 
 </body>
