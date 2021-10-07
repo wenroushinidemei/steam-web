@@ -134,7 +134,6 @@ axios({
 
 
 
-
 let gameList3 = [];
 axios({
     method: 'Get',
@@ -304,7 +303,6 @@ function changeDesc(game) {
 
     }
 }
-
 
 
 
