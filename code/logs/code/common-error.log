@@ -1381,3 +1381,78 @@ name: "ETIMEDOUTError"
 pid: 6484
 hostname: DESKTOP-69ODE32
 
+2021-10-07 12:08:42,878 ERROR 3676 [-/192.168.6.14/-/39ms POST /search] nodejs.TypeError: config is not iterable
+    at SearchService.game (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\search.js:11:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async GameController.search (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:23:20)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3676
+hostname: DESKTOP-69ODE32
+
+2021-10-07 12:08:45,709 ERROR 3676 [-/192.168.6.53/-/24ms POST /search] nodejs.TypeError: config is not iterable
+    at SearchService.game (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\search.js:11:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async GameController.search (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:23:20)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3676
+hostname: DESKTOP-69ODE32
+
+2021-10-07 12:08:51,211 ERROR 3676 [-/192.168.6.53/-/17ms POST /search] nodejs.TypeError: config is not iterable
+    at SearchService.game (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\search.js:11:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async GameController.search (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:23:20)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3676
+hostname: DESKTOP-69ODE32
+
+2021-10-07 12:09:00,935 ERROR 3676 [-/192.168.6.53/-/17ms POST /search] nodejs.TypeError: config is not iterable
+    at SearchService.game (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\search.js:11:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async GameController.search (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:23:20)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3676
+hostname: DESKTOP-69ODE32
+
+2021-10-07 12:20:48,292 ERROR 8980 [-/192.168.6.14/-/29ms POST /search] nodejs.ReferenceError: obj is not defined
+    at SearchService.game (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\search.js:11:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async GameController.search (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\game.js:23:20)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8980
+hostname: DESKTOP-69ODE32
+

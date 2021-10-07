@@ -4,11 +4,16 @@ class SearchService extends Service {
     // 查询游戏时具有各种组合限制
     async game(config) {
         console.log(config)
-        let list = await this.app.mysql.select('indexgame',{
-            where: config
-        })
-        // let list = await this.app.mysql.query('SELECT * FROM indexgame WHERE gamename like "%?%";',)
-
+        // 组装sql语句用于多个like查询。
+        let sql = 'SELECT * FROM indexgame'
+        if (JSON.stringify(config) !== '{}') {
+            sql += ' WHERE '
+            for (let key of Object.keys(config)) {
+                console.log(key)
+                sql += `${key} like "%${config[key]}%"`
+            }
+        }
+        let list = await this.app.mysql.query(sql)
         return list;
     }
 }

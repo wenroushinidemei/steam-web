@@ -11,9 +11,8 @@ class SelectService extends Service {
     }
     // 查询模块单独的游戏信息(注意数组)
     async game(id) {
-        let res = await this.app.mysql.get('indexGameOne', { id: id })
-        let res2 = await this.app.mysql.get('indexGameTwo', { id: id })
-        return [res, res2];
+        let res = await this.app.mysql.get('indexgame', { id: id })
+        return res;
     }
     // 查询用户是否注册
     async user(account,password) {

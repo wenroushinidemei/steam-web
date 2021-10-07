@@ -30,7 +30,7 @@ let gamelist = [];
     form.onsubmit = function () {
         console.log(event)
         event.preventDefault();
-        params.gameName = input.value
+        params.gameName = input.value == '输入搜索词或标签' ? '' : input.value
         postGame(params)
     }
 
