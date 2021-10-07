@@ -191,6 +191,7 @@
     "main": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
     "scripts": {
       "bulid": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+      "web-dev": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
       "test": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
       "dev": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
     },
@@ -205,7 +206,9 @@
     },
     "devDependencies": {
       "html-webpack-plugin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "webpack": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
+      "typescript": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+      "webpack": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
+      "webpack-dev-server": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
     }
   },
   "baseDir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
