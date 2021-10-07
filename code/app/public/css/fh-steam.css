@@ -143,6 +143,8 @@ li {
   cursor: pointer;
   display: inline-block;
   height: 353px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box_selected_fh .box_content .box_cluster .box_maincap .carousel .right {
@@ -352,6 +354,7 @@ li {
   margin-top: 40px;
   color: #fff;
   font-weight: normal;
+  position: relative;
 }
 
 .box_selected_fh .box_content .box_newshops h1 {
@@ -392,13 +395,13 @@ li {
 .box_selected_fh .box_content .box_newshops .box_app .left_img {
   width: 616px;
   height: 350px;
-  background-color: #66c0f4;
   position: relative;
+  pointer-events: auto;
 }
 
 .box_selected_fh .box_content .box_newshops .box_app .left_img img {
-  width: 100%;
-  height: 100%;
+  width: 616px;
+  height: 350px;
 }
 
 .box_selected_fh .box_content .box_newshops .box_app .left_img .box_price {
@@ -438,6 +441,7 @@ li {
   width: 319px;
   height: 350px;
   padding-right: 5px;
+  background: linear-gradient(to bottom, #506c86 5%, #10143100 96%);
 }
 
 .box_selected_fh .box_content .box_newshops .box_app .right_col .box_review {
@@ -448,7 +452,6 @@ li {
 
 .box_selected_fh .box_content .box_newshops .box_app .right_col .box_review .description {
   height: 210px;
-  background-color: brown;
 }
 
 .box_selected_fh .box_content .box_newshops .box_app .right_col .box_review .view_more {
@@ -508,5 +511,71 @@ li {
   cursor: pointer;
   color: #66c0f4;
   transition: background-color 0.2s, color 0.2s;
+}
+
+.box_selected_fh .box_content .box_newshops .today_thumbs {
+  height: 37px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.box_selected_fh .box_content .box_newshops .today_thumbs li.focus {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box_selected_fh .box_content .box_newshops .today_thumbs li {
+  width: 15px;
+  height: 9px;
+  margin: 12px 2px;
+  border-radius: 2px;
+  transition: background-color 0.2s;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.box_selected_fh .box_content .box_newshops .today_thumbs li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box_selected_fh .box_content .box_newshops .arrowpart3 {
+  padding: 36px 11px;
+  width: 23px;
+  height: 36px;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 54px);
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_left:hover {
+  background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_left {
+  left: -46px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_left div {
+  height: 36px;
+  width: 23px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-position-x: 23px;
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_right:hover {
+  background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3) 95%);
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_right {
+  right: -46px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+}
+
+.box_selected_fh .box_content .box_newshops .arrow_right div {
+  height: 36px;
+  width: 23px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
 }
 /*# sourceMappingURL=fh-steam.css.map */

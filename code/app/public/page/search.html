@@ -320,16 +320,16 @@
         <!-- 搜索展示和懒加载 -->
         <div class="search_ly">
             <!-- form表单负责收集信息进行提交，因为input信息较多 -->
-            <form action="">
+            <form action="http://steam.web:80/search">
                 <div class="searchList">
                     <div class="searchInput">
                         <!-- 这里使用的是value值而不是placeholder -->
-                        <input id="search_text" type="text" value="输入搜索词或标签">
-                        <input id="search_btn" type="button" value="搜索">
+                        <input id="search_text" type="text" name="gameName" value="输入搜索词或标签">
+                        <input id="search_btn" type="submit" value="搜索">
                         <!-- 排序box -->
                         <div class="sortbox">
                             <span>排序依据</span>
-                            <select name="sort_item" id="sort_item">
+                            <select id="sort_item">
                                 <option value="Correlation">相关性</option>
                                 <option value="issue-date">发行日期</option>
                                 <option value="name">名称</option>
@@ -341,16 +341,21 @@
                     </div>
                     <div class="searchMsg">
                         <div>
-                            <span>
-                                103,782 个匹配的搜索结果。
+
+                            <span >
+                                0 个匹配的搜索结果。
                             </span>
-                            <span>根据您的偏好，已排除了 1 个产品。不过，该产品本来并不会显示在搜索结果的首页。</span>
+                            <span>根据您的偏好，已排除了 0 个产品。不过，该产品本来并不会显示在搜索结果的首页。</span>
                         </div>
                         <div class="set_tab">
 
                         </div>
                     </div>
-                    <div class="gameList"></div>
+                    <div class="gameList">
+                        <br>
+                        <p style="font-size: 12px; color: #c6d4df;">该查询未传回任何结果。</p>
+                        <br>
+                    </div>
                 </div>
 
                 <div class="searchCondition">
@@ -367,7 +372,7 @@
 
     <!-- </div> -->
 
-    
+
     <!--整个底部区域 -->
     <div class="footer_lwx">
 

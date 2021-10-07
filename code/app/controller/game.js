@@ -11,9 +11,10 @@ class GameController extends Controller{
     // 处理单独的游戏信息查询需求（id的方式）
     async select(){
         const {ctx}= this;
-        let res = await ctx.service.select.game(ctx.query.id);
+        // let res = await ctx.service.select.game(ctx.query.id);
         // 游戏对象
-        ctx.body = res;
+        // ctx.body = res;
+        ctx.body=123
     }
     // 处理查询界面的查询请求
     async search(){

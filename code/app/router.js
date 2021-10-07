@@ -8,8 +8,8 @@ module.exports = app => {
     router.get('/gameModule', controller.game.selects);
     // 从数据库查询单个游戏信息
     router.get('/game', controller.game.select);
-    // 从数据库查询单个游戏信息
-    router.get('/search', controller.game.search);
+    // 从数据库查询有限制条件下的不定数量游戏信息
+    router.post('/search', controller.game.search);
     // 测试接口
     router.get('/test', controller.home.test);
 }

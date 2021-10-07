@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   outline: none;
+  text-decoration: none;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 .search_ly {
   width: 940px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .search_ly .searchList {
@@ -82,6 +84,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 0;
+  overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .search_ly .searchList .searchMsg > div {
@@ -107,6 +111,99 @@ body {
 
 .search_ly .searchList .searchMsg .set_tab_click {
   background-color: #c7d5e0;
+}
+
+.search_ly .searchList .gameList > a {
+  display: block;
+  height: 45px;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #c6d4df;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Motiva Sans", Sans-serif;
+}
+
+.search_ly .searchList .gameList > a:hover {
+  border-color: rgba(139, 185, 224, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.search_ly .searchList .gameList > a > div {
+  height: 45px;
+  float: left;
+}
+
+.search_ly .searchList .gameList > a > div:nth-child(3) {
+  float: right;
+}
+
+.search_ly .searchList .gameList > a > div:nth-child(4) {
+  float: right;
+}
+
+.search_ly .searchList .gameList > a .game_img {
+  width: 120px;
+  margin-right: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search_ly .searchList .gameList > a .game_name {
+  width: 250px;
+  padding-left: 5px;
+}
+
+.search_ly .searchList .gameList > a .game_name > p {
+  height: 50%;
+  line-height: 25.5px;
+}
+
+.search_ly .searchList .gameList > a .game_time {
+  width: 118.5px;
+  color: #4c6c8c;
+}
+
+.search_ly .searchList .gameList > a .game_time > span {
+  display: inline-block;
+  height: 45px;
+  width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 45px;
+}
+
+.search_ly .searchList .gameList > a .game_time .assess {
+  margin-left: 5px;
+  margin-bottom: 14.5px;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
+
+.search_ly .searchList .gameList > a .game_price {
+  position: relative;
+  width: 143.5px;
+  margin-right: 11px;
+  text-align: right;
+  line-height: 45px;
+}
+
+.search_ly .searchList .gameList > a .game_price .discount {
+  position: absolute;
+  height: 45px;
+  width: 40px;
+  left: 0;
+  top: 0;
+}
+
+.search_ly .searchList .gameList > a .game_price .discount > span {
+  margin-top: 10px;
+  padding: 5px;
+  color: #8bc53f;
+  background-color: #4c6b22;
+  text-align: center;
 }
 
 .search_ly .searchCondition {

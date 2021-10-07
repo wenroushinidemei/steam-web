@@ -3,9 +3,12 @@ const Service = require('egg').Service;
 class SearchService extends Service {
     // 查询游戏时具有各种组合限制
     async game(config) {
+        console.log(config)
         let list = await this.app.mysql.select('indexgame',{
             where: config
         })
+        // let list = await this.app.mysql.query('SELECT * FROM indexgame WHERE gamename like "%?%";',)
+
         return list;
     }
 }
