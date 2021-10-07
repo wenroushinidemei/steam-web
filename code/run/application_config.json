@@ -220,6 +220,7 @@
       "description": "",
       "main": "index.js",
       "scripts": {
+        "bulid": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "egg-bin dev"
       },
@@ -231,6 +232,10 @@
         "egg-bin": "^4.16.4",
         "egg-cors": "^2.2.3",
         "egg-mysql": "^3.0.0"
+      },
+      "devDependencies": {
+        "html-webpack-plugin": "^5.3.2",
+        "webpack": "^5.57.1"
       }
     },
     "baseDir": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code",
