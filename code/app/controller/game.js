@@ -23,6 +23,9 @@ class GameController extends Controller{
         let list = await ctx.service.search.game(ctx.request.body);
         ctx.body = list;
     }
+    
 }
+
+
 
 module.exports =GameController;
