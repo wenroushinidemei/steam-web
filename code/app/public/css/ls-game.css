@@ -9,8 +9,7 @@ li {
 
 a {
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -46,11 +45,8 @@ body {
 
 .evaluating_ls .page_content .reviews_area .Overall {
   background-color: #2a475e;
-  -webkit-box-shadow: 0 0 5px #000;
-          box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -95,8 +91,7 @@ body {
 
 .evaluating_ls .page_content .reviews_area .Overall .Overall-right {
   width: 335px;
-  -webkit-box-shadow: 0 0 5px #000;
-          box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
   background: rgba(148, 217, 255, 0.2);
 }
 
@@ -166,7 +161,6 @@ body {
   text-decoration: none !important;
   color: #A4D7F5 !important;
   background: #2f89bc;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #2f89bc), color-stop(95%, #17435c));
   background: linear-gradient(to bottom, #2f89bc 5%, #17435c 95%);
 }
 
@@ -174,7 +168,6 @@ body {
   text-decoration: none !important;
   color: #ffffff !important;
   background: #66c0f4;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #66c0f4), color-stop(95%, #2f89bc));
   background: linear-gradient(to bottom, #66c0f4 5%, #2f89bc 95%);
 }
 
@@ -312,14 +305,11 @@ body {
 
 .evaluating_ls .page_content .reviews_area .user_reviews_container .leftcol .review_box .ReviewContentsummary .leftcool .avatar a .playerAvatar {
   background-color: #57cbde;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #53a4c4), color-stop(95%, #458097));
   background: linear-gradient(to bottom, #53a4c4 5%, #458097 95%);
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
 .evaluating_ls .page_content .reviews_area .user_reviews_container .leftcol .review_box .ReviewContentsummary .leftcool .avatar a .playerAvatar img {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #41778f), color-stop(95%, #3d697b));
   background: linear-gradient(to bottom, #41778f 5%, #3d697b 95%);
   width: 32px;
   height: 32px;
@@ -590,7 +580,6 @@ body {
 
 .evaluating_ls .page_content .reviews_area .user_reviews_container .rightcol .review_box {
   opacity: 0.9;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-1%, #223246), color-stop(0%, #223246), color-stop(92%, rgba(34, 50, 70, 0)), to(rgba(34, 50, 70, 0)));
   background: linear-gradient(to right, #223246 -1%, #223246 0%, rgba(34, 50, 70, 0) 92%, rgba(34, 50, 70, 0) 100%);
   margin-bottom: 20px;
 }
