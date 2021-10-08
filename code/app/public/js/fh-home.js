@@ -432,8 +432,8 @@ function specialClick(event) {
 function jump(event) {
     // console.log(this);
     console.log(12343567);
-    // gameId = this.dataset.id;
+    gameId = this.dataset.id;
     // console.log(gameId);
-    // location.href = `http://192.168.6.14:80/public/page/game.html?id=${gameId}`;
+    location.href = `http://192.168.6.14:80/public/page/game.html?id=${gameId}`;
 
 }
