@@ -449,7 +449,7 @@ class SqlService extends Service {
     //popularGoods
     //第一部分
     // let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1611300/capsule_184x69.jpg?t=1632652180',
-     //                       'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+    //                       'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
     //                     'https://media.st.dl.pinyuncloud.com/steam/apps/1611300/ss_f6b62e531333a959296c898233957d4e6aac12aa.600x338.jpg',
     //                     'https://media.st.dl.pinyuncloud.com/steam/apps/1611300/ss_2b136864189c30ad538b393a77642784d69ecee5.600x338.jpg',
     //                     'https://media.st.dl.pinyuncloud.com/steam/apps/1611300/ss_d3a584609650d9227a99caff0626a38fee3139fb.600x338.jpg',
@@ -461,33 +461,154 @@ class SqlService extends Service {
     //     let userComments = ['总体用户评测：','多半好评',' (108)'];
     //第二部分
     // let imgurls = [ 'https://media.st.dl.pinyuncloud.com/steam/apps/959880/capsule_184x69_schinese.jpg?t=1632763987',
+    //     'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+    //     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_ad67b7bbc68bfd02c8f02bb1c7ac44be1941426d.600x338.jpg',
+    //     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_4e2201b371cc1154b9ac898a32344fa992eb0e23.600x338.jpg',
+    //     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_0045afe36e4007f6e811e3ad474ca44e030f0560.600x338.jpg',
+    //     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_2aef75e53015a126220ca4de311e6217b8f3caa2.600x338.jpg',
+    // ];
+    // let gameName = ['Dungeon Town'];
+    // let price = ['-10%','¥ 69.00','¥ 62.10'];
+    // let content = ['角色扮演',', 独立',', 冒险',', 色情内容'];
+    // let userComments = ['总体用户评测：','特别好评',' (59)'];
+    // let model = 'popularGoods';
+    //第三部分
+//     let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673',
 //     'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
-//     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_ad67b7bbc68bfd02c8f02bb1c7ac44be1941426d.600x338.jpg',
-//     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_4e2201b371cc1154b9ac898a32344fa992eb0e23.600x338.jpg',
-//     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_0045afe36e4007f6e811e3ad474ca44e030f0560.600x338.jpg',
-//     'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_2aef75e53015a126220ca4de311e6217b8f3caa2.600x338.jpg',
+//     'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg',
+//     'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg',
+//     'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg',
+//     'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_a1117e2cdd31ca22400a6bad931cba316a05a37c.600x338.jpg',
+
 // ];
-// let gameName = ['Dungeon Town'];
-// let price = ['-10%','¥ 69.00','¥ 62.10'];
-// let content = ['角色扮演',', 独立',', 冒险',', 色情内容'];
-// let userComments = ['总体用户评测：','特别好评',' (59)'];
-// let model = 'popularGoods';
+// let gameName = 'Dagon: by H. P. Lovecraft';
+// let price = ['免费'];
+// let content = ['洛夫克拉夫特式', ', 恐怖', ', 氛围', ', 视觉小说'];
+// let userComments = ['总体用户评测：', '好评如潮', ' (1.511)'];
+// let module = 'popularGoods';
+//第四部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1618230/capsule_184x69.jpg?t=1632550311',
+//                     'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+//                     'https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_5a0d1704436804201cfefae096578ca8bf0c06fd.600x338.jpg',
+//                     'https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_eff5f73769a327ea0193dc36f09ccafcaa0431da.600x338.jpg',
+//                     'https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_515a2ced4d774536c6ac08f239358ec9f5642a57.600x338.jpg',
+//                     'https://media.st.dl.pinyuncloud.com/steam/apps/1618230/ss_9a1eb3fd10b09ad9e84aa9abcf2a47ab703101fd.600x338.jpg',
+
+//         ];
+//         let gameName = '恋爱关系/Romance';
+//         let price = ['-17%','¥ 20.00','¥ 16.60'];
+//         let content = ['视觉小说', ', 恋爱模拟', ', 工作场所不宜', ', 成人'];
+//         let userComments = ['总体用户评测：', '好评如潮', ' (222)'];
+//         let module = 'popularGoods';
+//第五部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1129580/capsule_184x69_alt_assets_15_schinese.jpg?t=1632511455',
+//                     'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+//                    'https://media.st.dl.pinyuncloud.com/steam/apps/1129580/ss_5031d1852546a140041257a835e087d7f1d130f3.600x338.jpg',
+//                    'https://media.st.dl.pinyuncloud.com/steam/apps/1129580/ss_babb9b4c89385300a9aff0e58f65bc307c47dc9d.600x338.jpg',
+//                    'https://media.st.dl.pinyuncloud.com/steam/apps/1129580/ss_2f6818234c0a8400d5782f8d02a431807c8cd904.600x338.jpg',
+//                    'https://media.st.dl.pinyuncloud.com/steam/apps/1129580/ss_0a3090a01388768927ab8b0a57fc6afcf5b90947.600x338.jpg',
+//         ];
+//         let gameName = '中世纪王朝';
+//         let price = ['-20%','¥ 139.00','¥ 111.20'];
+//         let content = ['生存', ', 建造', ', 开放世界', ', 中世纪','角色扮演'];
+//         let userComments = ['总体用户评测：', '好评如潮', ' (16.174)'];
+//         let module = 'popularGoods';
+//第五部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1577620/capsule_184x69_schinese.jpg?t=1632720119',
+// 'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1577620/ss_8125a434643f7c4c515c22ca1ce029351a7db2f2.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1577620/ss_78f9fa53e1df38682eff164f1b5239cb8aa00097.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1577620/ss_d70a8879bee7d46deda23ab73c2bb3557741e992.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1577620/ss_bf9cf00059bf6f34c0086da068270c24dacdae8a.600x338.jpg',
+
+// ];
+// let gameName = '信号法则 The Signal State';
+// let price = ['¥ 68.00'];
+// let content = ['解谜', ', 逻辑', ', 模拟', ', 自动化'];
+// let userComments = ['总体用户评测：', '好评如潮', ' (79)'];
+// let module = 'popularGoods';
+//第七部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1203710/capsule_184x69.jpg?t=1632853374',
+// 'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1203710/ss_1c5ee93cad7d2bbe4b8b327ad98a34ce10851599.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1203710/ss_ee9a4358c41fc1be0420be30881bd23f60e1b368.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1203710/ss_aa4bd5ec95dd8b2709ed5d11525517d85bc273fe.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1203710/ss_db4bed94d06811572f5f3cf5e3913eb638254de0.600x338.jpg',
+// ];
+// let gameName = 'UnMetal';
+// let price = ['-20%','¥ 65.00','¥ 52.00'];
+// let content = ['2D', ', 像素图形', ', 老式', ', 动作','冒险'];
+// let userComments = ['总体用户评测：', '好评如潮', ' (27)'];
+// let module = 'popularGoods';
+//第八部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1063730/capsule_184x69.jpg?t=1632842444',
+// 'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1063730/ss_3245647438f59beb29f1dfa4c778b070a2e8ba7f.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1063730/ss_48edbca73ba970cfcb4798820068e8171bdeb6ac.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1063730/ss_45594186d0784865980a9c8b009675b5c5e8c0ac.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1063730/ss_e56d90162b1724f351c23d40be98b21c55809670.600x338.jpg',
+// ];
+// let gameName = 'New World';
+// let price = ['¥ 149.00'];
+// let content = ['大型多人在线', ', 冒险', ', 大型多人在线角色扮演', ', 角色扮演'];
+// let userComments = ['总体用户评测：', '褒贬不一', ' (19,672)'];
+// let module = 'popularGoods';
+//第九部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/950180/capsule_184x69.jpg?t=1632837912',
+// 'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1119980/ss_1b5500e28e867527b3d9044f175dfc972c0d6fb7.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1119980/ss_25193b98cfe2ee4c0987f9ac073ea4d1af3fd407.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1119980/ss_379a11e910e4a50a00d0f2efd383f4417f003662.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1119980/ss_7a50e6242bfe2664eceeae6b512cde15c48fc747.600x338.jpg'
+// ];
+// let gameName = 'In Sound Mind';
+// let price = ['-15%','¥ 103.00','¥ 87.55'];
+// let content = ['恐怖', ', 心理恐怖', ', 剧情丰富', ', 动作','解谜'];
+// let userComments = ['总体用户评测：', '好评', ' (31)'];
+// let module = 'popularGoods';
+//第十部分
+// let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1573720/capsule_184x69.jpg?t=1632841922',
+// 'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1573720/ss_0df0f843d683df1c1648e5fbe5ca56a31af95efa.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1573720/ss_2666c6232dd31e1123bf0ceb066bdb0526fd380d.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1573720/ss_9d0cc6054b9b747afe4e15ed1123b594ad1ced62.600x338.jpg',
+// 'https://media.st.dl.pinyuncloud.com/steam/apps/1573720/ss_039dbd2072eae847ec57e0f27ae9bec4b08d0477.600x338.jpg',
+
+// ];
+// let gameName = '阿加莎·克里斯蒂 - 赫尔克里·波洛：最初的案件';
+// let price = ['¥ 78.00'];
+// let content = ['冒险', ', 推理', ', 悬疑', ', 剧情丰富','调查'];
+// let userComments = ['总体用户评测：', '好评', ' (24)'];
+// let module = 'popularGoods';
+// let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName, content: JSON.stringify(content), price: JSON.stringify(price), userComments: JSON.stringify(userComments), module: module });
     async insert() {
-        let imgurls = [ 'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/capsule_184x69.jpg?t=1632782673',
-                        'https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win_dark.png?v=3',
-                        'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_9a2245c7324f216345cfc063d9de6f7cfa844ced.600x338.jpg',
-                        'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_5b4ab53250f7f5d796368e7faf86c69a2f05eeec.600x338.jpg',
-                        'https://media.st.dl.pinyuncloud.com/steam/apps/1481400/ss_8ecc891edc26ee50696fd6c030db6e33f0cb24bb.600x338.jpg',
-                        'https://media.st.dl.pinyuncloud.com/steam/apps/959880/ss_2aef75e53015a126220ca4de311e6217b8f3caa2.600x338.jpg',
-                    ];
-        let gameName = ['Dungeon Town'];
-        let price = ['-10%','¥ 69.00','¥ 62.10'];
-        let content = ['角色扮演',', 独立',', 冒险',', 色情内容'];
-        let userComments = ['总体用户评测：','特别好评',' (59)'];
-        let model = 'popularGoods';
-        let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: JSON.stringify(gameName), content: JSON.stringify(content), price: JSON.stringify(price), userComments: JSON.stringify(userComments), model: model });
+        let imgurls = ['https://media.st.dl.pinyuncloud.com/steam/apps/1538570/header_292x136.jpg?t=1632848594',
+                        'https://media.st.dl.pinyuncloud.com/steam/apps/1685721/header_292x136.jpg?t=1628686897',
+                        'https://media.st.dl.pinyuncloud.com/steam/apps/1254120/header_292x136_schinese.jpg?t=1631838491',
+                        'https://media.st.dl.pinyuncloud.com/steam/apps/1190000/header_292x136.jpg?t=1632822816',
+                   
+                ];
+        let gameName = '';
+        let price = [['-10%','¥ 70.00','¥ 63.00'],['¥ 22.00'],['免费开玩'],['¥ 80.00']];
+
+        let module = ' firstProduct ';
+       let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName,  module: module });
     }
 
+    //let res = await this.ctx.service.sql.insert();//函授调用
+    //let  result = await this.app.mysql.get('indexGame',{module:'popularGoods'});
+    //let  result = await this.app.mysql.get('indexGame',{id:28})
+    //console.log(result);
+   //console.log(JSON.parse(result.imgurls));
+   //console.log(JSON.parse(result.price));
+    // let res = await this.ctx.service.sql.insert()
+    // let res = await this.ctx.service.sql();
+    // async look(){
+    //     let  result = await this.app.mysql.get('indexGame',{module:'popularGoods'})
+    //     console.log(result)
+    //     look()
+    // }
+   
 }
 
 module.exports = SqlService

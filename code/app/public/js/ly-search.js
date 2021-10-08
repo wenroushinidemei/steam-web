@@ -87,7 +87,7 @@ let gamelist = [];
             ${price[price.length - 1] == '免费' ? '免费游玩' : price[price.length - 1]}
                 <!-- 折扣信息 -->
                 <div class="discount">
-                    <span>-50%</span>
+                    ${price[0].includes('%') ? `<span>${price[0]}</span>` : ''}
                 </div>
             </div>
             <div class="game_time">
@@ -101,8 +101,39 @@ let gamelist = [];
         listBox.innerHTML = dom;
     }
 
-
-
-
-
 })();
+
+// 添加点击事件
+(function () {
+    document.querySelectorAll('.search_ly .searchCondition>div').forEach(function (el) {
+        el.addEventListener('click', function () {
+            console.dir(this)
+            let box = this.children[1];
+            if (box.className == 'unshow') {
+                box.className = ''
+            } else {
+                box.className = 'unshow'
+            }
+        })
+    })
+})();
+
+function sort(msg) {
+    console.log(msg, gamelist)
+    gamelist.forEach(game=>{
+        
+    })
+    // gamelist.sort((gamea,gameb) => {
+    //     let price
+    //     try {
+    //         price = JSON.parse(game.price)
+    //     } catch {
+    //         price = [game.price]
+    //     }
+    //     if (price == null) {
+    //         price = ['null'];
+    //     }
+    //     price = price[price.length - 1] == '免费' ? '免费游玩' : price[price.length - 1];
+    //     return 
+    // })
+}

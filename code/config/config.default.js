@@ -37,7 +37,8 @@ const config = {
             ignoreJSON: true,
         },
         domainWhiteList: ['*'],
-    }
+    },
+    keys:'adsfsghjkl'
 }
 
 module.exports = config

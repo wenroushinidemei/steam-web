@@ -24,7 +24,13 @@
             <div class="header">
 
                 <!-- 头部logo -->
-                <img src="./img/logo_steam.svg" alt="Steam">
+                <img src="./img/logo_steam.svg" alt="Steam" onclick="back()">
+                <script>
+                    function back() {
+                        console.log(2)
+                        window.location.href='http://steam.web/public/home.html'
+                    }
+                </script>
 
                 <!-- 头部导航栏 -->
                 <ul class="header-nav">
@@ -399,7 +405,7 @@
 
                 </div>
 
-                <!--右边大盒子：包括三个 -->
+                <!--右边大盒子：包括五个 -->
                 <div class="box_content">
 
                     <div class="box_cluster">
@@ -444,10 +450,10 @@
                                 <li data-index="12"></li>
                             </ul>
 
-                            <div class="arrow_left arrow" onclick="leftArrow()" >
+                            <div class="arrow_left arrow" onclick="leftArrow()">
                                 <div></div>
                             </div>
-                            <div class="arrow_right arrow" onclick="rightArrow()" >
+                            <div class="arrow_right arrow" onclick="rightArrow()">
                                 <div></div>
                             </div>
                         </div>
@@ -458,16 +464,91 @@
                             <h2 class="special_title">特别优惠</h2>
                             <div class="more">浏览更多</div>
                         </div>
-                        <div class="box_middle">
+                        <div class="box_content">
 
+                            <div class="foucs">
+                                <!-- <div class="left">
+                                    <img src="" alt="">
+                                    <div class="spotlight_content">
+                                        <h2>疯狂周三</h2>
+                                        <div class="spotlight_time">
+                                            优惠截止时间:
+                                        </div>
+                                        <div class="spotlight_price">
+                                            <div class="discount_pct">-34%</div>
+                                            <div class="discount_prices">
+                                                <div class="pass_price">￥80:00</div>
+                                                <div class="now_price">￥53:00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="middle">
+                                    <img src="" alt="">
+                                    <div class="spotlight_content">
+                                        <h2>疯狂周三</h2>
+                                        <div class="spotlight_time">
+                                            优惠截止时间:
+                                        </div>
+                                        <div class="spotlight_price">
+                                            <div class="discount_pct">-34%</div>
+                                            <div class="discount_prices">
+                                                <div class="pass_price">￥80:00</div>
+                                                <div class="now_price">￥53:00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="right">
+                                    <div class="right_top">
+                                        <img src="" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div>今日特惠!</div>
+                                            <div class="ttip">23:23:23</div>
+                                        </div>
+                                        <div class="right_spotlight_price">
+                                            <div class="discount_pct">-34%</div>
+                                            <div class="discount_prices">
+                                                <div class="pass_price">￥80:00</div>
+                                                <div class="now_price">￥53:00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right_buttom">
+                                        <img src="" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div>今日特惠!</div>
+                                            <div class="ttip">23:23:23</div>
+                                        </div>
+                                        <div class="right_spotlight_price">
+                                            <div class="discount_pct">-34%</div>
+                                            <div class="discount_prices">
+                                                <div class="pass_price">￥80:00</div>
+                                                <div class="now_price">￥53:00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
                         </div>
-                        <div class="carousel_thumbs">
-                            <div class="swpear1" id="focus"></div>
-                            <div class="swpear2"></div>
-                            <div class="swpear3"></div>
-                            <div class="swpear4"></div>
+
+                        <ul class="special_thumbs">
+                            <li data-index="1" class="focus"></li>
+                            <li data-index="2"></li>
+                            <li data-index="3"></li>
+                            <li data-index="4"></li>
+                        </ul>
+
+
+                        <div class="arrow_left arrowpart5" onclick="specialleftArrow()">
+                            <div></div>
                         </div>
+                        <div class="arrow_right arrowpart5" onclick="specialrightArrow()">
+                            <div></div>
+                        </div>
+
                     </div>
+
 
                     <div class="box_newshops">
                         <h1>社区推荐</h1>
@@ -485,9 +566,9 @@
                                         <div class="now">￥149.00</div>
                                     </div>
                                 </div>
-                            </div>  -->
+                            </div> -->
 
-                             <!-- <div class="right_col">
+                            <!-- <div class="right_col">
                                 <div class="box_review">
                                     <div class="description"></div>
                                     <div class="view_more">
@@ -501,14 +582,14 @@
                                             <div class="vote_info"></div>
                                         </div>
                                     </div>
-                                </div>  -->
-                                <!-- 点击切换评测 -->
-                                 <!-- <div class="change-page">
-                                    <div class="prev">&lt;</div>
-                                    <div class="desc">2篇评测之2</div>
+                                </div> -->
+                            <!-- 点击切换评测 -->
+                            <!-- <div class="change-page">
+                                    <div class="prev" onclick="prev()">&lt;</div>
+                                    <div class="desc" onclick="next()">2篇评测之2</div>
                                     <div class="next">&gt;</div>
-                                </div>
-                            </div> -->
+                                </div> 
+                            </div>-->
                         </div>
 
 
@@ -523,16 +604,78 @@
                             <li data-index="8"></li>
                             <li data-index="9"></li>
                             <li data-index="10"></li>
-                            
                         </ul>
 
-                        <div class="arrow_left arrowpart3" onclick="todayleftArrow()" >
+                        <div class="arrow_left arrowpart3" onclick="todayleftArrow()">
                             <div></div>
                         </div>
-                        <div class="arrow_right arrowpart3" onclick="todayrightArrow()" >
+                        <div class="arrow_right arrowpart3" onclick="todayrightArrow()">
                             <div></div>
                         </div>
 
+                    </div>
+
+                    <!-- 浏览steam -->
+                    <div class="home_ctn">
+                        <h2>浏览 STEAM</h2>
+                        <div class="box_ctn">
+                            <span>新品</span>
+                            <span>优惠</span>
+                            <span>免费游戏</span>
+                            <span>按用户标签</span>
+                        </div>
+                    </div>
+
+
+                    <!-- 热门vr游戏 -->
+                    <div class="hot_vr">
+                        <h2>热门 vr 游戏
+                            <span>浏览所有</span>
+                        </h2>
+                        <div class="hot_vr_content">
+                            <div>
+                                <img src="	https://media.st.dl.pinyuncloud.com/steam/apps/617830/header_292x136.jpg?t=1627641439"
+                                    alt="">
+                                <div class="game_price">
+                                    <div>￥110:00</div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/641960/header_292x136.jpg?t=1587729247"
+                                    alt="">
+                                <div class="game_price">
+                                    <div>￥90:00</div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/546560/header_292x136.jpg?t=1631826157"
+                                    alt="">
+                                <div class="game_price">
+                                    <div>￥163:00</div>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/1019550/header_292x136.jpg?t=1629719469"
+                                    alt="">
+                                <div class="game_price">
+                                    <div>￥90:00</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <ul class="vr_thumbs">
+                            <li data-index="1" class="focus"></li>
+                            <li data-index="2"></li>
+                            <li data-index="3"></li>
+                        </ul>
+
+                        <div class="arrow_left arrowpart4" onclick="vrleftArrow()">
+                            <div></div>
+                        </div>
+                        <div class="arrow_right arrowpart4" onclick="vrrightArrow()">
+                            <div></div>
+                        </div>
                     </div>
 
                 </div>
