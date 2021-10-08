@@ -22,7 +22,13 @@
         <div class="header">
 
             <!-- 头部logo -->
-            <img src="../img/logo_steam.svg" alt="Steam">
+            <img src="../img/logo_steam.svg" alt="Steam" onclick="back()">
+            <script>
+                function back() {
+                    console.log(2)
+                    window.location.href='http://steam.web/public/home.html'
+                }
+            </script>
 
             <!-- 头部导航栏 -->
             <ul class="header-nav">

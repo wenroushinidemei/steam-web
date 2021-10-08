@@ -24,7 +24,13 @@
             <div class="header">
 
                 <!-- 头部logo -->
-                <img src="./img/logo_steam.svg" alt="Steam">
+                <img src="./img/logo_steam.svg" alt="Steam" onclick="back()">
+                <script>
+                    function back() {
+                        console.log(2)
+                        window.location.href='http://steam.web/public/home.html'
+                    }
+                </script>
 
                 <!-- 头部导航栏 -->
                 <ul class="header-nav">
@@ -577,8 +583,8 @@
                                         </div>
                                     </div>
                                 </div> -->
-                                <!-- 点击切换评测 -->
-                                <!-- <div class="change-page">
+                            <!-- 点击切换评测 -->
+                            <!-- <div class="change-page">
                                     <div class="prev" onclick="prev()">&lt;</div>
                                     <div class="desc" onclick="next()">2篇评测之2</div>
                                     <div class="next">&gt;</div>
@@ -628,25 +634,29 @@
                         </h2>
                         <div class="hot_vr_content">
                             <div>
-                                <img src="	https://media.st.dl.pinyuncloud.com/steam/apps/617830/header_292x136.jpg?t=1627641439" alt="">
+                                <img src="	https://media.st.dl.pinyuncloud.com/steam/apps/617830/header_292x136.jpg?t=1627641439"
+                                    alt="">
                                 <div class="game_price">
                                     <div>￥110:00</div>
                                 </div>
                             </div>
                             <div>
-                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/641960/header_292x136.jpg?t=1587729247" alt="">
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/641960/header_292x136.jpg?t=1587729247"
+                                    alt="">
                                 <div class="game_price">
                                     <div>￥90:00</div>
                                 </div>
                             </div>
                             <div>
-                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/546560/header_292x136.jpg?t=1631826157" alt="">
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/546560/header_292x136.jpg?t=1631826157"
+                                    alt="">
                                 <div class="game_price">
                                     <div>￥163:00</div>
                                 </div>
                             </div>
                             <div>
-                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/1019550/header_292x136.jpg?t=1629719469" alt="">
+                                <img src="https://media.st.dl.pinyuncloud.com/steam/apps/1019550/header_292x136.jpg?t=1629719469"
+                                    alt="">
                                 <div class="game_price">
                                     <div>￥90:00</div>
                                 </div>
@@ -802,12 +812,7 @@
 
                 <!-- 右边的图片 -->
                 <div class="image">
-                    <img src="./img/04.png" alt="steam" onclick="back">
-                    <script>
-                        function back(){
-                            window.open(URL,name,features,replace)
-                        }
-                    </script>
+                    <img src="./img/04.png" alt="steam">
                 </div>
             </div>
 
