@@ -12,6 +12,9 @@ class HomeController extends Controller{
     }
     async test(){
         let res = await this.ctx.service.testli.all();
+        console.log(ctx.cookies.get('account', {
+            signed: false,
+          }));
         this.ctx.body = res;
     }
 }

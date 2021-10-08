@@ -17,20 +17,21 @@ class LoginController extends Controller {
             };
         } else if (res) {
             // 返回登录成功信息,并将信息在客户端持久化，禁止修改（待加密处理）
-            // ctx.cookies.set(account, ctx.query.account, {
-            //     maxAge: 100000,
-            //     httpOnly: true,
-            //     signed: false,
-            //     encrypt: false,
-            //     domain: 'steam.web',
-            // });
-            // ctx.cookies.set(password, ctx.query.password, {
-            //     maxAge: 100000,
-            //     httpOnly: true,
-            //     signed: false,
-            //     encrypt: false,
-            //     domain: 'steam.web',
-            // });
+            ctx.cookies.set('account', ctx.request.body.account, {
+                maxAge: 100000,
+                path:'/',
+                httpOnly: false,
+                signed: false,
+                encrypt: false,
+                domain: 'steam.web',
+            });
+            ctx.cookies.set('password', ctx.request.body.password, {
+                maxAge: 100000,
+                httpOnly: true,
+                signed: false,
+                encrypt: false,
+                domain: 'steam.web',
+            });
             ctx.body = {
                 code: 600,
                 msg: res,

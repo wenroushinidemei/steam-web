@@ -80,6 +80,7 @@
       "checkAddress": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
     }
   },
+  "keys": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
   "session": {
     "maxAge": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
     "key": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
@@ -176,7 +177,6 @@
   },
   "env": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
   "name": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-  "keys": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
   "cookies": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
   "proxy": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
   "maxIpsCount": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
