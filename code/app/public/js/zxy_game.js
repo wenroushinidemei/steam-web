@@ -19,6 +19,17 @@ function text() {
         }
     }).then(res=>{
     console.log(res.data);
+    console.log(res.data.gameName);
+    let gameNames = document.querySelector('#gameName');
+    let indexPic = document.querySelector('#indexPic');
+    if(res.data.gameName!=null){
+        gameNames.innerHTML = res.data.gameName;
+        let as = JSON.parse(res.data.imgurls);
+         indexPic.style.backgroundImage = `url(${as[0]})` ;
+       console.log(as[0]);
+      
+    }
+    
     }).catch(err => {
         console.log(err)
     });
