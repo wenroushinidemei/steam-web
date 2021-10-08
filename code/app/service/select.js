@@ -17,7 +17,6 @@ class SelectService extends Service {
     // 查询用户是否注册
     async user(account,password) {
         // 是否注册
-        console.log(account,account)
         let user = await this.app.mysql.get('user', { account: account })
         // 用户未注册
         if(!user){
@@ -28,7 +27,7 @@ class SelectService extends Service {
         if(password==user.password){
             return true;
         }else{
-            return flase;
+            return false;
         }
     }
 }

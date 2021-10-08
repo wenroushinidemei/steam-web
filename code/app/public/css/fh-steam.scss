@@ -15,6 +15,7 @@ li {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+   
 
 
     .box_gutter {
@@ -122,13 +123,14 @@ li {
 
     .box_content {
         width: 940px;
-        height: 1332px;
-
+        // height: 1332px;
+        height: 1800px;
+        margin-right: 10px;
 
         .box_cluster {
             height: 412px;
             padding-bottom: 40px;
-            // background-color: brown;
+           
 
             .title_selected {
                 height: 20px;
@@ -310,8 +312,6 @@ li {
                     // z-index: 3;
                     position: absolute;
                     top: 122px;
-
-
 
                 }
 

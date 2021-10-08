@@ -106,7 +106,8 @@ li {
 
 .box_selected_fh .box_content {
   width: 940px;
-  height: 1332px;
+  height: 1800px;
+  margin-right: 10px;
 }
 
 .box_selected_fh .box_content .box_cluster {

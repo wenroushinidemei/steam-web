@@ -22,7 +22,13 @@
         <div class="header">
 
             <!-- 头部logo -->
-            <img src="../img/logo_steam.svg" alt="Steam">
+            <img src="../img/logo_steam.svg" alt="Steam" onclick="back()">
+            <script>
+                function back() {
+                    console.log(2)
+                    window.location.href='http://steam.web/public/home.html'
+                }
+            </script>
 
             <!-- 头部导航栏 -->
             <ul class="header-nav">
@@ -354,13 +360,14 @@
                         <br>
                     </div>
                 </div>
+
                 <!-- 右侧 -->
                 <div class="searchCondition">
                     <div class="priceCondition">
                         <div class="conditionName">
                             依价格缩小范围
                         </div>
-                        <div class="show">
+                        <div class="">
                             <div></div>
                             <div class="hr"></div>
                             <div class="checkbox">
@@ -373,7 +380,7 @@
                         <div class="conditionName">
                             依语言缩小范围
                         </div>
-                        <div class="show">
+                        <div class="">
                             <div class="checkbox">
                                 <span class="notcheck"></span>
                                 <span>简体中文</span>
@@ -392,7 +399,7 @@
                         <div class="conditionName">
                             依标签缩小范围
                         </div>
-                        <div class="show">
+                        <div class="">
                             <div class="checkbox">
                                 <span class="notcheck"></span>
                                 <span>独立</span>
@@ -419,7 +426,7 @@
                         <div class="conditionName">
                             显示已选择类型
                         </div>
-                        <div class="show">
+                        <div >
                             <div class="checkbox">
                                 <span class="notcheck"></span>
                                 <span>游戏</span>
@@ -462,7 +469,7 @@
                         <div class="conditionName">
                             依功能特色缩小范围
                         </div>
-                        <div>
+                        <div class="unshow">
                             <div class="checkbox">
                                 <span class="notcheck"></span>
                                 <span>单人</span>
@@ -517,7 +524,7 @@
                         <div class="conditionName">
                             依支持虚拟现实缩小范围
                         </div>
-                        <div>
+                        <div class="unshow">
 
                         </div>
                     </div>
@@ -525,8 +532,19 @@
                         <div class="conditionName">
                             依操作系统缩小范围
                         </div>
-                        <div>
-
+                        <div >
+                            <div class="checkbox">
+                                <span class="notcheck"></span>
+                                <span>Windows</span>
+                            </div>
+                            <div class="checkbox">
+                                <span class="notcheck"></span>
+                                <span>macOS</span>
+                            </div>
+                            <div class="checkbox">
+                                <span class="notcheck"></span>
+                                <span>SteamOS + Linux</span>
+                            </div>
                         </div>
                     </div>
                 </div>

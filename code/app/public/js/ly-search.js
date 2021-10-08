@@ -101,8 +101,19 @@ let gamelist = [];
         listBox.innerHTML = dom;
     }
 
+})();
 
-
-
-
+// 添加点击事件
+(function () {
+    document.querySelectorAll('.search_ly .searchCondition>div').forEach(function (el) {
+        el.addEventListener('click', function () {
+            console.dir(this)
+            let box = this.children[1];
+            if (box.className == 'unshow') {
+                box.className = ''
+            } else {
+                box.className = 'unshow'
+            }
+        })
+    })
 })();
