@@ -190,37 +190,25 @@
     "description": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "main": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-<<<<<<< HEAD
+      "bulid": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "web-dev": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "test": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "dev": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
-=======
-      "bulid": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "web-dev": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "test": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "dev": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
->>>>>>> 479b07ddc18c02d23fcf383f6deec6d1d3cc6f39
     },
     "keywords": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "author": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "license": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-<<<<<<< HEAD
       "egg": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "egg-bin": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
-=======
-      "egg": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-bin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-cors": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "egg-mysql": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "html-webpack-plugin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "typescript": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "webpack": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
-      "webpack-dev-server": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js"
->>>>>>> 479b07ddc18c02d23fcf383f6deec6d1d3cc6f39
+      "html-webpack-plugin": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "webpack": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "webpack-dev-server": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",

@@ -62,66 +62,43 @@ class SqlService extends Service {
     // let state = '现已推出';
     // let price = '¥ 199.00';
     //7
-    // let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.600x338.jpg',
-
-    // ]
+    // let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1426210/ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.600x338.jpg"]
+     
     //8
     // let gameName = '双人成行';
     // let state = '现已推出';
     // let price = '¥ 198.00';
-    // let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_842550ceda20f2a8af6427ca9dc6eee1295954d4.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_242e6f5aa36e166864002ed976ed0293dfe49011.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_0a473faac9e9e998e70da2cef144c65103e75257.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_16ede24dcde0913541c82dd406fa9cf660dd1f06.600x338.jpg',
-    //  ]
+    // let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_842550ceda20f2a8af6427ca9dc6eee1295954d4.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_242e6f5aa36e166864002ed976ed0293dfe49011.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_0a473faac9e9e998e70da2cef144c65103e75257.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_16ede24dcde0913541c82dd406fa9cf660dd1f06.600x338.jpg"]
+      
     //  let gameName = '糖豆人：终极淘汰赛';
     //  let state = '现已推出';
     //  let price = ['-50%','¥ 58.00','¥ 29.00'];
     //9
-    // let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_16ede24dcde0913541c82dd406fa9cf660dd1f06.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_d2046bdb2f6acdf9b88c3c168e9eaec38495f063.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_e872c3153b246b4f595d7106976c6e63d4185c45.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_e88792a0331f460d913ac05203f7c1b12112b14c.600x338.jpg',
+    // let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/1097150/ss_16ede24dcde0913541c82dd406fa9cf660dd1f06.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_d2046bdb2f6acdf9b88c3c168e9eaec38495f063.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_e872c3153b246b4f595d7106976c6e63d4185c45.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1293830/ss_e88792a0331f460d913ac05203f7c1b12112b14c.600x338.jpg"]
 
-    // ]
+     
     //10
     // let gameName = '极限竞速：地平线 4';
     // let state = '现已推出';
     // let price = ['¥ 188.00', '¥ 94.00'];
-    // let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_b1e2a185bea13cccfc662e1286912bcd6f4ee798.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_9e6c271b6d11b1d0f35da336fb57b35fed0079d1.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_fbc13a0d5b5b784c053042eb4ea09a30de069b3a.600x338.jpg',
+    // let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_b1e2a185bea13cccfc662e1286912bcd6f4ee798.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_9e6c271b6d11b1d0f35da336fb57b35fed0079d1.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1222140/ss_fbc13a0d5b5b784c053042eb4ea09a30de069b3a.600x338.jpg"]
 
-    //  ]
+    
     //  let gameName = '底特律：化身为人';
     //  let state = '现已推出';
     //  let price = ['-50%', '¥ 128.00','¥ 64.00'];
     //
     //11
-    // let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_bc3c20d9ff976a7c21896176b8a6a024b4314162.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_25005f9028374d9e65149cea78be864968c0a1dc.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_48c4d7b7c0ae11978b6f29fe58c3006802ee9651.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_3e3316d3846e2c3b4ce352291200a457f9317471.600x338.jpg',
-    // ]
+    // let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_bc3c20d9ff976a7c21896176b8a6a024b4314162.600x338.jpg",
+        //  "https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_25005f9028374d9e65149cea78be864968c0a1dc.600x338.jpg",
+        //  "https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_48c4d7b7c0ae11978b6f29fe58c3006802ee9651.600x338.jpg",
+        //  "https://media.st.dl.pinyuncloud.com/steam/apps/594570/ss_3e3316d3846e2c3b4ce352291200a457f9317471.600x338.jpg"]
+     
     // let gameName = 'Total War: WARHAMMER II';
     // let state = 'Mortal Empires Update Now Available';
     // let price = ['-66%', '¥ 268.00', '¥ 91.12'];
     //12
-    //     let img = [
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/413420/ss_981ffc83d3679799be78315cf98b133df11e94ec.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_ca5451eff8bb830fa8db1ed19d8cf9a8a0d77a71.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_86dd1d7c3da6c3f7613cb75d56ecef2487b4d5a3.600x338.jpg',
-    //     'https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_06b5f6c1f31c3519e51a45f9101da47e161e40c0.600x338.jpg',
-    // ]
+    //     let img = ["https://media.st.dl.pinyuncloud.com/steam/apps/413420/ss_981ffc83d3679799be78315cf98b133df11e94ec.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_ca5451eff8bb830fa8db1ed19d8cf9a8a0d77a71.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_86dd1d7c3da6c3f7613cb75d56ecef2487b4d5a3.600x338.jpg","https://media.st.dl.pinyuncloud.com/steam/apps/1203220/ss_06b5f6c1f31c3519e51a45f9101da47e161e40c0.600x338.jpg",]
     // let gameName = '永劫无间';
     // let state = '现已推出';
     // let price = '￥ 98.00';
@@ -592,7 +569,7 @@ class SqlService extends Service {
         let price = [['-10%','¥ 70.00','¥ 63.00'],['¥ 22.00'],['免费开玩'],['¥ 80.00']];
 
         let module = ' firstProduct ';
-       let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName,  module: module });
+       //let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName,  module: module });
     }
 
     //let res = await this.ctx.service.sql.insert();//函授调用

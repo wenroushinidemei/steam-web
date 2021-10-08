@@ -5887,3 +5887,390 @@
 2021-10-07 12:24:10,050 INFO 8604 [egg-mysql] instance[0] status OK, rds currentTime: Thu Oct 07 2021 12:24:09 GMT+0800 (中国标准时间)
 2021-10-07 12:24:10,066 INFO 8604 [egg:core] dump config after ready, 13ms
 >>>>>>> 479b07ddc18c02d23fcf383f6deec6d1d3cc6f39
+2021-10-08 10:00:01,720 INFO 15064 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:00:01,749 INFO 15064 [egg-multipart] stream mode enable
+2021-10-08 10:00:01,750 INFO 15064 [egg-mysql] connecting root@192.168.31.186:3306/steam
+2021-10-08 10:00:02,832 INFO 15064 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:00:02,837 INFO 15064 [egg-security] use methodnoallow middleware
+2021-10-08 10:00:02,838 INFO 15064 [egg-security] use noopen middleware
+2021-10-08 10:00:02,840 INFO 15064 [egg-security] use nosniff middleware
+2021-10-08 10:00:02,841 INFO 15064 [egg-security] use xssProtection middleware
+2021-10-08 10:00:02,843 INFO 15064 [egg-security] use xframe middleware
+2021-10-08 10:00:02,844 INFO 15064 [egg-security] use dta middleware
+2021-10-08 10:00:02,844 INFO 15064 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:00:03,497 INFO 15064 [egg:core] dump config after load, 17ms
+2021-10-08 09:59:59,778 INFO 13496 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 09:59:59,805 INFO 13496 [egg-multipart] stream mode enable
+2021-10-08 09:59:59,806 INFO 13496 [egg-mysql] connecting root@192.168.31.186:3306/steam
+2021-10-08 10:00:02,833 INFO 13496 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:00:02,838 INFO 13496 [egg-security] use methodnoallow middleware
+2021-10-08 10:00:02,839 INFO 13496 [egg-security] use noopen middleware
+2021-10-08 10:00:02,841 INFO 13496 [egg-security] use nosniff middleware
+2021-10-08 10:00:02,841 INFO 13496 [egg-security] use xssProtection middleware
+2021-10-08 10:00:02,843 INFO 13496 [egg-security] use xframe middleware
+2021-10-08 10:00:02,844 INFO 13496 [egg-security] use dta middleware
+2021-10-08 10:00:02,845 INFO 13496 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:00:03,498 INFO 13496 [egg:core] dump config after load, 17ms
+2021-10-08 10:00:03,525 INFO 15064 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:00:03 GMT+0800 (中国标准时间)
+2021-10-08 10:00:03,527 INFO 15064 [egg-watcher:application] watcher start success
+2021-10-08 10:00:03,535 INFO 15064 [egg:core] dump config after ready, 6ms
+2021-10-08 10:00:04,670 INFO 3616 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:00:04,700 INFO 3616 [egg-multipart] stream mode enable
+2021-10-08 10:00:04,700 INFO 3616 [egg-mysql] connecting root@192.168.31.186:3306/steam
+2021-10-08 10:00:04,899 INFO 3616 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:00:04,902 INFO 3616 [egg-security] use methodnoallow middleware
+2021-10-08 10:00:04,903 INFO 3616 [egg-security] use noopen middleware
+2021-10-08 10:00:04,903 INFO 3616 [egg-security] use nosniff middleware
+2021-10-08 10:00:04,904 INFO 3616 [egg-security] use xssProtection middleware
+2021-10-08 10:00:04,905 INFO 3616 [egg-security] use xframe middleware
+2021-10-08 10:00:04,905 INFO 3616 [egg-security] use dta middleware
+2021-10-08 10:00:04,905 INFO 3616 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:00:04,915 INFO 3616 [egg:core] dump config after load, 4ms
+2021-10-08 10:00:04,929 INFO 3616 [egg-watcher:application] watcher start success
+2021-10-08 10:00:04,930 INFO 3616 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:00:04 GMT+0800 (中国标准时间)
+2021-10-08 10:00:04,936 INFO 3616 [egg:core] dump config after ready, 5ms
+2021-10-08 10:01:05,085 INFO 6300 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:01:05,115 INFO 6300 [egg-multipart] stream mode enable
+2021-10-08 10:01:05,115 INFO 6300 [egg-mysql] connecting root@192.168.31.186:3306/steam
+2021-10-08 10:01:05,311 INFO 6300 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:01:05,313 INFO 6300 [egg-security] use methodnoallow middleware
+2021-10-08 10:01:05,314 INFO 6300 [egg-security] use noopen middleware
+2021-10-08 10:01:05,315 INFO 6300 [egg-security] use nosniff middleware
+2021-10-08 10:01:05,315 INFO 6300 [egg-security] use xssProtection middleware
+2021-10-08 10:01:05,316 INFO 6300 [egg-security] use xframe middleware
+2021-10-08 10:01:05,316 INFO 6300 [egg-security] use dta middleware
+2021-10-08 10:01:05,317 INFO 6300 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:01:05,326 INFO 6300 [egg:core] dump config after load, 4ms
+2021-10-08 10:01:05,339 INFO 6300 [egg-watcher:application] watcher start success
+2021-10-08 10:01:05,340 INFO 6300 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:01:05 GMT+0800 (中国标准时间)
+2021-10-08 10:01:05,346 INFO 6300 [egg:core] dump config after ready, 4ms
+2021-10-08 10:10:52,800 INFO 14772 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:10:52,831 INFO 14772 [egg-multipart] stream mode enable
+2021-10-08 10:10:52,832 INFO 14772 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:10:53,021 INFO 14772 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:10:53,023 INFO 14772 [egg-security] use methodnoallow middleware
+2021-10-08 10:10:53,024 INFO 14772 [egg-security] use noopen middleware
+2021-10-08 10:10:53,025 INFO 14772 [egg-security] use nosniff middleware
+2021-10-08 10:10:53,025 INFO 14772 [egg-security] use xssProtection middleware
+2021-10-08 10:10:53,026 INFO 14772 [egg-security] use xframe middleware
+2021-10-08 10:10:53,027 INFO 14772 [egg-security] use dta middleware
+2021-10-08 10:10:53,027 INFO 14772 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:10:53,037 INFO 14772 [egg:core] dump config after load, 4ms
+2021-10-08 10:10:53,050 INFO 14772 [egg-watcher:application] watcher start success
+2021-10-08 10:10:53,051 INFO 14772 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:10:53 GMT+0800 (中国标准时间)
+2021-10-08 10:10:53,168 INFO 14772 [egg:core] dump config after ready, 116ms
+2021-10-08 10:11:13,440 INFO 7272 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:11:13,470 INFO 7272 [egg-multipart] stream mode enable
+2021-10-08 10:11:13,471 INFO 7272 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:11:13,650 INFO 7272 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:11:13,653 INFO 7272 [egg-security] use methodnoallow middleware
+2021-10-08 10:11:13,653 INFO 7272 [egg-security] use noopen middleware
+2021-10-08 10:11:13,654 INFO 7272 [egg-security] use nosniff middleware
+2021-10-08 10:11:13,655 INFO 7272 [egg-security] use xssProtection middleware
+2021-10-08 10:11:13,656 INFO 7272 [egg-security] use xframe middleware
+2021-10-08 10:11:13,656 INFO 7272 [egg-security] use dta middleware
+2021-10-08 10:11:13,656 INFO 7272 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:11:13,666 INFO 7272 [egg:core] dump config after load, 4ms
+2021-10-08 10:11:13,679 INFO 7272 [egg-watcher:application] watcher start success
+2021-10-08 10:11:13,680 INFO 7272 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:11:13 GMT+0800 (中国标准时间)
+2021-10-08 10:11:13,687 INFO 7272 [egg:core] dump config after ready, 6ms
+2021-10-08 10:13:49,077 INFO 13424 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:13:49,107 INFO 13424 [egg-multipart] stream mode enable
+2021-10-08 10:13:49,108 INFO 13424 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:13:49,306 INFO 13424 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:13:49,308 INFO 13424 [egg-security] use methodnoallow middleware
+2021-10-08 10:13:49,309 INFO 13424 [egg-security] use noopen middleware
+2021-10-08 10:13:49,310 INFO 13424 [egg-security] use nosniff middleware
+2021-10-08 10:13:49,310 INFO 13424 [egg-security] use xssProtection middleware
+2021-10-08 10:13:49,311 INFO 13424 [egg-security] use xframe middleware
+2021-10-08 10:13:49,312 INFO 13424 [egg-security] use dta middleware
+2021-10-08 10:13:49,312 INFO 13424 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:13:49,322 INFO 13424 [egg:core] dump config after load, 4ms
+2021-10-08 10:13:49,335 INFO 13424 [egg-watcher:application] watcher start success
+2021-10-08 10:13:49,336 INFO 13424 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:13:49 GMT+0800 (中国标准时间)
+2021-10-08 10:13:49,342 INFO 13424 [egg:core] dump config after ready, 4ms
+2021-10-08 10:13:50,552 INFO 10100 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:13:50,578 INFO 10100 [egg-multipart] stream mode enable
+2021-10-08 10:13:50,579 INFO 10100 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:13:50,759 INFO 10100 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:13:50,763 INFO 10100 [egg-security] use methodnoallow middleware
+2021-10-08 10:13:50,764 INFO 10100 [egg-security] use noopen middleware
+2021-10-08 10:13:50,765 INFO 10100 [egg-security] use nosniff middleware
+2021-10-08 10:13:50,765 INFO 10100 [egg-security] use xssProtection middleware
+2021-10-08 10:13:50,766 INFO 10100 [egg-security] use xframe middleware
+2021-10-08 10:13:50,767 INFO 10100 [egg-security] use dta middleware
+2021-10-08 10:13:50,767 INFO 10100 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:13:50,783 INFO 10100 [egg:core] dump config after load, 6ms
+2021-10-08 10:13:50,800 INFO 10100 [egg-watcher:application] watcher start success
+2021-10-08 10:13:50,803 INFO 10100 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:13:50 GMT+0800 (中国标准时间)
+2021-10-08 10:13:50,809 INFO 10100 [egg:core] dump config after ready, 5ms
+2021-10-08 10:14:11,223 INFO 1580 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:14:11,256 INFO 1580 [egg-multipart] stream mode enable
+2021-10-08 10:14:11,257 INFO 1580 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:14:11,453 INFO 1580 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:14:11,455 INFO 1580 [egg-security] use methodnoallow middleware
+2021-10-08 10:14:11,456 INFO 1580 [egg-security] use noopen middleware
+2021-10-08 10:14:11,457 INFO 1580 [egg-security] use nosniff middleware
+2021-10-08 10:14:11,457 INFO 1580 [egg-security] use xssProtection middleware
+2021-10-08 10:14:11,458 INFO 1580 [egg-security] use xframe middleware
+2021-10-08 10:14:11,459 INFO 1580 [egg-security] use dta middleware
+2021-10-08 10:14:11,459 INFO 1580 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:14:11,468 INFO 1580 [egg:core] dump config after load, 4ms
+2021-10-08 10:14:11,481 INFO 1580 [egg-watcher:application] watcher start success
+2021-10-08 10:14:11,482 INFO 1580 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:14:11 GMT+0800 (中国标准时间)
+2021-10-08 10:14:11,587 INFO 1580 [egg:core] dump config after ready, 103ms
+2021-10-08 10:14:51,677 INFO 10908 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:14:51,704 INFO 10908 [egg-multipart] stream mode enable
+2021-10-08 10:14:51,705 INFO 10908 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:14:51,914 INFO 10908 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:14:51,917 INFO 10908 [egg-security] use methodnoallow middleware
+2021-10-08 10:14:51,918 INFO 10908 [egg-security] use noopen middleware
+2021-10-08 10:14:51,919 INFO 10908 [egg-security] use nosniff middleware
+2021-10-08 10:14:51,920 INFO 10908 [egg-security] use xssProtection middleware
+2021-10-08 10:14:51,921 INFO 10908 [egg-security] use xframe middleware
+2021-10-08 10:14:51,921 INFO 10908 [egg-security] use dta middleware
+2021-10-08 10:14:51,921 INFO 10908 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:14:51,940 INFO 10908 [egg:core] dump config after load, 5ms
+2021-10-08 10:14:51,957 INFO 10908 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:14:51 GMT+0800 (中国标准时间)
+2021-10-08 10:14:51,959 INFO 10908 [egg-watcher:application] watcher start success
+2021-10-08 10:14:51,970 INFO 10908 [egg:core] dump config after ready, 8ms
+2021-10-08 10:43:59,140 INFO 12424 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:43:59,169 INFO 12424 [egg-multipart] stream mode enable
+2021-10-08 10:43:59,169 INFO 12424 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:43:59,345 INFO 12424 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:43:59,348 INFO 12424 [egg-security] use methodnoallow middleware
+2021-10-08 10:43:59,348 INFO 12424 [egg-security] use noopen middleware
+2021-10-08 10:43:59,349 INFO 12424 [egg-security] use nosniff middleware
+2021-10-08 10:43:59,350 INFO 12424 [egg-security] use xssProtection middleware
+2021-10-08 10:43:59,350 INFO 12424 [egg-security] use xframe middleware
+2021-10-08 10:43:59,351 INFO 12424 [egg-security] use dta middleware
+2021-10-08 10:43:59,351 INFO 12424 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:43:59,361 INFO 12424 [egg:core] dump config after load, 5ms
+2021-10-08 10:43:59,374 INFO 12424 [egg-watcher:application] watcher start success
+2021-10-08 10:43:59,376 INFO 12424 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:43:59 GMT+0800 (中国标准时间)
+2021-10-08 10:43:59,383 INFO 12424 [egg:core] dump config after ready, 6ms
+2021-10-08 10:49:04,775 INFO 14484 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:49:04,806 INFO 14484 [egg-multipart] stream mode enable
+2021-10-08 10:49:04,807 INFO 14484 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:49:04,996 INFO 14484 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:49:04,998 INFO 14484 [egg-security] use methodnoallow middleware
+2021-10-08 10:49:04,999 INFO 14484 [egg-security] use noopen middleware
+2021-10-08 10:49:05,000 INFO 14484 [egg-security] use nosniff middleware
+2021-10-08 10:49:05,000 INFO 14484 [egg-security] use xssProtection middleware
+2021-10-08 10:49:05,001 INFO 14484 [egg-security] use xframe middleware
+2021-10-08 10:49:05,002 INFO 14484 [egg-security] use dta middleware
+2021-10-08 10:49:05,002 INFO 14484 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:49:05,011 INFO 14484 [egg:core] dump config after load, 4ms
+2021-10-08 10:49:05,026 INFO 14484 [egg-watcher:application] watcher start success
+2021-10-08 10:49:05,028 INFO 14484 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:49:05 GMT+0800 (中国标准时间)
+2021-10-08 10:49:05,034 INFO 14484 [egg:core] dump config after ready, 5ms
+2021-10-08 10:49:37,933 INFO 6328 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:49:37,967 INFO 6328 [egg-multipart] stream mode enable
+2021-10-08 10:49:37,967 INFO 6328 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:49:38,155 INFO 6328 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:49:38,159 INFO 6328 [egg-security] use methodnoallow middleware
+2021-10-08 10:49:38,160 INFO 6328 [egg-security] use noopen middleware
+2021-10-08 10:49:38,161 INFO 6328 [egg-security] use nosniff middleware
+2021-10-08 10:49:38,162 INFO 6328 [egg-security] use xssProtection middleware
+2021-10-08 10:49:38,163 INFO 6328 [egg-security] use xframe middleware
+2021-10-08 10:49:38,164 INFO 6328 [egg-security] use dta middleware
+2021-10-08 10:49:38,164 INFO 6328 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:49:38,175 INFO 6328 [egg:core] dump config after load, 5ms
+2021-10-08 10:49:38,192 INFO 6328 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:49:38 GMT+0800 (中国标准时间)
+2021-10-08 10:49:38,194 INFO 6328 [egg-watcher:application] watcher start success
+2021-10-08 10:49:38,201 INFO 6328 [egg:core] dump config after ready, 6ms
+2021-10-08 10:50:54,301 INFO 5964 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:50:54,331 INFO 5964 [egg-multipart] stream mode enable
+2021-10-08 10:50:54,331 INFO 5964 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:50:54,524 INFO 5964 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:50:54,526 INFO 5964 [egg-security] use methodnoallow middleware
+2021-10-08 10:50:54,527 INFO 5964 [egg-security] use noopen middleware
+2021-10-08 10:50:54,528 INFO 5964 [egg-security] use nosniff middleware
+2021-10-08 10:50:54,528 INFO 5964 [egg-security] use xssProtection middleware
+2021-10-08 10:50:54,529 INFO 5964 [egg-security] use xframe middleware
+2021-10-08 10:50:54,529 INFO 5964 [egg-security] use dta middleware
+2021-10-08 10:50:54,529 INFO 5964 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:50:54,539 INFO 5964 [egg:core] dump config after load, 3ms
+2021-10-08 10:50:54,552 INFO 5964 [egg-watcher:application] watcher start success
+2021-10-08 10:50:54,553 INFO 5964 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:50:54 GMT+0800 (中国标准时间)
+2021-10-08 10:50:54,559 INFO 5964 [egg:core] dump config after ready, 4ms
+2021-10-08 10:54:19,811 INFO 13144 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:54:19,837 INFO 13144 [egg-multipart] stream mode enable
+2021-10-08 10:54:19,838 INFO 13144 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:54:20,021 INFO 13144 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:54:20,024 INFO 13144 [egg-security] use methodnoallow middleware
+2021-10-08 10:54:20,024 INFO 13144 [egg-security] use noopen middleware
+2021-10-08 10:54:20,025 INFO 13144 [egg-security] use nosniff middleware
+2021-10-08 10:54:20,026 INFO 13144 [egg-security] use xssProtection middleware
+2021-10-08 10:54:20,026 INFO 13144 [egg-security] use xframe middleware
+2021-10-08 10:54:20,027 INFO 13144 [egg-security] use dta middleware
+2021-10-08 10:54:20,027 INFO 13144 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:54:20,038 INFO 13144 [egg:core] dump config after load, 5ms
+2021-10-08 10:54:20,051 INFO 13144 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:54:20 GMT+0800 (中国标准时间)
+2021-10-08 10:54:20,054 INFO 13144 [egg-watcher:application] watcher start success
+2021-10-08 10:54:20,061 INFO 13144 [egg:core] dump config after ready, 6ms
+2021-10-08 10:55:48,802 INFO 11588 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 10:55:48,830 INFO 11588 [egg-multipart] stream mode enable
+2021-10-08 10:55:48,830 INFO 11588 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 10:55:49,012 INFO 11588 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 10:55:49,014 INFO 11588 [egg-security] use methodnoallow middleware
+2021-10-08 10:55:49,015 INFO 11588 [egg-security] use noopen middleware
+2021-10-08 10:55:49,016 INFO 11588 [egg-security] use nosniff middleware
+2021-10-08 10:55:49,016 INFO 11588 [egg-security] use xssProtection middleware
+2021-10-08 10:55:49,017 INFO 11588 [egg-security] use xframe middleware
+2021-10-08 10:55:49,018 INFO 11588 [egg-security] use dta middleware
+2021-10-08 10:55:49,018 INFO 11588 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 10:55:49,027 INFO 11588 [egg:core] dump config after load, 4ms
+2021-10-08 10:55:49,039 INFO 11588 [egg-watcher:application] watcher start success
+2021-10-08 10:55:49,040 INFO 11588 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 10:55:49 GMT+0800 (中国标准时间)
+2021-10-08 10:55:49,047 INFO 11588 [egg:core] dump config after ready, 4ms
+2021-10-08 11:14:42,999 INFO 13512 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:14:43,028 INFO 13512 [egg-multipart] stream mode enable
+2021-10-08 11:14:43,029 INFO 13512 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:14:43,249 INFO 13512 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:14:43,252 INFO 13512 [egg-security] use methodnoallow middleware
+2021-10-08 11:14:43,252 INFO 13512 [egg-security] use noopen middleware
+2021-10-08 11:14:43,253 INFO 13512 [egg-security] use nosniff middleware
+2021-10-08 11:14:43,254 INFO 13512 [egg-security] use xssProtection middleware
+2021-10-08 11:14:43,255 INFO 13512 [egg-security] use xframe middleware
+2021-10-08 11:14:43,255 INFO 13512 [egg-security] use dta middleware
+2021-10-08 11:14:43,255 INFO 13512 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:14:43,265 INFO 13512 [egg:core] dump config after load, 4ms
+2021-10-08 11:14:43,278 INFO 13512 [egg-watcher:application] watcher start success
+2021-10-08 11:14:43,279 INFO 13512 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:14:43 GMT+0800 (中国标准时间)
+2021-10-08 11:14:43,285 INFO 13512 [egg:core] dump config after ready, 5ms
+2021-10-08 11:14:44,498 INFO 10084 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:14:44,525 INFO 10084 [egg-multipart] stream mode enable
+2021-10-08 11:14:44,526 INFO 10084 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:14:44,753 INFO 10084 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:14:44,756 INFO 10084 [egg-security] use methodnoallow middleware
+2021-10-08 11:14:44,757 INFO 10084 [egg-security] use noopen middleware
+2021-10-08 11:14:44,758 INFO 10084 [egg-security] use nosniff middleware
+2021-10-08 11:14:44,758 INFO 10084 [egg-security] use xssProtection middleware
+2021-10-08 11:14:44,759 INFO 10084 [egg-security] use xframe middleware
+2021-10-08 11:14:44,760 INFO 10084 [egg-security] use dta middleware
+2021-10-08 11:14:44,760 INFO 10084 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:14:44,771 INFO 10084 [egg:core] dump config after load, 4ms
+2021-10-08 11:14:44,789 INFO 10084 [egg-watcher:application] watcher start success
+2021-10-08 11:14:44,790 INFO 10084 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:14:44 GMT+0800 (中国标准时间)
+2021-10-08 11:14:44,799 INFO 10084 [egg:core] dump config after ready, 7ms
+2021-10-08 11:31:07,673 INFO 1832 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:31:07,707 INFO 1832 [egg-multipart] stream mode enable
+2021-10-08 11:31:07,708 INFO 1832 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:31:07,889 INFO 1832 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:31:07,895 INFO 1832 [egg-security] use methodnoallow middleware
+2021-10-08 11:31:07,897 INFO 1832 [egg-security] use noopen middleware
+2021-10-08 11:31:07,900 INFO 1832 [egg-security] use nosniff middleware
+2021-10-08 11:31:07,901 INFO 1832 [egg-security] use xssProtection middleware
+2021-10-08 11:31:07,903 INFO 1832 [egg-security] use xframe middleware
+2021-10-08 11:31:07,905 INFO 1832 [egg-security] use dta middleware
+2021-10-08 11:31:07,905 INFO 1832 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:31:07,924 INFO 1832 [egg:core] dump config after load, 5ms
+2021-10-08 11:31:07,940 INFO 1832 [egg-watcher:application] watcher start success
+2021-10-08 11:31:07,941 INFO 1832 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:31:07 GMT+0800 (中国标准时间)
+2021-10-08 11:31:07,948 INFO 1832 [egg:core] dump config after ready, 6ms
+2021-10-08 11:35:38,236 INFO 2848 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:35:38,274 INFO 2848 [egg-multipart] stream mode enable
+2021-10-08 11:35:38,274 INFO 2848 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:35:38,464 INFO 2848 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:35:38,466 INFO 2848 [egg-security] use methodnoallow middleware
+2021-10-08 11:35:38,467 INFO 2848 [egg-security] use noopen middleware
+2021-10-08 11:35:38,468 INFO 2848 [egg-security] use nosniff middleware
+2021-10-08 11:35:38,468 INFO 2848 [egg-security] use xssProtection middleware
+2021-10-08 11:35:38,469 INFO 2848 [egg-security] use xframe middleware
+2021-10-08 11:35:38,470 INFO 2848 [egg-security] use dta middleware
+2021-10-08 11:35:38,470 INFO 2848 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:35:38,479 INFO 2848 [egg:core] dump config after load, 4ms
+2021-10-08 11:35:38,492 INFO 2848 [egg-watcher:application] watcher start success
+2021-10-08 11:35:38,493 INFO 2848 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:35:38 GMT+0800 (中国标准时间)
+2021-10-08 11:35:38,499 INFO 2848 [egg:core] dump config after ready, 5ms
+2021-10-08 11:37:21,157 INFO 14724 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:37:21,184 INFO 14724 [egg-multipart] stream mode enable
+2021-10-08 11:37:21,185 INFO 14724 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:37:21,368 INFO 14724 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:37:21,370 INFO 14724 [egg-security] use methodnoallow middleware
+2021-10-08 11:37:21,371 INFO 14724 [egg-security] use noopen middleware
+2021-10-08 11:37:21,371 INFO 14724 [egg-security] use nosniff middleware
+2021-10-08 11:37:21,372 INFO 14724 [egg-security] use xssProtection middleware
+2021-10-08 11:37:21,373 INFO 14724 [egg-security] use xframe middleware
+2021-10-08 11:37:21,373 INFO 14724 [egg-security] use dta middleware
+2021-10-08 11:37:21,373 INFO 14724 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:37:21,383 INFO 14724 [egg:core] dump config after load, 4ms
+2021-10-08 11:37:21,396 INFO 14724 [egg-watcher:application] watcher start success
+2021-10-08 11:37:21,397 INFO 14724 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:37:21 GMT+0800 (中国标准时间)
+2021-10-08 11:37:21,404 INFO 14724 [egg:core] dump config after ready, 5ms
+2021-10-08 11:54:39,563 INFO 7884 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:54:39,592 INFO 7884 [egg-multipart] stream mode enable
+2021-10-08 11:54:39,593 INFO 7884 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:54:39,791 INFO 7884 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:54:39,794 INFO 7884 [egg-security] use methodnoallow middleware
+2021-10-08 11:54:39,795 INFO 7884 [egg-security] use noopen middleware
+2021-10-08 11:54:39,796 INFO 7884 [egg-security] use nosniff middleware
+2021-10-08 11:54:39,796 INFO 7884 [egg-security] use xssProtection middleware
+2021-10-08 11:54:39,797 INFO 7884 [egg-security] use xframe middleware
+2021-10-08 11:54:39,798 INFO 7884 [egg-security] use dta middleware
+2021-10-08 11:54:39,798 INFO 7884 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:54:39,808 INFO 7884 [egg:core] dump config after load, 4ms
+2021-10-08 11:54:39,822 INFO 7884 [egg-watcher:application] watcher start success
+2021-10-08 11:54:39,823 INFO 7884 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:54:39 GMT+0800 (中国标准时间)
+2021-10-08 11:54:39,830 INFO 7884 [egg:core] dump config after ready, 5ms
+2021-10-08 11:54:41,181 INFO 8892 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 11:54:41,224 INFO 8892 [egg-multipart] stream mode enable
+2021-10-08 11:54:41,225 INFO 8892 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 11:54:41,484 INFO 8892 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 11:54:41,487 INFO 8892 [egg-security] use methodnoallow middleware
+2021-10-08 11:54:41,487 INFO 8892 [egg-security] use noopen middleware
+2021-10-08 11:54:41,488 INFO 8892 [egg-security] use nosniff middleware
+2021-10-08 11:54:41,489 INFO 8892 [egg-security] use xssProtection middleware
+2021-10-08 11:54:41,490 INFO 8892 [egg-security] use xframe middleware
+2021-10-08 11:54:41,490 INFO 8892 [egg-security] use dta middleware
+2021-10-08 11:54:41,490 INFO 8892 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 11:54:41,508 INFO 8892 [egg:core] dump config after load, 9ms
+2021-10-08 11:54:41,539 INFO 8892 [egg-watcher:application] watcher start success
+2021-10-08 11:54:41,540 INFO 8892 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 11:54:41 GMT+0800 (中国标准时间)
+2021-10-08 11:54:41,547 INFO 8892 [egg:core] dump config after ready, 5ms
+2021-10-08 13:13:23,934 INFO 11820 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 13:13:23,963 INFO 11820 [egg-multipart] stream mode enable
+2021-10-08 13:13:23,963 INFO 11820 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 13:13:24,179 INFO 11820 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 13:13:24,182 INFO 11820 [egg-security] use methodnoallow middleware
+2021-10-08 13:13:24,184 INFO 11820 [egg-security] use noopen middleware
+2021-10-08 13:13:24,185 INFO 11820 [egg-security] use nosniff middleware
+2021-10-08 13:13:24,186 INFO 11820 [egg-security] use xssProtection middleware
+2021-10-08 13:13:24,187 INFO 11820 [egg-security] use xframe middleware
+2021-10-08 13:13:24,188 INFO 11820 [egg-security] use dta middleware
+2021-10-08 13:13:24,188 INFO 11820 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 13:13:24,203 INFO 11820 [egg:core] dump config after load, 6ms
+2021-10-08 13:13:24,220 INFO 11820 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 13:13:24 GMT+0800 (中国标准时间)
+2021-10-08 13:13:24,223 INFO 11820 [egg-watcher:application] watcher start success
+2021-10-08 13:13:24,230 INFO 11820 [egg:core] dump config after ready, 6ms
+2021-10-08 13:13:25,590 INFO 15040 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 13:13:25,618 INFO 15040 [egg-multipart] stream mode enable
+2021-10-08 13:13:25,619 INFO 15040 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 13:13:25,834 INFO 15040 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 13:13:25,836 INFO 15040 [egg-security] use methodnoallow middleware
+2021-10-08 13:13:25,837 INFO 15040 [egg-security] use noopen middleware
+2021-10-08 13:13:25,838 INFO 15040 [egg-security] use nosniff middleware
+2021-10-08 13:13:25,838 INFO 15040 [egg-security] use xssProtection middleware
+2021-10-08 13:13:25,839 INFO 15040 [egg-security] use xframe middleware
+2021-10-08 13:13:25,839 INFO 15040 [egg-security] use dta middleware
+2021-10-08 13:13:25,839 INFO 15040 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 13:13:25,848 INFO 15040 [egg:core] dump config after load, 3ms
+2021-10-08 13:13:25,862 INFO 15040 [egg-watcher:application] watcher start success
+2021-10-08 13:13:25,863 INFO 15040 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 13:13:25 GMT+0800 (中国标准时间)
+2021-10-08 13:13:25,870 INFO 15040 [egg:core] dump config after ready, 5ms
+2021-10-08 13:36:54,792 INFO 11292 [egg:logger] init all loggers with options: {"dir":"D:\\H5\\stack\\steam\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-08 13:36:54,821 INFO 11292 [egg-multipart] stream mode enable
+2021-10-08 13:36:54,821 INFO 11292 [egg-mysql] connecting root@192.168.6.49:3306/steam
+2021-10-08 13:36:55,044 INFO 11292 [egg-static] starting static serve /public/ -> D:\H5\stack\steam\steam-web\code\app\public
+2021-10-08 13:36:55,047 INFO 11292 [egg-security] use methodnoallow middleware
+2021-10-08 13:36:55,047 INFO 11292 [egg-security] use noopen middleware
+2021-10-08 13:36:55,049 INFO 11292 [egg-security] use nosniff middleware
+2021-10-08 13:36:55,050 INFO 11292 [egg-security] use xssProtection middleware
+2021-10-08 13:36:55,051 INFO 11292 [egg-security] use xframe middleware
+2021-10-08 13:36:55,052 INFO 11292 [egg-security] use dta middleware
+2021-10-08 13:36:55,052 INFO 11292 [egg-security] compose 6 middlewares into one security middleware
+2021-10-08 13:36:55,062 INFO 11292 [egg:core] dump config after load, 5ms
+2021-10-08 13:36:55,077 INFO 11292 [egg-watcher:application] watcher start success
+2021-10-08 13:36:55,078 INFO 11292 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 08 2021 13:36:55 GMT+0800 (中国标准时间)
+2021-10-08 13:36:55,086 INFO 11292 [egg:core] dump config after ready, 6ms

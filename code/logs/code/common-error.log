@@ -1771,3 +1771,12 @@ name: "ETIMEDOUTError"
 pid: 8604
 hostname: DESKTOP-69ODE32
 
+2021-10-08 11:14:44,553 ERROR 3632 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3632
+hostname: monkey
+
