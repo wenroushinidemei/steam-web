@@ -165,18 +165,11 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false,
-      "client": {
-        "host": "192.168.6.49",
-        "port": "3306",
-        "user": "root",
-        "password": "<String len: 6>",
-        "database": "steam"
-      }
+      "agent": false
     },
     "env": "local",
     "name": "code",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 10>",
     "cookies": {},
     "proxy": false,
     "maxIpsCount": 0,

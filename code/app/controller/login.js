@@ -25,13 +25,14 @@ class LoginController extends Controller {
                 encrypt: false,
                 domain: 'steam.web',
             });
-            ctx.cookies.set('password', ctx.request.body.password, {
-                maxAge: 100000,
-                httpOnly: true,
-                signed: false,
-                encrypt: false,
-                domain: 'steam.web',
-            });
+            // ctx.cookies.set('password', ctx.request.body.password, {
+            //     maxAge: 100000,
+            //     path:'/',
+            //     httpOnly: false,
+            //     signed: false,
+            //     encrypt: false,
+            //     domain: 'steam.web',
+            // });
             ctx.body = {
                 code: 600,
                 msg: res,

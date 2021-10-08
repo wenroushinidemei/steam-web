@@ -1,0 +1,815 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+
+.evaluating_ls {
+    border-top: 1px solid #000;
+    background-color: #1B2838;
+    padding-bottom: 200px;
+
+    .page_content {
+        width: 940px;
+        margin: 0 auto;
+
+        .reviews_area {
+
+            .head {
+                font-family: "Motiva Sans", Sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #fff;
+                margin: 0 0 5px;
+                letter-spacing: 0.03em;
+                font-weight: normal;
+                padding-top: 2px;
+            }
+
+            .Overall {
+                background-color: #2a475e;
+                box-shadow: 0 0 5px #000;
+                position: relative;
+                display: flex;
+
+                .Overall-same {
+                    // box-shadow: 0 0 5px #000;
+                    display: inline-block;
+
+                    .summary_bar {
+                        border-bottom: 1px solid #000000;
+                        padding: 10px;
+                        // margin-bottom: 10px;
+                        background: none;
+                        min-height: 38px;
+
+                        .summary_section {
+                            display: inline-block;
+                            margin-right: 15px;
+                            color: #8ba6b6;
+                            min-width: 320px;
+
+                            .title {
+                                font-family: "Motiva Sans", Sans-serif;
+                                font-weight: normal;
+                                font-size: 15px;
+                                margin-bottom: 5px;
+                                color: #e5e5e5;
+                            }
+
+                            .positive {
+                                cursor: help;
+                                font-family: "Motiva Sans", Sans-serif;
+                                font-weight: bold;
+                                font-size: 17px;
+                                line-height: 9px;
+                                // text-shadow: 1px 1px rgb(0 0 0 / 20%);
+                                color: #66C0F4;
+                            }
+                        }
+                    }
+                }
+
+                .Overall-left {
+                    width: 605px;
+                }
+
+                .Overall-right {
+                    width: 335px;
+                    box-shadow: 0 0 5px #000;
+                    background: rgba(148, 217, 255, 0.2);
+                }
+
+            }
+
+            .filter_options {
+                padding: 0px;
+                font-size: 12px;
+                // padding: 10px;
+                margin-bottom: 30px;
+                background-color: #1f2f42;
+
+                .filter_menu {
+                    border-left: 1px solid #2a475e;
+                    position: relative;
+                    float: left;
+                    padding-right: 10px;
+
+                    .title {
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        color: #4582a5;
+                        padding: 10px;
+                        padding-right: 20px;
+                        cursor: pointer;
+                        background-image: url(../img/btn_arrow_down_padded.png);
+                        background-repeat: no-repeat;
+                        background-position-y: center;
+                        background-position-x: right;
+                    }
+
+                    .filter_menu_flyout {
+                        position: absolute;
+                        display: none;
+                        padding: 10px;
+                        color: #556772;
+                        line-height: 20px;
+                        z-index: 10;
+
+                        .filter_menu_flyout_content {
+                            position: relative;
+                            white-space: nowrap;
+
+                            .language {
+                                a {
+                                    text-transform: uppercase;
+                                    color: #67c1f5;
+                                    font-size: 10px;
+                                    background: rgba(0, 0, 0, 0.5);
+                                    padding: 3px 5px;
+                                    border-radius: 2px;
+                                }
+                            }
+
+                            .explanation {
+                                white-space: normal;
+                                padding-bottom: 10px;
+                                margin-bottom: 10px;
+                                border-bottom: 1px solid #4582a5;
+
+                                .btn {
+                                    border-radius: 2px;
+                                    border: none;
+                                    padding: 1px;
+                                    display: inline-block;
+                                    cursor: pointer;
+                                    text-decoration: none !important;
+                                    color: #A4D7F5 !important;
+                                    background: rgba(47, 137, 188, 1);
+                                    background: -webkit-linear-gradient(top, rgba(47, 137, 188, 1) 5%, rgba(23, 67, 92, 1) 95%);
+                                    background: linear-gradient(to bottom, rgba(47, 137, 188, 1) 5%, rgba(23, 67, 92, 1) 95%);
+                                }
+
+                                .btn:hover {
+                                    text-decoration: none !important;
+                                    color: #ffffff !important;
+                                    background: rgba(102, 192, 244, 1);
+                                    background: -webkit-linear-gradient(top, rgba(102, 192, 244, 1) 5%, rgba(47, 137, 188, 1) 95%);
+                                    background: linear-gradient(to bottom, rgba(102, 192, 244, 1) 5%, rgba(47, 137, 188, 1) 95%);
+                                }
+                            }
+
+                            .desc {
+                                a {
+                                    color: #19c0d0;
+
+                                    img {
+                                        height: 32px;
+                                        margin-right: 5px;
+                                    }
+
+                                    span {
+                                        display: inline-block;
+                                        position: relative;
+                                        bottom: 4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // .flyout2{
+                    //     width: 150px;
+                    // }
+                    // .flyout3{
+                    //     width: 130px;
+                    // }
+
+                }
+
+                .filter_menu:hover {
+                    background-color: #c6d4df;
+                }
+
+                .filter_menu:hover .filter_menu_flyout {
+                    display: block;
+                    background-color: #c6d4df;
+                }
+
+                .filter_display_as {
+                    float: left;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    color: #4582a5;
+                    padding: 5px 10px;
+                    border-left: 1px solid #2a475e;
+
+                    select {
+                        width: 100px;
+                        background: #4582a5;
+                        font-size: 12px;
+                        border: none;
+                        border-radius: 2px;
+                        margin-left: 5px;
+                        margin-top: 2px;
+
+                    }
+                }
+            }
+
+            .filter_options:after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+
+            .reviews_info_ctn {
+                border-bottom: 1px solid #000;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+
+                .active_filters {
+                    .title {
+                        font-family: "Motiva Sans", Sans-serif;
+                        font-weight: normal;
+                        text-transform: none;
+                        font-size: 15px;
+                        color: #c6d4df;
+                        padding-bottom: 5px;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                }
+
+                .filter_score {
+                    font-family: "Motiva Sans", Sans-serif;
+                    font-weight: normal;
+                    // display: none;
+                    padding-top: 10px;
+                    font-size: 15px;
+
+                    .positive {
+                        cursor: help;
+                        font-family: "Motiva Sans", Sans-serif;
+                        font-weight: bold;
+                        color: #66C0F4;
+                    }
+                }
+            }
+
+            .user_reviews_container {
+                margin-top: 0px;
+
+                .leftcol {
+                    width: 616px;
+                    float: left;
+
+                    .sub_header {
+                        font-family: "Motiva Sans", Sans-serif;
+                        font-weight: 300;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        padding-bottom: 5px;
+                        letter-spacing: 2px;
+
+                        .days {
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            color: #56707f;
+                        }
+                    }
+
+                    .review_box {
+                        background-color: rgba(0, 0, 0, 0.2);
+                        margin-bottom: 26px;
+                        background-image: url(../img/maincol_gradient_rule.png);
+                        background-repeat: no-repeat;
+                        background-position: top left;
+
+                        .ReviewContentsummary {
+                            .leftcool {
+                                width: 184px;
+                                float: left;
+                                padding: 8px;
+                                opacity: 0.6;
+
+                                .avatar {
+                                    float: left;
+                                    padding-right: 8px;
+                                    display: block;
+
+                                    a {
+                                        text-decoration: none;
+                                        color: #ffffff;
+
+                                        .playerAvatar {
+                                            background-color: #57cbde;
+                                            background: -webkit-linear-gradient(top, rgba(83, 164, 196, 1) 5%, rgba(69, 128, 151, 1) 95%);
+                                            background: linear-gradient(to bottom, rgba(83, 164, 196, 1) 5%, rgba(69, 128, 151, 1) 95%);
+                                            filter: none;
+
+                                            img {
+                                                background: -webkit-linear-gradient(top, #41778f 5%, #3d697b 95%);
+                                                background: linear-gradient(to bottom, #41778f 5%, #3d697b 95%);
+                                                width: 32px;
+                                                height: 32px;
+                                                padding: 1px;
+                                                border-radius: 0;
+                                                border: none;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .persona_name {
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    width: 140px;
+                                    overflow: hidden;
+                                    margin-top: 0px;
+                                    margin-top: -2px;
+                                    margin-bottom: -1px;
+                                    display: inline-block;
+
+                                    a {
+                                        color: #c1dbf4;
+                                        font-size: 13px;
+                                        font-family: "Motiva Sans", Sans-serif;
+                                        font-weight: bold;
+                                    }
+                                }
+
+                                .num_owned_games {
+                                    font-size: 11px;
+                                    color: #626366;
+                                    display: block;
+                                    line-height: 17px;
+
+                                    a {
+                                        color: #c1dbf4;
+                                    }
+                                }
+
+                                .num_reviews {
+                                    font-size: 11px;
+                                    color: #626366;
+                                    display: block;
+
+                                    a {
+                                        color: #c1dbf4;
+                                    }
+                                }
+
+                            }
+
+                            .rightcool {
+                                float: left;
+                                width: 400px;
+                                position: relative;
+
+                                .vote_header {
+                                    margin: 8px 0 13px;
+                                    display: block;
+                                    background: rgba(0, 0, 0, 0.2);
+                                    height: 40px;
+
+                                    .thumb {
+                                        float: left;
+                                        margin-right: 10px;
+                                    }
+
+                                    .review_source {
+                                        float: right;
+                                        margin-right: 5px;
+                                        margin-top: 12px;
+                                        opacity: 0.5;
+                                    }
+
+                                    .title {
+                                        font-size: 16px;
+                                        color: #d6d7d8;
+                                        font-family: "Motiva Sans", Sans-serif;
+                                        font-weight: normal;
+                                        padding: 3px 0px 0px 0px;
+                                        line-height: 19px;
+                                    }
+
+                                    .hours {
+                                        font-family: "Motiva Sans", Sans-serif;
+                                        font-weight: 300;
+                                        font-size: 11px;
+                                        line-height: 15px;
+                                        color: #8091a2;
+                                        opacity: 0.6;
+                                    }
+
+                                    .ellipsis {
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                    }
+                                }
+
+                                .vote_header:hover {
+                                    background: rgba(255, 255, 255, 0.1);
+                                }
+
+                                .postedDate {
+                                    margin: 0px 0px 8px;
+                                    font-size: 10px;
+                                    text-transform: uppercase;
+                                    font-style: normal;
+                                    color: #8091a2;
+                                    display: inline-block;
+                                    opacity: 0.6;
+                                }
+
+                                .content {
+                                    margin-right: 8px;
+                                    font-family: "Motiva Sans", Sans-serif;
+                                    font-weight: normal;
+                                    font-size: 13px;
+                                    line-height: 17px;
+                                    color: #acb2b8;
+                                    overflow-wrap: break-word;
+                                    overflow: hidden;
+                                }
+
+                                .posted {
+                                    font-size: 10px;
+                                    font-style: italic;
+                                    color: #626366;
+                                    margin: 0px;
+                                }
+
+                                .hr {
+                                    background-color: #363f4c;
+                                    height: 1px;
+                                }
+
+                                .control_block {
+                                    margin: 8px 0;
+                                    display: inline-block;
+
+                                    .helpful {
+                                        display: inline-block;
+                                        margin-right: 9px;
+                                        color: #8091a2;
+                                        font-size: 12px;
+                                        opacity: 0.6;
+                                    }
+
+                                    .vote_button_ctn {
+                                        padding-top: 10px;
+                                        padding-bottom: 5px;
+
+                                        .btn_small {
+                                            border-radius: 2px;
+                                            border: none;
+                                            padding: 1px;
+                                            display: inline-block;
+                                            cursor: pointer;
+                                            text-decoration: none !important;
+                                            color: #66c0f4 !important;
+                                            background: #212c3d;
+
+                                            span {
+                                                padding: 0 5px;
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                i {
+                                                    font-style: italic;
+                                                }
+
+                                                .ico16 {
+                                                    vertical-align: middle;
+                                                    display: inline-block;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                    background-image: url(../img/icons_16.png);
+                                                }
+
+                                                .thumb_upv6 {
+                                                    background-position: -112px -16px;
+                                                }
+
+                                                .thumb_downv6 {
+                                                    background-position: -64px -16px;
+                                                }
+
+                                                .funny {
+                                                    background-position: -208px -16px;
+                                                }
+
+                                                .reward_btn_icon {
+                                                    vertical-align: middle;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+
+                                        .btn_small:hover {
+                                            text-decoration: none !important;
+                                            color: #fff !important;
+                                            background: #66c0f4;
+                                        }
+                                    }
+                                }
+
+                                .vote_info {
+                                    padding: 0px 9px 8px 0px;
+                                    font-size: 12px;
+                                    color: #647580;
+                                    /* background-color: rgba( 0, 0, 0, 0.2 ); */
+                                    min-height: 16px;
+                                }
+
+                                .review_award_ctn {
+                                    padding-top: 5px;
+
+                                    .review_award {
+                                        display: inline-block;
+                                        background-color: rgba(0, 0, 0, 0.2);
+                                        border-radius: 5px;
+                                        padding: 5px;
+                                        margin: 0 2px;
+                                        cursor: pointer;
+
+                                        .review_award_icon {
+                                            width: 20px;
+                                            height: 20px;
+                                            vertical-align: middle;
+
+                                        }
+
+                                        .review_award_count {
+                                            color: #66c0f4;
+                                            font-size: 13px;
+                                            vertical-align: middle;
+                                            font-weight: bold;
+                                            padding: 3px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .ReviewContentsummary:after {
+                            display: block;
+                            content: "";
+                            clear: both;
+                        }
+                    }
+
+                    .review_box:hover .avatar,
+                    .persona_name,
+                    .num_owned_games,
+                    .num_reviews {
+                        color: #c1dbf4;
+                    }
+                }
+
+                .rightcol {
+                    width: 308px;
+                    margin-left: 14px;
+                    float: right;
+
+                    .sub_header {
+                        font-family: "Motiva Sans", Sans-serif;
+                        font-weight: 300;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        padding-bottom: 5px;
+                        letter-spacing: 2px;
+
+
+                    }
+
+                    .review_box {
+                        opacity: 0.9;
+                        background: linear-gradient(to right, rgba(34, 50, 70, 1) -1%, rgba(34, 50, 70, 1) 0%, rgba(34, 50, 70, 0) 92%, rgba(34, 50, 70, 0) 100%);
+                        margin-bottom: 20px;
+
+                        .ReviewContentrecent {
+                            .short_header {
+                                height: 24px;
+                                color: #819db8;
+                                background-color: rgba(0, 0, 0, 0.3);
+                                margin-bottom: 6px;
+                                display: block;
+                                line-height: 15px;
+                                position: relative;
+
+                                .review_source {
+                                    float: right;
+                                    margin-right: 5px;
+                                    margin-top: 4px;
+                                    opacity: 0.5;
+
+                                }
+
+                                .thumb {
+                                    display: block;
+                                    float: left;
+
+                                    img {
+                                        width: 24px;
+                                        height: 24px;
+                                    }
+                                }
+
+                                .persona_name {
+                                    max-width: 120px;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    margin-top: 5px;
+                                    margin-left: 6px;
+                                    width: 140px;
+                                    position: absolute;
+                                    left: 25px;
+                                    top: 0px;
+                                }
+
+                                .hours {
+                                    opacity: 0.5;
+                                    margin-top: 5px;
+                                    margin-left: 6px;
+                                    position: absolute;
+                                    left: 130px;
+                                    top: 0px;
+                                    // display: block;
+                                    // float: left;
+                                }
+
+                                .ellipsis {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                            }
+
+                            .short_header:after {
+                                display: block;
+                                content: "";
+                                clear: both;
+                            }
+
+                            .short_header:hover {
+                                background: rgba(255, 255, 255, 0.1);
+                            }
+
+                            .shortcol {
+                                padding-left: 8px;
+
+                                .postedDate {
+                                    margin: 0px 0px 8px;
+                                    font-size: 10px;
+                                    text-transform: uppercase;
+                                    font-style: normal;
+                                    color: #8091a2;
+                                    display: inline-block;
+                                    opacity: 0.6;
+                                }
+
+                                .content {
+                                    margin-right: 8px;
+                                    font-family: "Motiva Sans", Sans-serif;
+                                    font-weight: normal;
+                                    font-size: 13px;
+                                    line-height: 17px;
+                                    color: #9fb4c9;
+                                    overflow-wrap: break-word;
+                                    overflow: hidden;
+
+                                }
+
+                                .hr {
+                                    background-color: rgba(0, 0, 0, 0.5);
+                                    height: 1px;
+                                }
+
+                                .control_block {
+                                    margin: 8px 0;
+                                    display: inline-block;
+
+                                    .helpful {
+                                        display: inline-block;
+                                        margin-right: 9px;
+                                        color: #8091a2;
+                                        font-size: 12px;
+                                        opacity: 0.6;
+                                    }
+
+                                    .vote_button_ctn {
+                                        padding-top: 10px;
+                                        padding-bottom: 5px;
+
+                                        .btn_small {
+                                            border-radius: 2px;
+                                            border: none;
+                                            padding: 1px;
+                                            display: inline-block;
+                                            cursor: pointer;
+                                            text-decoration: none !important;
+                                            color: #66c0f4 !important;
+                                            background: #212c3d;
+
+                                            span {
+                                                padding: 0 5px;
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                i {
+                                                    font-style: italic;
+                                                }
+
+                                                .ico16 {
+                                                    vertical-align: middle;
+                                                    display: inline-block;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                    background-image: url(../img/icons_16.png);
+                                                }
+
+                                                .thumb_upv6 {
+                                                    background-position: -112px -16px;
+                                                }
+
+                                                .thumb_downv6 {
+                                                    background-position: -64px -16px;
+                                                }
+
+                                                .funny {
+                                                    background-position: -208px -16px;
+                                                }
+
+                                                .reward_btn_icon {
+                                                    vertical-align: middle;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+
+                                        .btn_small:hover {
+                                            text-decoration: none !important;
+                                            color: #fff !important;
+                                            background: #66c0f4;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bottom {
+                    width: 616px;
+                    float: left;
+                    padding-top: 8px;
+                    font-size: 12px;
+                    text-align: center;
+
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: #66c0f4;
+                    }
+                }
+            }
+
+            .user_reviews_container:after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+        }
+    }
+}
