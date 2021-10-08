@@ -1771,3 +1771,33 @@ name: "ETIMEDOUTError"
 pid: 8604
 hostname: DESKTOP-69ODE32
 
+2021-10-08 09:46:38,962 ERROR 1072 [-/192.168.6.53/-/18ms POST /login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg@2.30.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg@2.30.0@egg\app\extend\context.js:22:66)
+    at LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:20:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1072
+hostname: DESKTOP-69ODE32
+
+2021-10-08 10:05:46,066 ERROR 16088 [-/192.168.6.53/-/42ms POST /login] nodejs.ReferenceError: flase is not defined
+    at SelectService.user (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\service\select.js:31:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async LoginController.login (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\app\controller\login.js:12:19)
+    at async F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16088
+hostname: DESKTOP-69ODE32
+

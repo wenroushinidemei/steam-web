@@ -15,7 +15,7 @@ const config = {
         // 单数据库信息配置
         client: {
             // host -- localhost 或 数据库所在ip 或 host名 
-            host: '192.168.31.186',
+            host: '192.168.6.49',
             // 端口号
             port: '3306',
             // 用户名 ---数据库的用户名
@@ -37,7 +37,8 @@ const config = {
             ignoreJSON: true,
         },
         domainWhiteList: ['*'],
-    }
+    },
+    keys:'adsfsghjkl'
 }
 
 module.exports = config
