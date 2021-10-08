@@ -2,8 +2,8 @@
   "cluster": {
     "listen": {
       "port": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
-      "hostname": "D:\\H5\\stack\\steam\\steam-web\\code\\config\\config.default.js",
-      "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\H5\\stack\\steam\\steam-web\\code\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "cors": {

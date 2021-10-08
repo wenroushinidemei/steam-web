@@ -32,8 +32,8 @@ li {
 .box_selected_fh .box_gutter .gift_card img {
   width: 210px;
   height: 116px;
-  background-color: yellow;
   border: none;
+  cursor: pointer;
 }
 
 .box_selected_fh .box_gutter .gutter_header {
@@ -46,15 +46,62 @@ li {
   margin: 7px 0px;
 }
 
-.box_selected_fh .box_gutter #pad img {
+.box_selected_fh .box_gutter #pad div {
+  margin: 7px 0px;
+  cursor: pointer;
+}
+
+.box_selected_fh .box_gutter #pad div:hover {
+  color: #fff;
+}
+
+.box_selected_fh .box_gutter #pad div span {
+  display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 4px;
   background-color: saddlebrown;
+  background: url(https://store.st.dl.pinyuncloud.com/public/images/v6/store_menu_icons.png?v=2) no-repeat;
 }
 
-.box_selected_fh .box_gutter #pad div {
-  margin: 7px 0px;
+.box_selected_fh .box_gutter #pad div .curators {
+  background-position: -16px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .tag {
+  background-position: -32px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .queue {
+  background-position: -48px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .new {
+  background-position: -64px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .hot {
+  background-position: -80px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .newGames {
+  background-position: -112px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .upcoming {
+  background-position: -128px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .discounts {
+  background-position: -144px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .vr {
+  background-position: -160px 0px;
+}
+
+.box_selected_fh .box_gutter #pad div .controller {
+  background-position: -176px 0px;
 }
 
 .box_selected_fh .box_content {
@@ -65,7 +112,6 @@ li {
 .box_selected_fh .box_content .box_cluster {
   height: 412px;
   padding-bottom: 40px;
-  background-color: brown;
 }
 
 .box_selected_fh .box_content .box_cluster .title_selected {
@@ -79,27 +125,33 @@ li {
 .box_selected_fh .box_content .box_cluster .box_maincap {
   height: 380px;
   margin-top: 5px;
+  position: relative;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel {
   height: 353px;
+  width: 940px;
   background-color: #0A141D;
   display: flex;
   justify-content: space-between;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .left {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .left {
   width: 616px;
   background-color: #fff;
+  z-index: 100;
+  cursor: pointer;
+  display: inline-block;
+  height: 353px;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right {
   width: 314px;
   color: white;
   position: relative;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .game_name {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .game_name {
   height: 70;
   padding: 0px 6px;
   display: flex;
@@ -110,41 +162,39 @@ li {
   word-wrap: break-word;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .screenshots {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .screenshots {
   width: 344px;
   height: 163px;
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  right: 10px;
+  right: 0px;
   top: 70px;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .screenshots img {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .screenshots img {
   width: 162px;
   height: 69px;
   padding: 10px 10px 0px 0px;
-  background-color: blue;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .reason {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .reason {
   width: 298px;
   height: 56px;
   margin-top: 8px;
-  padding-left: 6px;
   position: absolute;
   left: 10px;
   top: 233px;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .reason .main_default {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .reason .main_default {
   font-size: 21px;
   font-weight: 200;
   line-height: 18px;
   padding: 6px 10px 0px 0px;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .reason .hotshop {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .reason .hotshop {
   margin: 8px 2px 3px 0px;
   padding: 0px 7px;
   border: 1px solid black;
@@ -156,7 +206,7 @@ li {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .box_bottom {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom {
   width: 100%;
   position: absolute;
   bottom: 10px;
@@ -167,11 +217,31 @@ li {
   color: #ACDBF5;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .box_bottom .price {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom .price {
   display: inline-block;
+  display: flex;
+  font-size: 11px;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_items .right .box_bottom img {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom .price .discount_pct {
+  color: #a4d007;
+  background: #4c6b22;
+  display: inline-block;
+  padding: 0px 3px;
+  font-size: 12px;
+  border: none;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom .price .pass {
+  color: #7193a6;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom .price .now {
+  color: #acdbf5;
+  padding-left: 4px;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel .right .box_bottom img {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -186,7 +256,11 @@ li {
   justify-content: center;
 }
 
-.box_selected_fh .box_content .box_cluster .box_maincap .carousel_thumbs div {
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel_thumbs li.focus {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel_thumbs li {
   width: 15px;
   height: 9px;
   margin: 12px 2px;
@@ -194,6 +268,51 @@ li {
   transition: background-color 0.2s;
   background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .carousel_thumbs li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow {
+  padding: 36px 11px;
+  width: 23px;
+  height: 36px;
+  cursor: pointer;
+  position: absolute;
+  top: 122px;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_left:hover {
+  background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_left {
+  left: -46px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_left div {
+  height: 36px;
+  width: 23px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-position-x: 23px;
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_right:hover {
+  background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3) 95%);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_right {
+  right: -46px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+}
+
+.box_selected_fh .box_content .box_cluster .box_maincap .arrow_right div {
+  height: 36px;
+  width: 23px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
 }
 
 .box_selected_fh .box_content .box_special {

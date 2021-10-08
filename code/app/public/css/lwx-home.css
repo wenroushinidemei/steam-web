@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .header-box_lwx {
@@ -27,6 +28,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
+  z-index: 1000;
 }
 
 .header-box_lwx .header > img {
@@ -40,6 +42,7 @@
   height: 68px;
   display: flex;
   flex-direction: row;
+  align-items: start;
   justify-content: space-evenly;
   margin-top: 40px;
   margin-left: 20px;
@@ -124,7 +127,7 @@
   line-height: 25px;
   position: absolute;
   display: flex;
-  right: 5px;
+  right: 10px;
   top: 5px;
 }
 
@@ -138,7 +141,7 @@
   background-color: #5c7e10;
 }
 
-.header-box_lwx .header .header-right a:nth-child(2) {
+.header-box_lwx .header .header-right > a:nth-child(2) {
   color: #E5E4DC;
   font-size: 12px;
   font-family: motiva sans-serif;
@@ -159,17 +162,49 @@
   color: #FFFFFF;
 }
 
-.header-box_lwx .header .header-right select {
-  font-size: 12px;
-  color: #b8b6b4;
-  width: 47px;
-  border-style: none;
-  margin-left: 4px;
+.header-box_lwx .header .header-right .lanuage {
+  margin-left: 8px;
   text-decoration: none;
-  background-color: #171A21;
+  align-self: center;
+  position: relative;
 }
 
-.header-box_lwx .header .header-right select:hover {
+.header-box_lwx .header .header-right .lanuage > a {
+  font-size: 12px;
+  color: #b8b6b4;
+  margin-top: 3px;
+}
+
+.header-box_lwx .header .header-right .lanuage > a:hover {
+  color: #FFFFFF;
+}
+
+.header-box_lwx .header .header-right .lanuage .select {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.header-box_lwx .header .header-right .lanuage .select-show {
+  width: 250px;
+  height: 730px;
+  border: 1px solid #171a21;
+  position: relative;
+  background-color: #171a21;
+  position: absolute;
+  right: 0px;
+}
+
+.header-box_lwx .header .header-right .lanuage .select-show > p > a {
+  font-size: 12px;
+  color: #b8b6b4;
+  margin-top: 3px;
+  margin-left: 15px;
+  padding: 6px 0px;
+  white-space: pre-wrap;
+}
+
+.header-box_lwx .header .header-right .lanuage .select-show > p > a:hover {
   color: #FFFFFF;
 }
 
@@ -185,7 +220,7 @@
   width: 100%;
   height: 183px;
   background-color: #171A21;
-  padding: 1px;
+  padding-top: 5px;
 }
 
 .footer_lwx .footer-top {

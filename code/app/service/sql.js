@@ -592,7 +592,7 @@ class SqlService extends Service {
         let price = [['-10%','¥ 70.00','¥ 63.00'],['¥ 22.00'],['免费开玩'],['¥ 80.00']];
 
         let module = ' firstProduct ';
-        let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName, content: JSON.stringify(content), price: JSON.stringify(price), userComments: JSON.stringify(userComments), module: module });
+       let result = await this.app.mysql.insert('indexGame', { imgurls: JSON.stringify(imgurls), price: JSON.stringify(price), gameName: gameName,  module: module });
     }
 
     //let res = await this.ctx.service.sql.insert();//函授调用
@@ -603,6 +603,11 @@ class SqlService extends Service {
    //console.log(JSON.parse(result.price));
     // let res = await this.ctx.service.sql.insert()
     // let res = await this.ctx.service.sql();
+    // async look(){
+    //     let  result = await this.app.mysql.get('indexGame',{module:'popularGoods'})
+    //     console.log(result)
+    //     look()
+    // }
    
 }
 

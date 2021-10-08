@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: rgb(27, 40, 56);
+}
+
+// 根class
+.search_ly {
+    width: 940px;
+    margin: 0 auto;
+
+    // 右侧的搜索和展示
+    .searchList {
+        width: 686px;
+        // 使用浮动进行左右布局
+        float: left;
+
+        .searchInput {
+            height: 28.5px;
+            padding: 6px;
+            margin-bottom: 4px;
+            background-color: rgba(0, 0, 0, 0.4);
+
+            #search_text {
+                width: 300px;
+                padding: 5px;
+                border: 1px solid #000;
+                border-radius: 3px;
+                color: #fff;
+                background-color: rgba(103, 193, 245, 0.2);
+                box-shadow: 1px 1px 0px rgb(27, 40, 56);
+            }
+
+            #search_btn {
+                height: 25px;
+                padding: 1px 16px;
+                margin-left: 5px;
+                vertical-align: text-top;
+                border: none;
+                border-radius: 2px;
+                color: #67c1f5;
+                background: rgba(103, 193, 245, 0.2);
+                &:hover{
+                background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
+                    color: #fff;
+                }
+            }
+
+            .sortbox {
+                float: right;
+
+                &>span {
+                    font-size: 12px;
+                    color: #4c6c8c;
+                    margin-right: 2px;
+                }
+
+                &>select {
+                    box-sizing: border-box;
+                    width: 120px;
+                    height: 21px;
+                    padding-left: 4px;
+                    border: 0;
+                    border-radius: 3px;
+                    font-size: 12px;
+                    color: #67c1f5;
+                    background-color: rgba(103, 193, 245, 0.1);
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #67c1f5;
+                    }
+                }
+            }
+        }
+        .searchMsg{
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #c6d4df;
+            background-color: rgba($color: #000000, $alpha: 0.2);
+        }
+    }
+
+    // 左侧的条件目录
+    .searchCondition {
+        width: 0;
+        margin-left: 0;
+        float: right;
+    }
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #1b2838;
+}
+
+.search_ly {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.search_ly .searchList {
+  width: 686px;
+  float: left;
+}
+
+.search_ly .searchList .searchInput {
+  height: 28.5px;
+  padding: 6px;
+  margin-bottom: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.search_ly .searchList .searchInput #search_text {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  background-color: rgba(103, 193, 245, 0.2);
+  box-shadow: 1px 1px 0px #1b2838;
+}
+
+.search_ly .searchList .searchInput #search_btn {
+  height: 25px;
+  padding: 1px 16px;
+  margin-left: 5px;
+  vertical-align: text-top;
+  border: none;
+  border-radius: 2px;
+  color: #67c1f5;
+  background: rgba(103, 193, 245, 0.2);
+}
+
+.search_ly .searchList .searchInput #search_btn:hover {
+  background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
+  color: #fff;
+}
+
+.search_ly .searchList .searchInput .sortbox {
+  float: right;
+}
+
+.search_ly .searchList .searchInput .sortbox > span {
+  font-size: 12px;
+  color: #4c6c8c;
+  margin-right: 2px;
+}
+
+.search_ly .searchList .searchInput .sortbox > select {
+  box-sizing: border-box;
+  width: 120px;
+  height: 21px;
+  padding-left: 4px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.1);
+}
+
+.search_ly .searchList .searchInput .sortbox > select:hover {
+  color: #fff;
+  background-color: #67c1f5;
+}
+
+.search_ly .searchList .searchMsg {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #c6d4df;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.search_ly .searchCondition {
+  width: 0;
+  margin-left: 0;
+  float: right;
+}
+/*# sourceMappingURL=ly-sreach.css.map */

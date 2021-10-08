@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>欢迎来到Steam</title>
     <link rel="stylesheet" href="./css/lwx-home.css">
+    <link rel="stylesheet" href="./css/ls-home.css">
     <link rel="stylesheet" href="./css/yjg-home.css">
     <link rel="stylesheet" href="./css/fh-steam.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.5.1/jquery.js" type="application/javascript">
+    </script>
+
 </head>
 
 <body>
     <div>
-        <!-- 首行 -->
-
-        <!-- 整个头部区域 -->
+        <!-- 李文娴： 整个头部区域 -->
         <div class="header-box_lwx">
-
             <!-- 头部 -->
             <div class="header">
 
@@ -63,73 +65,266 @@
                     <span>|</span>
 
                     <!-- 语言下拉框 -->
-                    <select>
-                        <option value="">语言</option>
-                        <option value=""> 繁體中文 (繁体中文)</option>
-                        <option value="">日本語 (日语)</option>
-                        <option value="">한국어 (韩语)</option>
-                        <option value="">เทย์ (泰语)</option>
-                        <option value="">Български (保加利亚语)</option>
-                        <option value="">Čeština (捷克语)</option>
-                        <option value="">Dansk (丹麦语)</option>
-                        <option value="">Deutsch (德语)</option>
-                        <option value="">English (英语)</option>
-                        <option value="">Español (西班牙语)</option>
-                        <option value="">Ελληνικά (希腊语)</option>
-                        <option value="">Français (法语)</option>
-                        <option value="">Italiano (意大利语)</option>
-                        <option value="">Magyar (甸牙利语)</option>
-                        <option value="">Nederlands (荷兰语)</option>
-                        <option value="">Norsk (挪威语)</option>
-                        <option value="">Polski (波兰语)</option>
-                        <option value="">português (葡萄牙语)</option>
-                        <option value="">Română (罗马尼亚语)</option>
-                        <option value="">Русский (俄语)</option>
-                        <option value="">Suomi (芬兰语)</option>
-                        <option value="">Svenska (瑞典语)</option>
-                        <option value="">Türkçe (土耳其语)</option>
-                        <option value="">tiếng Việt (越南语)</option>
-                        <option value="">Українська (乌克兰语)</option>
-                        <option value="">帮助我们翻译Steam</option>
-                    </select>
+                    <div class="lanuage">
+                        <a href="" id="lanuage">语言</a>
+                        <div class="select">
+                            <p><a href="">繁體中文 ( 繁体中文 )</a></p>
+                            <p><a href="">日本語 ( 日语 )</a></p>
+                            <p><a href="">한국어 ( 韩语 )</a></p>
+                            <p><a href="">เทย์ ( 泰语 )</a></p>
+                            <p><a href="">Български ( 保加利亚语 )</a></p>
+                            <p><a href="">Čeština ( 捷克语 )</a></p>
+                            <p><a href="">Dansk ( 丹麦语 )</a></p>
+                            <p><a href="">Deutsch ( 德语 )</a></p>
+                            <p><a href="">English ( 英语 )</a></p>
+                            <p><a href="">Español ( 西班牙语 - 拉丁美洲 )</a></p>
+                            <p><a href="">Ελληνικά ( 希腊语 )</a></p>
+                            <p><a href="">Français ( 法语 )</a></p>
+                            <p><a href="">Italiano ( 意大利语 )</a></p>
+                            <p><a href="">Magyar ( 甸牙利语 )</a></p>
+                            <p><a href="">Nederlands ( 荷兰语 )</a></p>
+                            <p><a href="">Norsk ( 挪威语 )</a></p>
+                            <p><a href="">Polski ( 波兰语 )</a></p>
+                            <p><a href="">português ( 葡萄牙语 )</a></p>
+                            <p><a href="">Română ( 罗马尼亚语 )</a></p>
+                            <p><a href="">Русский ( 俄语 )</a></p>
+                            <p><a href="">Suomi ( 芬兰语 )</a></p>
+                            <p><a href="">Svenska ( 瑞典语 )</a></p>
+                            <p><a href="">Türkçe ( 土耳其语 )</a></p>
+                            <p><a href="">tiếng Việt ( 越南语 )</a></p>
+                            <p><a href="">Українська ( 乌克兰语 )</a></p>
+                            <p><a href="">帮助我们翻译Steam</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- 主要内容 -->
+        <div class="main-content">
 
+            <!--李爽-- 二次导航栏 -->
+            <div class="nav_lishuang">
+                <div class="nav_bg">
+                    <div class="nav">
+                        <!-- 你的商店 -->
+                        <div class="tab store">
+                            <span>
+                                <a href="">
+                                    您的商店
+                                </a>
+                            </span>
+                        </div>
+                        <!-- 第一个下拉框 -->
+                        <div class="drop">
+                            <div class="drop_body">
+                                <a href="" class="item">主页</a>
+                                <a href="" class="item">社区推荐</a>
+                                <a href="" class="item">最近已查看</a>
+                                <a href="" class="item">Steam 鉴赏家</a>
+                            </div>
+                        </div>
+                        <!-- 新鲜推荐 -->
+                        <div class="tab recommend">
+                            <span>
+                                <a href="" class="diff">新鲜推荐</a>
+                            </span>
+                        </div>
+                        <!-- 第二个下拉框 -->
+                        <div class="drop2">
+                            <div class="drop_body">
+                                <a href="" class="item">热销商品</a>
+                                <a href="" class="item">新品与热门商品</a>
+                                <a href="" class="item">当前特惠</a>
+                                <a href="" class="item">最近更新</a>
+                                <a href="" class="item">热门即将推出</a>
+                            </div>
+                        </div>
+                        <!-- 类别 -->
+                        <div class="tab category">
+                            <span>
+                                <a href="" class="diff">类别</a>
+                            </span>
+                        </div>
+                        <!-- 第三个下拉框 -->
+                        <div class="drop3">
+                            <div class="drop_body">
+                                <div class="list">
+                                    <div class="title">特别栏目</div>
+                                    <a href="" class="item">免费游玩</a>
+                                    <a href="" class="item">试玩</a>
+                                    <a href="" class="item">抢先体验</a>
+                                    <a href="" class="item">支持控制器</a>
+                                    <a href="" class="item">远程畅玩</a>
+                                    <a href="" class="item">软件</a>
+                                    <a href="" class="item">原声音轨</a>
+                                    <a href="" class="item">虚拟现实</a>
+                                    <a href="" class="item">VR 硬件</a>
+                                    <a href="" class="item">Steam Deck</a>
+                                    <a href="" class="item">macOS</a>
+                                    <a href="" class="item">SteamOS + Linux</a>
+                                    <a href="" class="item">网吧游戏</a>
+                                </div>
+                                <div class="list xian">
+                                    <div class="title">类型</div>
+                                    <div class="list-title">
+                                        <a href="">动作</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">动作类 Rogue</a>
+                                        <a href="" class="item">平台及奔跑</a>
+                                        <a href="" class="item">格斗及武术</a>
+                                        <a href="" class="item">清版动作</a>
+                                        <a href="" class="item">第一人称射击</a>
+                                        <a href="" class="item">第三人称射击</a>
+                                        <a href="" class="item">街机及节奏</a>
+                                    </div>
+                                    <div class="list-title">
+                                        <a href="">冒险及休闲</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">休闲</a>
+                                        <a href="" class="item">冒险</a>
+                                        <a href="" class="item">冒险角色扮演</a>
+                                        <a href="" class="item">剧情丰富</a>
+                                        <a href="" class="item">类银河战士恶魔城</a>
+                                        <a href="" class="item">视觉小说</a>
+                                        <a href="" class="item">解谜</a>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="title">
+                                        <br>
+                                    </div>
+                                    <div class="list-title">
+                                        <a href="">角色扮演</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">冒险角色扮演</a>
+                                        <a href="" class="item">动作角色扮演</a>
+                                        <a href="" class="item">回合制</a>
+                                        <a href="" class="item">团队制</a>
+                                        <a href="" class="item">日系角色扮演</a>
+                                        <a href="" class="item">策略角色扮演</a>
+                                        <a href="" class="item">类 Rogue</a>
+                                    </div>
+                                    <div class="list-title">
+                                        <a href="">模拟</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">农场及制作</a>
+                                        <a href="" class="item">商业及大亨</a>
+                                        <a href="" class="item">太空及飞行</a>
+                                        <a href="" class="item">建造及自动化</a>
+                                        <a href="" class="item">恋爱</a>
+                                        <a href="" class="item">沙盒及物理</a>
+                                        <a href="" class="item">生活及沉浸式</a>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="title">
+                                        <br>
+                                    </div>
+                                    <div class="list-title">
+                                        <a href="">策略</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">军事</a>
+                                        <a href="" class="item">卡牌及桌游</a>
+                                        <a href="" class="item">即时战略</a>
+                                        <a href="" class="item">回合制策略</a>
+                                        <a href="" class="item">城市及居住地</a>
+                                        <a href="" class="item">塔防</a>
+                                        <a href="" class="item">大战略及 4X</a>
+                                    </div>
+                                    <div class="list-title">
+                                        <a href="">体育及竞速</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="item">体育模拟</a>
+                                        <a href="" class="item">单人运动</a>
+                                        <a href="" class="item">团队体育</a>
+                                        <a href="" class="item">所有运动</a>
+                                        <a href="" class="item">竞速</a>
+                                        <a href="" class="item">竞速模拟</a>
+                                        <a href="" class="item">钓鱼及狩猎</a>
+                                    </div>
+                                </div>
+                                <div class="list xian">
+                                    <div class="title">主题</div>
+                                    <div>
+                                        <a href="" class="item">动漫</a>
+                                        <a href="" class="item">太空</a>
+                                        <a href="" class="item">开放世界</a>
+                                        <a href="" class="item">恐怖</a>
+                                        <a href="" class="item">悬疑及推理</a>
+                                        <a href="" class="item">生存</a>
+                                        <a href="" class="item">科幻及赛博朋克</a>
+                                    </div>
+                                    <div class="title">玩家支持</div>
+                                    <div>
+                                        <a href="" class="item">单人</a>
+                                        <a href="" class="item">合作</a>
+                                        <a href="" class="item">在线竞技</a>
+                                        <a href="" class="item">多人</a>
+                                        <a href="" class="item">大型多人在线</a>
+                                        <a href="" class="item">局域网</a>
+                                        <a href="" class="item">本地及派对</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="tab"><span>点数商店</span></a>
+                        <a href="" class="tab"><span>新闻</span></a>
+                        <a href="" class="tab"><span>实验室</span></a>
+                        <!-- 空白区域 -->
+                        <div class="space"></div>
+                        <!-- 右边搜索框 -->
+                        <div class="search_area">
+                            <div class="store_search">
+                                <form action="">
+                                    <div class="search_box">
+                                        <input type="text" placeholder="搜索" class="default">
+                                        <a href="">
+                                            <img src="./img/search_icon_btn.png" alt="">
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-        <div>
-            <!-- 二次导航栏 -->
-            <div></div>
-            <!-- 精选推荐 -->
+            <!-- 精选推荐 ：符和-->
             <div class="box_selected_fh">
                 <!-- 左边列表 -->
                 <div class="box_gutter">
                     <!-- 图片 礼物卡 -->
                     <div class="gift_card">
-                        <img src="" alt="">
+                        <img src="	https://store.st.dl.pinyuncloud.com/public/images//gift/steamcards_promo_02.png"
+                            alt="">
                         <br>
-                        礼物卡
+                        礼物
                     </div>
 
                     <!-- 现在推出 -->
-                    <div class="gutter_header" id="pad">
-                        现已在Steam上推出
+                    <div class="gutter_header nowLaunch" id="pad">
+                        <div>现已在Steam上推出</div>
                     </div>
 
                     <!-- 推荐 -->
                     <div class="gutter_header">推荐</div>
                     <div class="gutter_header" id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span></span>
                             由好友推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="curators"></span>
                             由鉴赏家推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="tag"></span>
                             标签
                         </div>
                     </div>
@@ -138,11 +333,11 @@
                     <div class="gutter_header">探索队列</div>
                     <div id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span class="queue"></span>
                             推荐
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="new"></span>
                             新品
                         </div>
                     </div>
@@ -151,27 +346,27 @@
                     <div class="gutter_header">浏览分类</div>
                     <div class="gutter_header" id="pad">
                         <div>
-                            <img src="" alt="">
+                            <span class="hot"></span>
                             热销商品
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="newGames"></span>
                             新品
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="upcoming"></span>
                             即将推出
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="discounts"></span>
                             优惠
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="vr"></span>
                             虚拟现实
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <span class="controller"></span>
                             支持控制器
                         </div>
                     </div>
@@ -210,17 +405,17 @@
                     <div class="box_cluster">
                         <h2 class="title_selected">精选和优惠</h2>
                         <div class="box_maincap">
-                            <div class="carousel_items">
-                                <div class="left">
+                            <div class="carousel">
 
-                                </div>
+                                <!--测试-  -->
+                                <!-- <div class="left" style="background-image: url(${imgs[0]})"></div>
                                 <div class="right">
                                     <div class="game_name">啦啦啦啦啦</div>
                                     <div class="screenshots">
-                                        <img class="first" src="" />
-                                        <img class="second" src="" />
-                                        <img class="third" src="" />
-                                        <img class="four" src="" />
+                                        <img src="${imgs[0]}">
+                                        <img src="${imgs[1]}">
+                                        <img src="${imgs[2]}">
+                                        <img src="${imgs[3]}">
                                     </div>
                                     <div class="reason">
                                         <h2 class="main_default">现已推出</h2>
@@ -230,27 +425,31 @@
                                         <div class="price">￥64.00</div>
                                         <img src="" class="pic_windows">
                                     </div>
-
-                                </div>
+                                </div>  -->
 
                             </div>
 
+                            <ul class="carousel_thumbs">
+                                <li data-index="1" class="focus"></li>
+                                <li data-index="2"></li>
+                                <li data-index="3"></li>
+                                <li data-index="4"></li>
+                                <li data-index="5"></li>
+                                <li data-index="6"></li>
+                                <li data-index="7"></li>
+                                <li data-index="8"></li>
+                                <li data-index="9"></li>
+                                <li data-index="10"></li>
+                                <li data-index="11"></li>
+                                <li data-index="12"></li>
+                            </ul>
 
-                            <div class="carousel_thumbs">
-                                <div class="swpear1" id="focus"></div>
-                                <div class="swpear2"></div>
-                                <div class="swpear3"></div>
-                                <div class="swpear4"></div>
-                                <div class="swpear5"></div>
-                                <div class="swpear6"></div>
-                                <div class="swpear7"></div>
-                                <div class="swpear8"></div>
-                                <div class="swpear9"></div>
-                                <div class="swpear10"></div>
-                                <div class="swpear11"></div>
+                            <div class="arrow_left arrow">
+                                <div></div>
                             </div>
-                            <div class="arrow_left"></div>
-                            <div class="arrow_right"></div>
+                            <div class="arrow_right arrow">
+                                <div></div>
+                            </div>
                         </div>
                     </div>
 
@@ -288,6 +487,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="right_col">
                                 <div class="box_review">
                                     <div class="description"></div>
@@ -307,13 +507,13 @@
                                 <!-- <div class="box_review focus"></div> -->
                                 <!-- 点击切换评测 -->
                                 <div class="change-page">
-                                    <div class="prev">
-                                        <</div> <div class="desc">2篇评测之2
-                                    </div>
-                                    <div class="next">></div>
+                                    <div class="prev">&lt;</div>
+                                    <div class="desc">2篇评测之2</div>
+                                    <div class="next">&gt;</div>
                                 </div>
                             </div>
                         </div>
+
 
                         <div class="carousel_thumbs">
                             <div class="swpear1" id="focus"></div>
@@ -325,16 +525,15 @@
                             <div class="swpear7"></div>
                             <div class="swpear8"></div>
                             <div class="swpear9"></div>
-
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
 
-            <!-- 游戏展示 -->
+
+            <!-- 游戏展示 ：杨君阁-->
             <div class="game-show-yjg">
                 <!--头部标题栏-->
                 <div class="show-Header">
@@ -442,57 +641,72 @@
                 </div>
             </div>
         </div>
+        <!--整个底部区域 -->
+        <div class="footer_lwx">
 
-    </div>
+            <!-- 底部 -->
+            <div class="footer-top">
 
+                <!-- 左边的图片 -->
+                <img src="./img/02.png" alt="Valve">
 
-    <!--整个底部区域 -->
-    <div class="footer_lwx">
+                <!-- 文字部分 -->
+                <div class="text">
+                    <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
+                    <span>所有的价格均已包含增值税（如适用）。</span>
+                    &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">退款</a><span> &nbsp;|&nbsp; </span>
+                    <a href="">Cookie</a><span>
+                </div>
 
-        <!-- 底部 -->
-        <div class="footer-top">
-
-            <!-- 左边的图片 -->
-            <img src="./img/02.png" alt="Valve">
-
-            <!-- 文字部分 -->
-            <div class="text">
-                <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
-                <span>所有的价格均已包含增值税（如适用）。</span>
-                &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
-                <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
-                <a href="">退款</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Cookie</a><span>
+                <!-- 右边的图片 -->
+                <div class="image">
+                    <img src="./img/04.png" alt="steam">
+                </div>
             </div>
 
-            <!-- 右边的图片 -->
-            <div class="image">
-                <img src="./img/04.png" alt="steam">
+            <!-- 最底部一行的文字 -->
+            <div class="footer-bottom">
+                <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
+                <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
+                <a href="">客服</a><span> &nbsp;|&nbsp; </span>
+                <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
+                <img src="./img/f.gif" alt="f">
+                <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
+                <img src="./img/t.gif" alt="t">
+                <a href="">@Steam</a>
             </div>
-        </div>
-
-        <!-- 最底部一行的文字 -->
-        <div class="footer-bottom">
-            <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
-            <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
-            <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
-            <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
-            <a href="">客服</a><span> &nbsp;|&nbsp; </span>
-            <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
-            <img src="./img/f.gif" alt="f">
-            <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
-            <img src="./img/t.gif" alt="t">
-            <a href="">@Steam</a>
 
         </div>
+
     </div>
-    </div>
 
-
-
+    <script>
+        let lanuage = document.getElementById("lanuage");
+        let select = document.getElementsByClassName(".select");
+        lanuage.onclick = function () {
+            event.preventDefault()
+            let langlist = document.querySelector(".lanuage>.select")
+            // setTimeout(
+            document.onclick = function () {
+                if (event.target == lanuage) {
+                    if (langlist.classList[1] == "select-show") {
+                        langlist.classList.remove("select-show")
+                    } else {
+                        langlist.classList.add("select-show")
+                    }
+                } else
+                    langlist.classList.remove("select-show")
+            }
+        }
+    </script>
     <script src="./js/yjg-homess.js"></script>
-    <script src="./js/fh-home.js"></script>
+    <!-- <script src="./js/fh-home.js"></script> -->
+    <script src="./js/ls-home.js"></script>
 
 </body>
 

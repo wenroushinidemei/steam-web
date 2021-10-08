@@ -1,0 +1,733 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contentModule {
+  box-sizing: border-box;
+  width: 940px;
+}
+
+.content_zxy {
+  width: 100%;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c6d4df;
+  font-size: 12px;
+  background-color: #1B2838;
+}
+
+.content_zxy .topContent {
+  background: url(https://store.st.dl.pinyuncloud.com/public/images/v6/app/game_page_background_shadow.png?v=2);
+  background: #1c2327;
+  background-position: bottom;
+  padding-bottom: 1px;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  font-size: 12px;
+}
+
+.content_zxy .topContent .nav {
+  background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, #0f216e 100%);
+  box-shadow: 0 0 3px white;
+  height: 35px;
+  line-height: 35px;
+}
+
+.content_zxy .topContent .nav li {
+  height: inherit;
+  float: left;
+  padding: 0 15px;
+}
+
+.content_zxy .topContent .nav li:nth-child(1):hover .box {
+  display: block;
+}
+
+.content_zxy .topContent .nav li:nth-child(2):hover .box {
+  display: block;
+}
+
+.content_zxy .topContent .nav li:nth-child(1),
+.content_zxy .topContent .nav li:nth-child(2) {
+  position: relative;
+}
+
+.content_zxy .topContent .nav li:nth-child(1) .box,
+.content_zxy .topContent .nav li:nth-child(2) .box {
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+  padding: 8px 5px 8px 5px;
+  display: none;
+}
+
+.content_zxy .topContent .nav li:nth-child(1) .box li,
+.content_zxy .topContent .nav li:nth-child(2) .box li {
+  width: 119px;
+}
+
+.content_zxy .topContent .nav .search:hover {
+  border: 1px solid #4c9acc;
+}
+
+.content_zxy .topContent .nav .search {
+  height: 28px;
+  margin-top: 3px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  float: right;
+  display: flex;
+}
+
+.content_zxy .topContent .nav .search input::placeholder {
+  color: black;
+}
+
+.content_zxy .topContent .nav .search input {
+  border-radius: 2px;
+  border: none;
+  margin: 0;
+  font-size: 14px;
+  outline: none;
+  font-family: "Motiva Sans", Sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  background-color: #316282;
+}
+
+.content_zxy .topContent .nav .search span:hover {
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/search_icon_btn_over.png);
+}
+
+.content_zxy .topContent .nav .search span {
+  width: 30px;
+  border-radius: 2px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/search_icon_btn.png);
+  background-size: cover;
+}
+
+.content_zxy .topContent .allGame {
+  margin-top: 20px;
+}
+
+.content_zxy .topContent .allGame a {
+  color: #cbd9e4;
+}
+
+.content_zxy .topContent .allGame a:hover {
+  color: white;
+}
+
+.content_zxy .topContent .outer {
+  font-size: 26px;
+  height: 50px;
+}
+
+.content_zxy .topContent .outer p:nth-child(1) {
+  float: left;
+  color: white;
+}
+
+.content_zxy .topContent .outer p:nth-child(2) {
+  float: right;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #67c1f5;
+  font-size: 12px;
+  margin-top: 10px;
+  background: rgba(103, 193, 245, 0.2);
+}
+
+.content_zxy .topContent .outer p:nth-child(2):hover {
+  background: rgba(49, 85, 245, 0.2);
+  filter: brightness(500%);
+}
+
+.content_zxy .topContent .gamePic {
+  width: inherit;
+  display: flex;
+  box-sizing: border-box;
+  justify-self: flex-start;
+}
+
+.content_zxy .topContent .gamePic .left {
+  width: 600px;
+  height: inherit;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+}
+
+.content_zxy .topContent .gamePic .left .pic {
+  height: 337px;
+  background-image: url(https://media.st.dl.pinyuncloud.com/steam/apps/753640/ss_09f0fa8d9b8d7da1408cf4e03303d896cbd9be18.600x338.jpg?t=1629751834);
+}
+
+.content_zxy .topContent .gamePic .left .change {
+  height: 100px;
+  width: 600px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.content_zxy .topContent .gamePic .left .change img {
+  margin-top: 10px;
+  width: 18%;
+  height: 60px;
+}
+
+.content_zxy .topContent .gamePic .left .change::-webkit-scrollbar {
+  height: 23px;
+  width: 14px;
+  background: transparent;
+  z-index: 12;
+  overflow: visible;
+}
+
+.content_zxy .topContent .gamePic .left .change::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #434953;
+  border-radius: 10px;
+  z-index: 12;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  transition: background-color .32s ease-in-out;
+  margin: 4px;
+  min-height: 32px;
+  min-width: 32px;
+}
+
+.content_zxy .topContent .gamePic .left .change::-webkit-scrollbar-corner {
+  background: #202020;
+}
+
+.content_zxy .topContent .gamePic .left .change::-webkit-scrollbar-button {
+  width: 20px;
+}
+
+.content_zxy .topContent .gamePic .right {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+  width: 324px;
+  height: inherit;
+}
+
+.content_zxy .topContent .gamePic .right img {
+  height: 180px;
+}
+
+.content_zxy .topContent .gamePic .right .p1 {
+  letter-spacing: 2px;
+}
+
+.content_zxy .topContent .gamePic .right .data {
+  color: #556772;
+}
+
+.content_zxy .topContent .gamePic .right .data span {
+  color: #67c1f5;
+}
+
+.content_zxy .topContent .gamePic .right .data p:nth-last-child(1) span {
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  margin-left: 2px;
+  background-color: rgba(103, 193, 245, 0.2);
+  padding: 0 4px 0 4px;
+}
+
+.content_zxy .topContent .gamePic .right .data p:nth-last-child(1) span:hover {
+  color: white;
+  filter: brightness(300%);
+}
+
+.content_zxy .gameIntroduce {
+  margin: auto;
+}
+
+.content_zxy .gameIntroduce .top {
+  padding: 16px;
+  color: #c6d4df;
+  font-size: 12px;
+  background: #202b38;
+}
+
+.content_zxy .gameIntroduce .content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content_zxy .gameIntroduce .content .left {
+  width: 640px;
+}
+
+.content_zxy .gameIntroduce .content .left p {
+  color: #ffffff;
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.content_zxy .gameIntroduce .content .left .bot {
+  box-sizing: border-box;
+  height: 25px;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  background-color: #000000;
+}
+
+.content_zxy .gameIntroduce .content .left .bot span {
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.content_zxy .gameIntroduce .content .left .bot .span1 {
+  color: #acdbf5;
+  padding-left: 5px;
+}
+
+.content_zxy .gameIntroduce .content .left .bot .span2 {
+  display: inline-block;
+  width: 90px;
+  height: 22px;
+  line-height: 25px;
+  background-color: #6fa720;
+  border-radius: 1px;
+  margin-right: 2px;
+  padding: 0 5px 0 5px;
+}
+
+.content_zxy .gameIntroduce .content .left .bot .span2:hover {
+  filter: brightness(120%);
+}
+
+.content_zxy .gameIntroduce .content .left .bot .span3 {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+.content_zxy .gameIntroduce .content .left .bot .span4 {
+  background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+}
+
+.content_zxy .gameIntroduce .content .left .pic {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/icon_platform_win.png);
+}
+
+.content_zxy .gameIntroduce .content .left .picture {
+  width: 600px;
+  font-size: 0;
+  padding: 5px 0 5px 5px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.content_zxy .gameIntroduce .content .left .picture img {
+  vertical-align: middle;
+}
+
+.content_zxy .gameIntroduce .content .left .price .model1:hover {
+  height: 45px;
+  transition: filter 0.5s ease, transform 0.5s ease;
+  background-size: 720px;
+  box-shadow: 3px 3px 15px white inset;
+}
+
+.content_zxy .gameIntroduce .content .left .price .model1 {
+  box-sizing: border-box;
+  height: 45px;
+  line-height: 45px;
+  background-image: url(https://media.st.dl.pinyuncloud.com/steamcommunity/public/images/clans/33023506/769e4938c986b3767c7b0add2aa2309dab977f4c.png);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #8b8484;
+  border-radius: 6px;
+}
+
+.content_zxy .gameIntroduce .content .left .price .model1 p {
+  font-weight: normal;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle {
+  margin-top: 20px;
+  background: -webkit-linear-gradient(150deg, rgba(226, 244, 255, 0.3) 5%, rgba(84, 107, 115, 0.3) 95%);
+  border-radius: 6px;
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .p1 {
+  padding-top: 10px;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .p1 span {
+  color: #A4D7F5;
+  font-size: 17px;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .p1 b {
+  color: #8f98a0;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .p2 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #8bc53f;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .p2 span {
+  color: #b0aeac;
+}
+
+.content_zxy .gameIntroduce .content .left .price .allStyle .pictures span {
+  display: inline-block;
+  width: 75px;
+  overflow: hidden;
+}
+
+.content_zxy .gameIntroduce .content .left .tops {
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/maincol_gradient_rule.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_zxy .gameIntroduce .content .left .tops p {
+  margin-left: 0px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0;
+  vertical-align: text-bottom;
+}
+
+.content_zxy .gameIntroduce .content .left .tops .right {
+  margin-right: 0px;
+  width: 70px;
+  height: 20px;
+  border: 1px solid #bebdbd;
+  background: #1b2838;
+  text-align: center;
+  line-height: 20px;
+}
+
+.content_zxy .gameIntroduce .content .left .tops .right:hover {
+  border: 1px solid white;
+  color: #66c0f4;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .center span {
+  padding-top: 2px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .center span:nth-child(1) {
+  margin-left: 0px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .center span:nth-child(2) {
+  margin-right: 0px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .center div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1px;
+  background: linear-gradient(135deg, rgba(97, 100, 101, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%);
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .bott {
+  box-sizing: border-box;
+  float: right;
+  margin-top: 5px;
+  background-color: #000000;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .bott span {
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .bott .span1 {
+  color: #acdbf5;
+  padding-left: 5px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .bott .span2 {
+  display: inline-block;
+  height: 22px;
+  line-height: 25px;
+  background-color: #6fa720;
+  border-radius: 1px;
+  margin-right: 2px;
+  padding: 0 5px 0 5px;
+}
+
+.content_zxy .gameIntroduce .content .left .gameContent .bott .span2:hover {
+  filter: brightness(120%);
+}
+
+.content_zxy .gameIntroduce .content .left .notice {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents {
+  margin-top: 5px;
+  display: flex;
+  font-size: 0px;
+  background-image: radial-gradient(ellipse at top left, #42454c, #25282e);
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .left {
+  height: 180px;
+  width: 322px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .left img {
+  height: 180px;
+  transition: transform .4s ease-out;
+  vertical-align: middle;
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .left img:hover {
+  transform: scale(1.1);
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .noticeRight {
+  width: 318px;
+  margin: 0;
+  background-image: radial-gradient(ellipse at top left, #42454c, #25282e);
+  box-shadow: 5px 5px 10px black;
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .noticeRight p {
+  color: #acb2b8;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .noticeRight P:nth-child(1) {
+  margin-top: 10px;
+  color: rgba(40, 156, 255, 0.8);
+}
+
+.content_zxy .gameIntroduce .content .left .notice .contents .noticeRight P:nth-child(3) {
+  color: #d6d3d3;
+  font-size: 13px;
+}
+
+.content_zxy .gameIntroduce .content .left .evaluate {
+  margin-bottom: 50px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 12px;
+}
+
+.content_zxy .gameIntroduce .content .left .evaluate .evaluate_content1 {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+.content_zxy .gameIntroduce .content .left .systemRequirement {
+  margin-bottom: 50px;
+}
+
+.content_zxy .gameIntroduce .content .left .systemRequirement .systemContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content_zxy .gameIntroduce .content .left .systemRequirement .systemContent p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #acb2b8;
+}
+
+.content_zxy .gameIntroduce .content .left .systemRequirement .systemContent span {
+  color: #61686D;
+}
+
+.content_zxy .gameIntroduce .content .left .systemRequirement .system_bot {
+  color: #566168;
+  margin-top: 15px;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts {
+  margin-bottom: 50px;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  padding: 10px;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent div:hover {
+  border: 1px solid #3bcfaf;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent div {
+  width: 33%;
+  padding: 10px;
+  border: 1px solid #3f4953;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent div img {
+  width: 180px;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent div p {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0;
+  color: #8f98a0;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent div p:nth-child(3) {
+  color: #66c0f4;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 3px;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent::-webkit-scrollbar {
+  background-color: #1b1f2c;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent::-webkit-scrollbar-button:horizontal:single-button:start {
+  width: 24px;
+  background: url("../img/arrow1.png") 0 -52px no-repeat;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.content_zxy .gameIntroduce .content .left .relatedProducts .relatedContent::-webkit-scrollbar-button:horizontal:single-button:end {
+  width: 24px;
+  background: url("../img/arrow2.png") 0 -77px no-repeat;
+  cursor: pointer;
+}
+
+.content_zxy .gameIntroduce .content .right {
+  margin-left: 10px;
+  font-size: 12px;
+  width: 300px;
+  height: 380px;
+  background-color: gray;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop {
+  background: #0C1219;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop p:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 18px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop p:nth-child(2) {
+  color: #acb2b8;
+  padding: 10px 18px;
+  line-height: 20px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop p:nth-child(3) {
+  color: #acb2b8;
+  padding: 10px 14px 25px 14px;
+  line-height: 20px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop p:nth-child(3) span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #417a9b;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  border-radius: 2px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightTop p:nth-child(3) span:hover {
+  text-shadow: 1px 1px 2px #000000aa;
+  background: #54a5d4;
+  filter: brightness(120%);
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam {
+  margin-top: 10px;
+  background: #161f2b;
+  padding: 10px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam div {
+  font-size: 0px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam div i {
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+  background: #06090c;
+  line-height: 24px;
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam div i img {
+  width: 25px;
+  vertical-align: baseline;
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam div span:hover {
+  text-shadow: 1px 1px 2px #000000aa;
+  background: #54a5d4;
+  filter: brightness(120%);
+}
+
+.content_zxy .gameIntroduce .content .right .rightSteam div span {
+  line-height: 24px;
+  width: 240px;
+  font-size: 12px;
+  background: linear-gradient(135deg, #254355 0%, #0e1d27 100%);
+  display: inline-block;
+  padding-left: 4px;
+}
+/*# sourceMappingURL=zxy-game.css.map */

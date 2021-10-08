@@ -12,199 +12,223 @@
 </head>
 
 <body>
-    <div>
+
+    <!-- 整个头部区域 -->
+    <div class="header-box_lwx">
         <!-- 头部 -->
-        <!-- 整个头部区域 -->
-        <div class="header-box_lwx">
+        <div class="header">
 
-            <!-- 头部 -->
-            <div class="header">
+            <!-- 头部logo -->
+            <img src="../img/logo_steam.svg" alt="Steam">
 
-                <!-- 头部logo -->
-                <img src="../img/logo_steam.svg" alt="Steam">
+            <!-- 头部导航栏 -->
+            <ul class="header-nav">
+                <li> <a href="">商店</a>
+                    <!-- 头部导航栏中隐藏的小导航-->
+                    <ul class="hidden-nav1">
+                        <li><a href="">主页</a></li>
+                        <li><a href="">探索列队</a></li>
+                        <li><a href="">愿望单</a></li>
+                        <li><a href="">点数商店</a></li>
+                        <li><a href="">新闻</a></li>
+                        <li><a href="">统计数据</a></li>
+                    </ul>
+                </li>
+                <li> <a href="">社区</a>
+                    <!-- 头部导航栏中隐藏的小导航-->
+                    <ul class="hidden-nav2">
+                        <li><a href="">主页</a></li>
+                        <li><a href="">讨论</a></li>
+                        <li><a href="">创意工坊</a></li>
+                        <li><a href="">市场</a></li>
+                        <li><a href="">实况直播</a></li>
+                    </ul>
+                </li>
+                <li> <a href="">关于</a></li>
+                <li> <a href="">客服</a></li>
+            </ul>
 
-                <!-- 头部导航栏 -->
-                <ul class="header-nav">
-                    <li> <a href="">商店</a>
-                        <!-- 头部导航栏中隐藏的小导航-->
-                        <ul class="hidden-nav1">
-                            <li><a href="">主页</a></li>
-                            <li><a href="">探索列队</a></li>
-                            <li><a href="">愿望单</a></li>
-                            <li><a href="">点数商店</a></li>
-                            <li><a href="">新闻</a></li>
-                            <li><a href="">统计数据</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="">社区</a>
-                        <!-- 头部导航栏中隐藏的小导航-->
-                        <ul class="hidden-nav2">
-                            <li><a href="">主页</a></li>
-                            <li><a href="">讨论</a></li>
-                            <li><a href="">创意工坊</a></li>
-                            <li><a href="">市场</a></li>
-                            <li><a href="">实况直播</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="">关于</a></li>
-                    <li> <a href="">客服</a></li>
-                </ul>
+            <!-- 头部右边的内容 -->
+            <div class="header-right">
 
-                <!-- 头部右边的内容 -->
-                <div class="header-right">
+                <!-- 显示安装的图标 -->
+                <img src="../img/下载.png" alt="下载">
+                <a href="">安装Steam</a>
 
-                    <!-- 显示安装的图标 -->
-                    <img src="../img/下载.png" alt="下载">
-                    <a href="">安装Steam</a>
+                <!-- 登录 -->
+                <a href="">登录</a>
+                <span>|</span>
 
-                    <!-- 登录 -->
-                    <a href="">登录</a>
-                    <span>|</span>
+                <!-- 语言下拉框 -->
+                <div class="lanuage">
+                    <a href="" id="lanuage">语言</a>
+                    <div class="select">
+                        <p><a href="">繁體中文 ( 繁体中文 )</a></p>
+                        <p><a href="">日本語 ( 日语 )</a></p>
+                        <p><a href="">한국어 ( 韩语 )</a></p>
+                        <p><a href="">เทย์ ( 泰语 )</a></p>
+                        <p><a href="">Български ( 保加利亚语 )</a></p>
+                        <p><a href="">Čeština ( 捷克语 )</a></p>
+                        <p><a href="">Dansk ( 丹麦语 )</a></p>
+                        <p><a href="">Deutsch ( 德语 )</a></p>
+                        <p><a href="">English ( 英语 )</a></p>
+                        <p><a href="">Español ( 西班牙语 - 拉丁美洲 )</a></p>
+                        <p><a href="">Ελληνικά ( 希腊语 )</a></p>
+                        <p><a href="">Français ( 法语 )</a></p>
+                        <p><a href="">Italiano ( 意大利语 )</a></p>
+                        <p><a href="">Magyar ( 甸牙利语 )</a></p>
+                        <p><a href="">Nederlands ( 荷兰语 )</a></p>
+                        <p><a href="">Norsk ( 挪威语 )</a></p>
+                        <p><a href="">Polski ( 波兰语 )</a></p>
+                        <p><a href="">português ( 葡萄牙语 )</a></p>
+                        <p><a href="">Română ( 罗马尼亚语 )</a></p>
+                        <p><a href="">Русский ( 俄语 )</a></p>
+                        <p><a href="">Suomi ( 芬兰语 )</a></p>
+                        <p><a href="">Svenska ( 瑞典语 )</a></p>
+                        <p><a href="">Türkçe ( 土耳其语 )</a></p>
+                        <p><a href="">tiếng Việt ( 越南语 )</a></p>
+                        <p><a href="">Українська ( 乌克兰语 )</a></p>
+                        <p><a href="">帮助我们翻译Steam</a></p>
 
-                    <!-- 语言下拉框 -->
-                    <select>
-                        <option value="">语言</option>
-                        <option value=""> 繁體中文 (繁体中文)</option>
-                        <option value="">日本語 (日语)</option>
-                        <option value="">한국어 (韩语)</option>
-                        <option value="">เทย์ (泰语)</option>
-                        <option value="">Български (保加利亚语)</option>
-                        <option value="">Čeština (捷克语)</option>
-                        <option value="">Dansk (丹麦语)</option>
-                        <option value="">Deutsch (德语)</option>
-                        <option value="">English (英语)</option>
-                        <option value="">Español (西班牙语)</option>
-                        <option value="">Ελληνικά (希腊语)</option>
-                        <option value="">Français (法语)</option>
-                        <option value="">Italiano (意大利语)</option>
-                        <option value="">Magyar (甸牙利语)</option>
-                        <option value="">Nederlands (荷兰语)</option>
-                        <option value="">Norsk (挪威语)</option>
-                        <option value="">Polski (波兰语)</option>
-                        <option value="">português (葡萄牙语)</option>
-                        <option value="">Română (罗马尼亚语)</option>
-                        <option value="">Русский (俄语)</option>
-                        <option value="">Suomi (芬兰语)</option>
-                        <option value="">Svenska (瑞典语)</option>
-                        <option value="">Türkçe (土耳其语)</option>
-                        <option value="">tiếng Việt (越南语)</option>
-                        <option value="">Українська (乌克兰语)</option>
-                        <option value="">帮助我们翻译Steam</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <!-- 登录表单 -->
-        <div class="login_lwx">
-            <div class="login">
-
-                <div class="login-left">
-                    <div class="login-box">
-                        <div class="content">
-                            <h1>登录</h1>
-                            <div class="tipbox">您输入的帐户名称或密码错误。</div>
-
-                            <form class="form" onsubmit="event.preventDefault()" >
-                                <div class="login-text">Steam账户名称</div>
-                                <input id="account" type="text">
-
-                                <div class="login-text">密码</div>
-                                <input id="password" type="password">
-                                <button id="btn-login">登录</button>
-                                <p><a href="">忘记您的密码？</a></p>
-                            </form>
-                        </div>
                     </div>
-                    .
                 </div>
-
-
-                <div class="login-right">
-                    <div>加入Steam，探索数千款精彩<br>游戏。</div>
-                    <a href="">了解更多</a>
-                    <img src="../img/join.png" alt="join">
-                    <div>免费加入且简单使用。</div>
-                    <span>加入Steam</span>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- 底部 -->
-        <div class="footer_lwx">
-
-            <!-- 底部 -->
-            <div class="footer-top">
-
-                <!-- 左边的图片 -->
-                <img src="../img/02.png" alt="Valve">
-
-                <!-- 文字部分 -->
-                <div class="text">
-                    <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
-                    <span>所有的价格均已包含增值税（如适用）。</span>
-                    &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">退款</a><span> &nbsp;|&nbsp; </span>
-                    <a href="">Cookie</a><span>
-                </div>
-
-                <!-- 右边的图片 -->
-                <div class="image">
-                    <img src="../img/04.png" alt="Steam">
-                </div>
-            </div>
-
-            <!-- 最底部一行的文字 -->
-            <div class="footer-bottom">
-                <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
-                <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
-                <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
-                <a href="">客服</a><span> &nbsp;|&nbsp; </span>
-                <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
-                <img src="../img/f.gif" alt="f">
-                <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
-                <img src="../img/t.gif" alt="t">
-                <a href="">@Steam</a>
-
             </div>
         </div>
     </div>
-    <script>
-       
 
+    <!-- 登录表单 -->
+    <div class="login_lwx">
+        <div class="login">
+            <div class="login-left">
+                <div class="login-box">
+                    <div class="content">
+                        <h1>登录</h1>
+                        <div class="tipbox">您输入的帐户名称或密码错误。</div>
+
+                        <form class="form" onsubmit="event.preventDefault()">
+                            <div class="login-text">Steam账户名称</div>
+                            <input id="account" type="text">
+
+                            <div class="login-text">密码</div>
+                            <input id="password" type="password">
+                            <button id="btn-login">登录</button>
+                            <p><a href="">忘记您的密码？</a></p>
+                        </form>
+                    </div>
+                </div>
+                .
+            </div>
+
+
+            <div class="login-right">
+                <div>加入Steam，探索数千款精彩<br>游戏。</div>
+                <a href="">了解更多</a>
+                <img src="../img/join.png" alt="join">
+                <div>免费加入且简单使用。</div>
+                <span>加入Steam</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer_lwx">
+
+        <!-- 底部 -->
+        <div class="footer-top">
+
+            <!-- 左边的图片 -->
+            <img src="../img/02.png" alt="Valve">
+
+            <!-- 文字部分 -->
+            <div class="text">
+                <span>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。</span>
+                <span>所有的价格均已包含增值税（如适用）。</span>
+                &nbsp;&nbsp;<a href="">隐私政策</a><span> &nbsp;|&nbsp; </span>
+                <a href="">法律信息</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Steam订户协议</a><span> &nbsp;|&nbsp; </span>
+                <a href="">退款</a><span> &nbsp;|&nbsp; </span>
+                <a href="">Cookie</a><span>
+            </div>
+
+            <!-- 右边的图片 -->
+            <div class="image">
+                <img src="../img/04.png" alt="Steam">
+            </div>
+        </div>
+
+        <!-- 最底部一行的文字 -->
+        <div class="footer-bottom">
+            <a href="">关于Valve</a><span> &nbsp;|&nbsp; </span>
+            <a href="">工作机会</a><span> &nbsp;|&nbsp; </span>
+            <a href="">Steamworks</a><span> &nbsp;|&nbsp; </span>
+            <a href="">Steam分销</a><span> &nbsp;|&nbsp; </span>
+            <a href="">客服</a><span> &nbsp;|&nbsp; </span>
+            <a href="">礼物卡</a><span> &nbsp;|&nbsp;&nbsp; </span>
+            <img src="../img/f.gif" alt="f">
+            <a href="">Steam</a><span> &nbsp;|&nbsp;&nbsp; </span>
+            <img src="../img/t.gif" alt="t">
+            <a href="">@Steam</a>
+
+        </div>
+    </div>
+
+<!-- 点击显示隐藏语言列表 -->
+    <script>
+        let lanuage = document.getElementById("lanuage");
+        let select = document.getElementsByClassName(".select");
+        lanuage.onclick = function () {
+            console.log(1)
+            event.preventDefault()
+            let langlist = document.querySelector(".lanuage>.select")
+            document.onclick = function () {
+                if (event.target == lanuage) {
+                    if (langlist.classList[1] == "select-show") {
+                        langlist.classList.remove("select-show")
+                    } else {
+                        langlist.classList.add("select-show")
+                    }
+                } else
+                    langlist.classList.remove("select-show")
+            }
+        }
+    </script>
+
+<!-- 登录 -->
+    <script>
         let account = document.getElementById("account");
         let password = document.getElementById("password");
         let btn = document.getElementById("btn-login");
         btn.onclick = function () {
-            console.dir(account.value);
-            console.dir(password.value);
-            axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
-            url: '/login',
-            method: 'post',
-            baseURL: 'http://steam.web:80/',
-            data: {
-                account: account.value,
-                password: password.value
-            },
-            headers: {
-                'content-type': 'application/json'
+            if (account.value != '' && password.value != '') {
+                // console.dir(account.value);
+                // console.dir(password.value);
+                axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
+                    url: '/login',
+                    method: 'post',
+                    baseURL: 'http://steam.web:80/',
+                    data: {
+                        account: account.value,
+                        password: password.value
+                    },
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                }).then(res => {
+                    console.log(res)
+                    if (res.data.code != 600) {
+                        let tipbox = document.querySelector(".tipbox")
+                        console.log(tipbox.classList)
+                        tipbox.classList.add("tipbox-show")
+                    }
+                }).catch(err => {
+                    console.log(err);
+                })
+            } else {
+                console.log('没写账户或密码！')
             }
-        }).then(res => {
-            console.log(res)
-            if (res.code = 600) {
-                
-            }
-        }).catch(err => {
-            console.log(err);
-        })
-
         }
-
     </script>
+   
 </body>
 
 </html>
