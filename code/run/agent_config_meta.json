@@ -10,6 +10,21 @@
     "origin": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
     "allowMethods": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
   },
+  "mysql": {
+    "client": {
+      "host": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "port": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "user": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "password": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js"
+    },
+    "app": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "agent": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
+    "default": {
+      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    }
+  },
   "security": {
     "csrf": {
       "enable": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js",
@@ -159,14 +174,6 @@
     "defaultExtension": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
     "defaultViewEngine": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
     "mapping": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js"
-  },
-  "mysql": {
-    "default": {
-      "database": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
-      "connectionLimit": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
-    },
-    "app": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
-    "agent": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
   },
   "env": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",
   "name": "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\node_modules\\_egg@2.30.0@egg\\config\\config.default.js",

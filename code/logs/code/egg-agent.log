@@ -5106,3 +5106,13 @@ hostname: monkey
 2021-10-08 09:58:11,967 INFO 11812 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config\\config.default.js","stat":{"dev":3866086397,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899908061140,"size":1130,"blocks":8,"atimeMs":1633658291954.4893,"mtimeMs":1633658291954.4893,"ctimeMs":1633658291954.4893,"birthtimeMs":1633658000206.0671,"atime":"2021-10-08T01:58:11.954Z","mtime":"2021-10-08T01:58:11.954Z","ctime":"2021-10-08T01:58:11.954Z","birthtime":"2021-10-08T01:53:20.206Z"},"remove":false,"isDirectory":false,"isFile":true}
 2021-10-08 09:58:24,342 WARN 11812 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2021-10-08 09:58:24,367 WARN 11812 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-10-08 10:00:26,464 INFO 10924 [egg:logger] init all loggers with options: {"dir":"F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\logs\\code","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"code-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-10-08 10:00:26,474 INFO 10924 [egg:core] dump config after load, 6ms
+2021-10-08 10:00:26,538 INFO 10924 [egg-watcher] Start watching: ["F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks_proxy","F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app.js"]
+2021-10-08 10:00:26,538 INFO 10924 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app"
+2021-10-08 10:00:26,538 INFO 10924 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\config"
+2021-10-08 10:00:26,539 INFO 10924 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks"
+2021-10-08 10:00:26,539 INFO 10924 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\mocks_proxy"
+2021-10-08 10:00:26,539 INFO 10924 [egg-watcher] Start watching: "F:\\LIYOU\\个人发展\\华清远见\\GitHub\\steam-web\\code\\app.js"
+2021-10-08 10:00:26,539 INFO 10924 [egg-watcher:agent] watcher start success
+2021-10-08 10:00:26,562 INFO 10924 [egg:core] dump config after ready, 10ms

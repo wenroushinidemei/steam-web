@@ -165,7 +165,14 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "host": "192.168.31.186",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 6>",
+        "database": "steam"
+      }
     },
     "env": "local",
     "name": "code",
