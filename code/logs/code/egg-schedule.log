@@ -1293,97 +1293,100 @@
 2021-10-07 12:24:09,697 INFO 8604 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
 2021-10-07 12:24:09,697 INFO 8604 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
 2021-10-07 12:24:09,697 INFO 8604 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-<<<<<<< HEAD
-2021-10-08 09:03:42,975 INFO 8420 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69977028ms at 2021-10-09 04:30:00.003
-2021-10-08 09:03:42,976 INFO 8420 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 53777025ms at 2021-10-09 00:00:00.001
-2021-10-08 09:03:42,976 INFO 8420 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53778024ms at 2021-10-09 00:00:01.000
-2021-10-08 09:03:42,109 INFO 3600 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:03:42,109 INFO 3600 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:03:42,110 INFO 3600 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:33:28,407 INFO 15208 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:33:28,407 INFO 15208 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:33:28,407 INFO 15208 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:35:19,464 INFO 1072 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:35:19,464 INFO 1072 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:35:19,464 INFO 1072 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:35:19,820 INFO 9052 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68080184ms at 2021-10-09 04:30:00.004
-2021-10-08 09:35:19,821 INFO 9052 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 51880179ms at 2021-10-09 00:00:00.000
-2021-10-08 09:35:19,822 INFO 9052 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51881179ms at 2021-10-09 00:00:01.001
-2021-10-08 09:47:44,204 INFO 852 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:47:44,204 INFO 852 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:47:44,204 INFO 852 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:49:07,413 INFO 7456 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:49:07,418 INFO 7456 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:49:07,418 INFO 7456 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:49:26,611 INFO 13524 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:49:26,611 INFO 13524 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:49:26,611 INFO 13524 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:49:41,190 INFO 15468 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:49:41,191 INFO 15468 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:49:41,191 INFO 15468 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:51:52,259 INFO 7532 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:51:52,259 INFO 7532 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:51:52,259 INFO 7532 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:52:31,659 INFO 6464 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:52:31,659 INFO 6464 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:52:31,659 INFO 6464 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:52:45,349 INFO 5080 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:52:45,349 INFO 5080 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:52:45,349 INFO 5080 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-=======
 >>>>>>> 479b07ddc18c02d23fcf383f6deec6d1d3cc6f39
->>>>>>> e08e5c5d85df5634400f1e335e97d96525ca38d8
-2021-10-08 09:55:02,037 INFO 9552 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:55:02,037 INFO 9552 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:55:02,037 INFO 9552 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:56:19,427 INFO 9184 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:56:19,427 INFO 9184 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:56:19,427 INFO 9184 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:57:47,590 INFO 11812 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 66732414ms at 2021-10-09 04:30:00.004
-2021-10-08 09:57:47,591 INFO 11812 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 50532410ms at 2021-10-09 00:00:00.001
-2021-10-08 09:57:47,591 INFO 11812 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50533409ms at 2021-10-09 00:00:01.000
-2021-10-08 09:57:47,257 INFO 12748 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:57:47,257 INFO 12748 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:57:47,257 INFO 12748 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 09:58:13,962 INFO 7064 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 09:58:13,962 INFO 7064 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 09:58:13,962 INFO 7064 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:00:28,354 INFO 17396 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:00:28,354 INFO 17396 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:00:28,354 INFO 17396 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:03:26,487 INFO 14024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:03:26,487 INFO 14024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:03:26,487 INFO 14024 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:05:21,334 INFO 16088 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:05:21,334 INFO 16088 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:05:21,334 INFO 16088 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:05:21,732 INFO 1200 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 66278273ms at 2021-10-09 04:30:00.005
-2021-10-08 10:05:21,732 INFO 1200 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 50078268ms at 2021-10-09 00:00:00.000
-2021-10-08 10:05:21,733 INFO 1200 [Timer] F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50079268ms at 2021-10-09 00:00:01.001
-2021-10-08 10:07:05,950 INFO 10772 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:07:05,950 INFO 10772 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:07:05,950 INFO 10772 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:08:35,648 INFO 14964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:08:35,648 INFO 14964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:08:35,648 INFO 14964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:15:39,730 INFO 4692 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:15:39,730 INFO 4692 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:15:39,730 INFO 4692 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:18:33,261 INFO 4792 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:18:33,261 INFO 4792 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:18:33,261 INFO 4792 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:20:04,708 INFO 8568 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:20:04,709 INFO 8568 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:20:04,709 INFO 8568 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:21:05,687 INFO 1268 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:21:05,687 INFO 1268 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:21:05,687 INFO 1268 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:25:31,144 INFO 16044 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:25:31,144 INFO 16044 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:25:31,144 INFO 16044 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:26:15,035 INFO 11964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:26:15,035 INFO 11964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:26:15,035 INFO 11964 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2021-10-08 10:32:40,244 INFO 9376 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-multipart@2.13.1@egg-multipart\app\schedule\clean_tmpdir.js
-2021-10-08 10:32:40,244 INFO 9376 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2021-10-08 10:32:40,244 INFO 9376 [egg-schedule]: register schedule F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:00:01,748 INFO 15064 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:00:01,748 INFO 15064 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:00:01,748 INFO 15064 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 09:59:59,805 INFO 13496 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 09:59:59,805 INFO 13496 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 09:59:59,805 INFO 13496 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:00:03,543 INFO 5348 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 66596460ms at 2021-10-09 04:30:00.003
+2021-10-08 10:00:03,544 INFO 5348 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 50396457ms at 2021-10-09 00:00:00.001
+2021-10-08 10:00:03,544 INFO 5348 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50397456ms at 2021-10-09 00:00:01.000
+2021-10-08 10:00:04,699 INFO 3616 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:00:04,699 INFO 3616 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:00:04,699 INFO 3616 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:01:05,114 INFO 6300 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:01:05,114 INFO 6300 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:01:05,114 INFO 6300 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:10:52,831 INFO 14772 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:10:52,831 INFO 14772 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:10:52,831 INFO 14772 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:11:13,469 INFO 7272 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:11:13,469 INFO 7272 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:11:13,469 INFO 7272 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:13:49,107 INFO 13424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:13:49,107 INFO 13424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:13:49,107 INFO 13424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:13:50,578 INFO 10100 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:13:50,578 INFO 10100 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:13:50,578 INFO 10100 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:14:11,256 INFO 1580 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:14:11,256 INFO 1580 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:14:11,256 INFO 1580 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:14:51,976 INFO 2496 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65708027ms at 2021-10-09 04:30:00.003
+2021-10-08 10:14:51,977 INFO 2496 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49508024ms at 2021-10-09 00:00:00.000
+2021-10-08 10:14:51,977 INFO 2496 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49509023ms at 2021-10-09 00:00:01.000
+2021-10-08 10:14:51,704 INFO 10908 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:14:51,704 INFO 10908 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:14:51,704 INFO 10908 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:43:59,168 INFO 12424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:43:59,168 INFO 12424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:43:59,168 INFO 12424 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:49:04,806 INFO 14484 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:49:04,806 INFO 14484 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:49:04,806 INFO 14484 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:49:38,207 INFO 5904 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63621795ms at 2021-10-09 04:30:00.002
+2021-10-08 10:49:38,208 INFO 5904 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47421792ms at 2021-10-09 00:00:00.000
+2021-10-08 10:49:38,208 INFO 5904 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47422792ms at 2021-10-09 00:00:01.000
+2021-10-08 10:49:37,966 INFO 6328 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:49:37,966 INFO 6328 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:49:37,966 INFO 6328 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:50:54,330 INFO 5964 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:50:54,330 INFO 5964 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:50:54,330 INFO 5964 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:54:20,069 INFO 3632 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63339934ms at 2021-10-09 04:30:00.002
+2021-10-08 10:54:20,069 INFO 3632 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47139931ms at 2021-10-09 00:00:00.000
+2021-10-08 10:54:20,069 INFO 3632 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47140931ms at 2021-10-09 00:00:01.000
+2021-10-08 10:54:19,837 INFO 13144 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:54:19,837 INFO 13144 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:54:19,837 INFO 13144 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 10:55:48,829 INFO 11588 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 10:55:48,829 INFO 11588 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 10:55:48,829 INFO 11588 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:14:43,028 INFO 13512 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:14:43,028 INFO 13512 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:14:43,028 INFO 13512 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:14:44,525 INFO 10084 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:14:44,525 INFO 10084 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:14:44,525 INFO 10084 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:31:07,707 INFO 1832 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:31:07,707 INFO 1832 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:31:07,707 INFO 1832 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:35:38,273 INFO 2848 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:35:38,273 INFO 2848 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:35:38,273 INFO 2848 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:37:21,184 INFO 14724 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:37:21,184 INFO 14724 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:37:21,184 INFO 14724 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:54:39,592 INFO 7884 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:54:39,592 INFO 7884 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:54:39,592 INFO 7884 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 11:54:41,223 INFO 8892 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 11:54:41,223 INFO 8892 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 11:54:41,223 INFO 8892 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 13:13:24,237 INFO 14760 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 54995766ms at 2021-10-09 04:30:00.003
+2021-10-08 13:13:24,238 INFO 14760 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 38795763ms at 2021-10-09 00:00:00.001
+2021-10-08 13:13:24,238 INFO 14760 [Timer] D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 38796762ms at 2021-10-09 00:00:01.000
+2021-10-08 13:13:23,962 INFO 11820 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 13:13:23,962 INFO 11820 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 13:13:23,962 INFO 11820 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 13:13:25,618 INFO 15040 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 13:13:25,618 INFO 15040 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 13:13:25,618 INFO 15040 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 13:36:54,820 INFO 11292 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 13:36:54,820 INFO 11292 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 13:36:54,820 INFO 11292 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-10-08 13:44:08,082 INFO 4000 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-10-08 13:44:08,082 INFO 4000 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-10-08 13:44:08,082 INFO 4000 [egg-schedule]: register schedule D:\H5\stack\steam\steam-web\code\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

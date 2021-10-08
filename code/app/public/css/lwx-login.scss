@@ -1,8 +1,143 @@
-
 body {
     background-color: #212429;
 }
 
+// 登陆成功之后的头部
+
+.header {
+    position: relative;
+    right: -90px;
+
+    //头部右边内容样式
+    .navright {
+        width: 225px;
+        height: 25px;
+        // line-height: 25px;
+        position: absolute;
+        display: flex;
+        right: 10px;
+        top: 5px;
+
+        &>img:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0px;
+            right: 225px;
+            padding: 3px 4px 2px 7px;
+            background-color: #616A72;
+        }
+
+        &>a:nth-child(2) {
+            color: #E5E4DC;
+            font-size: 12px;
+            font-family: motiva sans-serif;
+            background-color: #616A72;
+            padding-right: 7px;
+            text-decoration: none;
+            line-height: 25px;
+        }
+
+        &>img:nth-child(3) {
+            width: 20px;
+            height: 20px;
+            margin: 3px 2px;
+            margin-left: 3px;
+
+        }
+        .usernames{
+            text-align: center;
+            position: relative;
+
+            &>a{
+                color: #E5E4DC;
+                font-size: 12px;         
+                text-decoration: none;
+                line-height: 25px;
+            }
+    
+            &>a:hover {
+                color: #FFFFFF;
+            }
+            .selects {
+                height: 0;
+                width: 0;
+                overflow: hidden;
+            }
+            .selects-show{
+                width: 130px;
+                height: 140px;
+                border: 1px solid #171a21;
+                position: relative;
+                background-color: #171a21;
+                position: absolute;
+                right: 0px;
+                text-align: left;
+                padding: 6px 0;
+                &>p{
+                     padding: 3px 0px;
+
+                    &>a {
+                        font-size: 12px;
+                        color: #b8b6b4;
+                        margin-top: 3px;
+                        margin-left: 15px;
+                        
+                        white-space: pre-wrap;
+                    }  
+                    &>a:hover {
+                        color: #FFFFFF;
+                    }
+                }
+                &>span{
+                    color: #43BFDE;
+                    &>a{
+                        color: #b8b6b4;
+                        margin-top: 3px; 
+                        margin-left: 15px;                  
+                        padding: 6px 0px;
+                        white-space: pre-wrap;                       
+                    }
+                    &>a:hover {
+                        color: #FFFFFF;
+                    }
+                    
+                 
+                    
+                }
+            }
+          
+        }
+
+        .confuse {
+            width: 34px;
+            height: 34px;
+
+            &>img {
+                width: 33px;
+                height: 33px;
+                padding: 2px;
+                background: linear-gradient(to bottom, #515151 5%, #474747 95%);
+                background: -webkit-linear-gradient(top, #515151 5%, #474747 95%);
+                border-radius: none;
+                margin: 1px;
+                margin-left: 7px;
+            }
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+// 登录区域
 .login_lwx {
     width: 100%;
     height: 80%;
@@ -197,69 +332,69 @@ body {
         // align-items: center;
         // justify-content: center;
         position: relative;
-    
-        &>h1{
-            font-size:27px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            color:#E5E5E6 ;
-    
+
+        &>h1 {
+            font-size: 27px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #E5E5E6;
+
         }
-    
-        &>img{
+
+        &>img {
             width: 45px;
             height: 45px;
             position: absolute;
             left: 35px;
             top: 85px;
         }
-    
-        &>p{
-            color:#ACB2B8 ;
+
+        &>p {
+            color: #ACB2B8;
             font-size: 10px;
-        } 
-        
-    }
-    
+        }
 
-
-.close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
-    color: #5B5D61;
-}
-
-.text{
-    width: 275px;
-    height: 70px;
-    // background-color: cadetblue;
-    margin: 0 auto;
-    margin-top: 30px;
-
-    &>h2{
-        color:#59ADE0 ;
-        font-size: 20px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    &>p{
-        color:#ACB2B8 ;
-        font-size: 10px;
-    }  
-}
 
-.steam{
-    width: 160px;
-    height: 60px;
-    background-color:#2A3E4D ;
-    position: absolute;
-    right: 40px;
-    bottom: 50px;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding-top: 10px;
-    padding-left: 5px;
 
-}
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        color: #5B5D61;
+    }
+
+    .text {
+        width: 275px;
+        height: 70px;
+        // background-color: cadetblue;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        &>h2 {
+            color: #59ADE0;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        &>p {
+            color: #ACB2B8;
+            font-size: 10px;
+        }
+    }
+
+    .steam {
+        width: 160px;
+        height: 60px;
+        background-color: #2A3E4D;
+        position: absolute;
+        right: 40px;
+        bottom: 50px;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 5px;
+
+    }
 }

@@ -2,6 +2,129 @@ body {
   background-color: #212429;
 }
 
+.header {
+  position: relative;
+  right: -90px;
+}
+
+.header .navright {
+  width: 225px;
+  height: 25px;
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 5px;
+}
+
+.header .navright > img:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 225px;
+  padding: 3px 4px 2px 7px;
+  background-color: #616A72;
+}
+
+.header .navright > a:nth-child(2) {
+  color: #E5E4DC;
+  font-size: 12px;
+  font-family: motiva sans-serif;
+  background-color: #616A72;
+  padding-right: 7px;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+.header .navright > img:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  margin: 3px 2px;
+  margin-left: 3px;
+}
+
+.header .navright .usernames {
+  text-align: center;
+  position: relative;
+}
+
+.header .navright .usernames > a {
+  color: #E5E4DC;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+.header .navright .usernames > a:hover {
+  color: #FFFFFF;
+}
+
+.header .navright .usernames .selects {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.header .navright .usernames .selects-show {
+  width: 130px;
+  height: 140px;
+  border: 1px solid #171a21;
+  position: relative;
+  background-color: #171a21;
+  position: absolute;
+  right: 0px;
+  text-align: left;
+  padding: 6px 0;
+}
+
+.header .navright .usernames .selects-show > p {
+  padding: 3px 0px;
+}
+
+.header .navright .usernames .selects-show > p > a {
+  font-size: 12px;
+  color: #b8b6b4;
+  margin-top: 3px;
+  margin-left: 15px;
+  white-space: pre-wrap;
+}
+
+.header .navright .usernames .selects-show > p > a:hover {
+  color: #FFFFFF;
+}
+
+.header .navright .usernames .selects-show > span {
+  color: #43BFDE;
+}
+
+.header .navright .usernames .selects-show > span > a {
+  color: #b8b6b4;
+  margin-top: 3px;
+  margin-left: 15px;
+  padding: 6px 0px;
+  white-space: pre-wrap;
+}
+
+.header .navright .usernames .selects-show > span > a:hover {
+  color: #FFFFFF;
+}
+
+.header .navright .confuse {
+  width: 34px;
+  height: 34px;
+}
+
+.header .navright .confuse > img {
+  width: 33px;
+  height: 33px;
+  padding: 2px;
+  background: linear-gradient(to bottom, #515151 5%, #474747 95%);
+  background: -webkit-linear-gradient(top, #515151 5%, #474747 95%);
+  border-radius: none;
+  margin: 1px;
+  margin-left: 7px;
+}
+
 .login_lwx {
   width: 100%;
   height: 80%;
