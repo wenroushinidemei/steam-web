@@ -8,11 +8,10 @@ li {
 }
 
 
-
 .box_selected_fh {
     background-color: #1B2838;
     width: 100%;
-    height: 1500px;
+    height: 1800px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -254,11 +253,11 @@ li {
                                     border: none;
                                 }
 
-                                .pass{
+                                .pass {
                                     color: #7193a6;
                                 }
 
-                                .now{
+                                .now {
                                     color: #acdbf5;
                                     padding-left: 4px;
                                 }
@@ -282,7 +281,7 @@ li {
                     display: flex;
                     justify-content: center;
 
-                    li.focus{
+                    li.focus {
                         background-color: hsla(202, 60%, 100%, 0.4);
                     }
 
@@ -296,14 +295,14 @@ li {
                         cursor: pointer;
 
 
-                        &:hover{
+                        &:hover {
                             background-color: hsla(202, 60%, 100%, 0.3);
                         }
 
                     }
                 }
 
-                .arrow{
+                .arrow {
                     padding: 36px 11px;
                     width: 23px;
                     height: 36px;
@@ -312,22 +311,22 @@ li {
                     position: absolute;
                     top: 122px;
 
-                   
-                    
+
+
                 }
 
-                .arrow_left:hover{
+                .arrow_left:hover {
                     // background-color: rgba(0,0,0,0.3);
-                    background: linear-gradient( to right, rgba(219, 213, 213, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
-                   
+                    background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
                 }
-                
 
-                .arrow_left{
-                    left: -46px; 
-                    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
 
-                    div{
+                .arrow_left {
+                    left: -46px;
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                    div {
                         height: 36px;
                         width: 23px;
                         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
@@ -335,23 +334,23 @@ li {
                     }
                 }
 
-                .arrow_right:hover{
+                .arrow_right:hover {
                     // background-color: rgba(0,0,0,0.3);
-                    background: linear-gradient( to right, rgba(192, 185, 185, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
-                    
-                    background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%); 
+                    background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%);
                 }
 
-                .arrow_right{
-                   
-                    right: -46px;  
-                    background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
+                .arrow_right {
 
-                    div{
+                    right: -46px;
+                    background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+
+                    div {
                         height: 36px;
                         width: 23px;
                         background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-                        
+
                     }
                 }
             }
@@ -359,17 +358,11 @@ li {
         }
 
 
-
-
         .box_special {
             height: 463px;
             width: 940px;
             margin-bottom: 20px;
-            // margin:  0 auto;
-            background-color: chartreuse;
-
-
-
+            position: relative;
 
             .box_title {
                 display: flex;
@@ -395,6 +388,255 @@ li {
                     border-radius: 2px;
                 }
             }
+
+
+            .box_content {
+                height: 390px;
+
+
+                .foucs {
+                    height: 390px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left,
+                    .middle,
+                    .right {
+                        width: 306px;
+                        height: 390px;
+                        
+                    }
+
+                    .left,
+                    .middle {
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: 350px;
+                            background-color: #fff;
+                        }
+
+                        .spotlight_content {
+                            padding: 8px 16px 12px;
+                            width: 274px;
+                            height: 93px;
+                            z-index: 99;
+                            position: absolute;
+                            left: 0px;
+                            bottom: 0px;
+                            background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/home/background_spotlight.jpg);
+
+
+
+                            h2 {
+                                font-family: "Motiva Sans", Sans-serif;
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                color: #fff;
+                                margin: 0 0 10px;
+                                letter-spacing: 0.03em;
+                                font-weight: normal;
+                                padding-top: 2px;
+                            }
+
+
+                            .spotlight_time {
+                                font-weight: 300;
+                                color: #acdbf5;
+                                font-size: 12px;
+                            }
+
+                            .spotlight_price {
+                                display: flex;
+                                height: 34px;
+                                margin-top: 10px;
+
+                                .discount_pct {
+                                    line-height: 34px;
+                                    padding: 0 5px;
+                                    font-size: 26px;
+                                    color: #a4d007;
+                                    background: #4c6b22;
+                                    display: inline-block;
+                                }
+
+                                .discount_prices {
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    line-height: 13px;
+                                    padding: 4px 10px 4px 7px;
+
+                                    .pass_price{
+                                        color: #7193a6;
+                                        font-size: 11px;
+                                        text-decoration:line-through;
+                                    }
+
+                                    .now_price{
+                                        color: #acdbf5;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .right{
+                      
+                        .right_top,.right_buttom{
+                            height: 186px;
+                            margin-bottom: 16px;
+                            background: linear-gradient( to bottom, #ffffff 5%, #abdaf4 95%);
+                            position: relative;
+
+                            img{
+                                width: 100%;
+                                height: 143px;
+                                background-color: blue;
+                                
+                            }
+
+                            .dailydeal_desc{
+                                padding: 7px 7px 4px;
+                                width: 60px;
+                                height: 32px;
+                                position: absolute;
+                                left: 0px;
+                                bottom: 0px;
+                                display: inline-block;
+
+                                div{
+                                    color: #283846;
+                                    font-size: 11px;
+
+                                }
+
+                                .ttip{
+                                    color: #c4e4f2;
+                                    background-color: #4f95bd;
+                                    font-size: 12px;
+                                    padding: 0px 4px;
+                                    margin-top: 4px;
+
+                                }
+                            }
+
+
+                            .right_spotlight_price {
+                                height: 32px;
+                                display: inline-block;
+                                position: absolute;
+                                bottom: 5px;
+                                right: 5px;
+                                display: flex;
+
+                                .discount_pct {
+                                    line-height: 34px;
+                                    padding: 0 5px;
+                                    font-size: 26px;
+                                    color: #a4d007;
+                                    background: #4c6b22;
+                                    display: inline-block;
+                                }
+
+                                .discount_prices {
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    line-height: 13px;
+                                    padding: 4px 10px 4px 7px;
+
+                                    .pass_price{
+                                        color: #7193a6;
+                                        font-size: 11px;
+                                        text-decoration:line-through;
+                                    }
+
+                                    .now_price{
+                                        color: #acdbf5;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .arrowpart5 {
+                padding: 36px 11px;
+                width: 23px;
+                height: 36px;
+                cursor: pointer;
+                position: absolute;
+                top: 35%;
+
+            }
+
+            .arrow_left:hover {
+                background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+            }
+
+
+            .arrow_left {
+                left: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                div {
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                    background-position-x: 23px;
+                }
+            }
+
+            .arrow_right:hover {
+                background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%);
+            }
+
+            .arrow_right {
+
+                right: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+
+                div {
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+
+                }
+            }
+
+
+            .special_thumbs {
+                height: 37px;
+                padding-bottom: 4px;
+                display: flex;
+                justify-content: center;
+
+                li.focus {
+                    background-color: hsla(202, 60%, 100%, 0.4);
+                }
+
+                li {
+                    width: 15px;
+                    height: 9px;
+                    margin: 12px 2px;
+                    border-radius: 2px;
+                    transition: background-color 0.2s;
+                    background-color: hsla(202, 60%, 100%, 0.2);
+                    cursor: pointer;
+
+
+                    &:hover {
+                        background-color: hsla(202, 60%, 100%, 0.3);
+                    }
+
+                }
+            }
+
 
 
         }
@@ -457,7 +699,7 @@ li {
                         // border: none;
                         // background-repeat: no-repeat;
                         // background-size: cover;
-                       
+
                     }
 
                     .box_price {
@@ -466,7 +708,7 @@ li {
                         bottom: 20px;
                         display: flex;
                         justify-content: center;
-                       
+
 
 
                         .percentage {
@@ -502,7 +744,7 @@ li {
                     width: 319px;
                     height: 350px;
                     padding-right: 5px;
-                    background: linear-gradient( to bottom, #506c86 5%, #10143100 96%);
+                    background: linear-gradient(to bottom, #506c86 5%, #10143100 96%);
 
 
                     .box_review {
@@ -584,14 +826,14 @@ li {
                     }
                 }
             }
-        
+
             .today_thumbs {
                 height: 37px;
                 padding-bottom: 4px;
                 display: flex;
                 justify-content: center;
 
-                li.focus{
+                li.focus {
                     background-color: hsla(202, 60%, 100%, 0.4);
                 }
 
@@ -605,14 +847,14 @@ li {
                     cursor: pointer;
 
 
-                    &:hover{
+                    &:hover {
                         background-color: hsla(202, 60%, 100%, 0.3);
                     }
 
                 }
             }
 
-            .arrowpart3{
+            .arrowpart3 {
                 padding: 36px 11px;
                 width: 23px;
                 height: 36px;
@@ -622,18 +864,18 @@ li {
                 top: calc(50% - 54px);
             }
 
-            .arrow_left:hover{
+            .arrow_left:hover {
                 // background-color: rgba(0,0,0,0.3);
-                background: linear-gradient( to right, rgba(219, 213, 213, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
-               
+                background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
             }
-            
 
-            .arrow_left{
-                left: -46px; 
-                background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
 
-                div{
+            .arrow_left {
+                left: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                div {
                     height: 36px;
                     width: 23px;
                     background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
@@ -641,27 +883,225 @@ li {
                 }
             }
 
-            .arrow_right:hover{
+            .arrow_right:hover {
                 // background-color: rgba(0,0,0,0.3);
-                background: linear-gradient( to right, rgba(192, 185, 185, 0.3) 5%,rgba( 0, 0, 0, 0) 95%); 
-                
-                background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%); 
+                background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%);
             }
 
-            .arrow_right{
-               
-                right: -46px;  
-                background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
+            .arrow_right {
 
-                div{
+                right: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+
+                div {
                     height: 36px;
                     width: 23px;
                     background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
-                    
+
                 }
             }
-        
+
         }
+
+
+        .home_ctn {
+            width: 100%;
+            height: 95px;
+            margin: 40px 0px 25px;
+            color: #fff;
+            font-family: "Motiva Sans", Sans-serif;
+            text-transform: uppercase;
+
+            h2 {
+                padding-top: 2px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: normal;
+                letter-spacing: 0.03em;
+            }
+
+            .box_ctn {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+
+                span {
+                    font-size: 16px;
+                    font-weight: 500;
+                    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+                    border-radius: 3px;
+                    box-shadow: 0 0 4px #000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 58px;
+                }
+            }
+
+        }
+
+
+        .hot_vr {
+            width: 100%;
+            height: 207px;
+            position: relative;
+            // background-color: blue;
+
+            h2 {
+                font-family: "Motiva Sans", Sans-serif;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #fff;
+                margin: 0 0 10px;
+                letter-spacing: 0.03em;
+                font-weight: normal;
+                padding-top: 2px;
+                position: relative;
+
+
+
+
+                span {
+                    padding: 0px 15px;
+                    width: 50px;
+                    height: 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    background: transparent;
+                    border: 1px solid rgba(255, 255, 255, 0.4);
+                    border-radius: 2px;
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+
+                    &:hover {
+                        border: 1px solid #fff;
+                    }
+                }
+            }
+
+            .hot_vr_content {
+
+                width: 100%;
+                height: 134px;
+                display: flex;
+                justify-content: space-between;
+
+                div {
+                    width: 229px;
+
+
+                    img {
+                        width: 100%;
+                        height: 107px;
+                        background-color: chartreuse;
+                    }
+
+                    .game_price {
+                        width: 219px;
+                        height: 17px;
+                        padding: 5px;
+                        line-height: 17px;
+                        background-color: #345A78;
+                        text-align: right;
+
+
+                        div {
+                            margin: 0px;
+                            display: inline;
+                            font-size: 12px;
+                            padding: 0px 9px;
+                            background-color: rgba(20, 31, 44, 0.4);
+                            border-radius: 1px;
+                            color: #acdbf5;
+                        }
+                    }
+                }
+            }
+
+
+            .vr_thumbs {
+                height: 37px;
+                padding-bottom: 4px;
+                display: flex;
+                justify-content: center;
+
+                li.focus {
+                    background-color: hsla(202, 60%, 100%, 0.4);
+                }
+
+                li {
+                    width: 15px;
+                    height: 9px;
+                    margin: 12px 2px;
+                    border-radius: 2px;
+                    transition: background-color 0.2s;
+                    background-color: hsla(202, 60%, 100%, 0.2);
+                    cursor: pointer;
+
+
+                    &:hover {
+                        background-color: hsla(202, 60%, 100%, 0.3);
+                    }
+
+                }
+            }
+
+            .arrowpart4 {
+                padding: 36px 11px;
+                width: 23px;
+                height: 36px;
+                cursor: pointer;
+                // z-index: 999;
+                position: absolute;
+                top: 29%
+            }
+
+            .arrow_left:hover {
+                // background-color: rgba(0,0,0,0.3);
+                background: linear-gradient(to right, rgba(219, 213, 213, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+            }
+
+
+            .arrow_left {
+                left: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                div {
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+                    background-position-x: 23px;
+                }
+            }
+
+            .arrow_right:hover {
+                // background-color: rgba(0,0,0,0.3);
+                background: linear-gradient(to right, rgba(192, 185, 185, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(223, 217, 217, 0.3)95%);
+            }
+
+            .arrow_right {
+
+                right: -46px;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+
+                div {
+                    height: 36px;
+                    width: 23px;
+                    background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+
+                }
+            }
+
+
+        }
+
+
 
 
     }
