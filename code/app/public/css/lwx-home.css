@@ -5,7 +5,6 @@
 }
 
 .header-box_lwx {
-  width: 100%;
   height: 104px;
   background-color: #171A21;
   padding: 0px 16px 0px 16px;
@@ -28,7 +27,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  z-index: 1000;
+  z-index: 20;
 }
 
 .header-box_lwx .header > img {
@@ -217,7 +216,6 @@
 }
 
 .footer_lwx {
-  width: 100%;
   height: 183px;
   background-color: #171A21;
   padding-top: 5px;

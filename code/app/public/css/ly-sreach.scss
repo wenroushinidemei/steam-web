@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
+    text-decoration: none;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 .search_ly {
     width: 940px;
     margin: 0 auto;
+    overflow: hidden;
 
     // 右侧的搜索和展示
     .searchList {
@@ -44,8 +46,9 @@ body {
                 border-radius: 2px;
                 color: #67c1f5;
                 background: rgba(103, 193, 245, 0.2);
-                &:hover{
-                background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
+
+                &:hover {
+                    background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
                     color: #fff;
                 }
             }
@@ -77,19 +80,212 @@ body {
                 }
             }
         }
-        .searchMsg{
-            padding: 10px;
+
+        .searchMsg {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            color: #c6d4df;
-            background-color: rgba($color: #000000, $alpha: 0.2);
+            color: #fff;
+            font-size: 0;
+            overflow: hidden;
+            margin-bottom: 5px;
+
+            &>div {
+                float: right;
+                padding: 10px;
+                width: 40px;
+                height: 32px;
+                font-size: 12px;
+                vertical-align: middle;
+                background-color: rgba($color: #000000, $alpha: 0.2);
+                // 颜色变化时产生动画效果！
+                transition: all .4s;
+            }
+
+            &>div:first-child {
+                float: left;
+                width: 604px;
+                height: 32px;
+            }
+
+            .set_tab:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+            .set_tab_click {
+                background-color: #c7d5e0;
+            }
+        }
+
+        .gameList {
+            &>a {
+                display: block;
+                height: 45px;
+                border: 1px solid transparent;
+                margin-bottom: 5px;
+                font-size: 12px;
+                color: #c6d4df;
+                background-color: rgba($color: #000000, $alpha: 0.2);
+
+                &:hover {
+                    border-color: rgba(139, 185, 224, 0.2);
+                    background-color: rgba($color: #000000, $alpha: 0.4);
+                }
+
+                // 一行游戏信息种四个div的统一样式
+                &>div {
+                    height: 45px;
+                    float: left;
+
+                    &:nth-child(3) {
+                        float: right;
+                    }
+
+                    &:nth-child(4) {
+                        float: right;
+                    }
+                }
+
+                font-family: "Motiva Sans",
+                Sans-serif;
+
+                .game_img {
+                    width: 120px;
+                    margin-right: 2px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .game_name {
+                    width: 250px;
+                    padding-left: 5px;
+
+                    &>p {
+                        height: 50%;
+                        line-height: 25.5px;
+                    }
+                }
+
+                .game_time {
+                    width: 85px + 3.5px + 30px;
+                    color: #4c6c8c;
+
+                    &>span {
+                        display: inline-block;
+                        height: 45px;
+                        width: 85px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        line-height: 45px;
+                    }
+
+                    .assess {
+                        margin-left: 5px;
+                        margin-bottom: (45px / 2) - (16px / 2);
+                        height: 16px;
+                        width: 16px;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .game_price {
+                    position: relative;
+                    width: 40px + 3.5px + 100px;
+                    margin-right: 11px;
+                    text-align: right;
+                    line-height: 45px;
+
+                    .discount {
+                        position: absolute;
+                        height: 45px;
+                        width: 40px;
+                        left: 0;
+                        top: 0;
+
+                        &>span {
+                            margin-top: 10px;
+                            padding: 5px;
+                            color: #8bc53f;
+                            background-color: #4c6b22;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         }
     }
 
-    // 左侧的条件目录
+    // 左侧的条件目录1
     .searchCondition {
-        width: 0;
+        width: 238px;
         margin-left: 0;
         float: right;
+
+        // 每个选择的头部介绍
+        .conditionName {
+            padding: 4px 4px 4px 6px;
+            font-size: 12px;
+            color: #c7d5e0;
+            background-color: rgba($color: #fff, $alpha: 0.1);
+        }
+
+        // 每个选择中的分割线
+        .hr {
+            background: rgba(255, 255, 255, 0.1);
+            height: 1px;
+            margin: 8px;
+        }
+
+        // 每个选择中内容的show样式
+        div.show {
+            height: auto !important;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            padding: 4px 2px 4px 4px;
+        }
+
+        .checkbox {
+            line-height: 28px;
+            padding: 0 8px;
+            font-size: 13px;
+            font-family: "Motiva Sans", Sans-serif;
+            font-weight: normal;
+            color: #9fbbcb;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &:hover {
+                color: #ffffff;
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            .notcheck {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background-position: top center;
+                margin-right: 8px;
+                background-image: url(../img/store_checkbox_blue.png);
+                vertical-align: text-bottom;
+            }
+
+            .check {
+                background-position: bottom center;
+            }
+        }
+
+        // 每个选择间距和选择内容部分的过渡
+        &>div {
+            margin-bottom: 16px;
+
+            &>div:last-child {
+                transition: all .5s ease-out;
+                // 默认无高度隐藏
+                height: 0;
+                overflow: hidden;
+            }
+        }
+
+        .priceCondition {}
     }
 }
