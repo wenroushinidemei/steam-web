@@ -3,6 +3,233 @@
   padding: 0;
 }
 
+.game-show-yjg {
+  height: 100%;
+  background-color: #2a475e;
+  padding-left: 115px;
+}
+
+.game-show-yjg .yjg-last-bottom {
+  top: 20px;
+  width: 940px;
+  height: 23.24px;
+  background-color: pink;
+  margin: 0 auto;
+  line-height: 23px;
+}
+
+.game-show-yjg .yjg-last-bottom-1 {
+  width: 940px;
+  height: 422px;
+  background-color: purple;
+  margin: 0 auto;
+  display: flex;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-left {
+  width: 378px;
+  height: 422px;
+  background-color: blue;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-left img {
+  width: 378px;
+  height: 422px;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-right {
+  width: 560px;
+  height: 422px;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-right .yjg-last-right-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-right .yjg-last-right-box li {
+  width: 173px;
+  height: 206px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-right .yjg-last-right-box li img {
+  width: 173px;
+  height: 182px;
+}
+
+.game-show-yjg .yjg-last-bottom-1 .yjg-last-right .yjg-last-right-box li div {
+  width: 100%;
+  height: 20px;
+  background-color: pink;
+  text-align: end;
+  line-height: 20px;
+}
+
+.game-show-yjg .yjg-carousel-2 {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+}
+
+.game-show-yjg .yjg-carousel-2 .ww-2 {
+  width: 940px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-show-yjg .yjg-carousel-2 .ww-2 div {
+  width: 229px;
+  height: 134px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel-2 .ww-2 div img {
+  display: inline-block;
+  width: 229px;
+  height: 107px;
+}
+
+.game-show-yjg .yjg-carousel-2 .yjg-logoleft-2 {
+  width: 45px;
+  height: 108px;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  left: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: -23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel-2 .yjg-logoright-2 {
+  width: 45px;
+  height: 108px;
+  position: absolute;
+  text-align: center;
+  line-height: 108px;
+  right: -45px;
+  bottom: 0px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/images/v6/arrows.png);
+  background-repeat: no-repeat;
+  background-position-x: 23px;
+  background-position-y: 30px;
+}
+
+.game-show-yjg .yjg-carousel-2 .btn-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.game-show-yjg .yjg-carousel-2 .btn-2 .btn1-2 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+}
+
+.game-show-yjg .yjg-carousel-2 .btn-2 .btn2-2 {
+  width: 31px;
+  height: 15px;
+  border: 1px solid;
+  padding-left: 2px;
+}
+
+.game-show-yjg .title-head {
+  width: 940px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.game-show-yjg .title-head .title-head-1 {
+  width: 100%;
+  height: 23.4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-show-yjg .title-head .title-head-1 .all-found-1 {
+  width: 92px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 2px;
+}
+
+.game-show-yjg .title-head .video-bigbox {
+  width: 940px;
+  height: 430px;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li {
+  width: 306px;
+  height: 207px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li .kongge {
+  width: 100%;
+  height: 47px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li .kongge div {
+  width: 58px;
+  height: 19px;
+  position: absolute;
+  top: -137px;
+  left: 0px;
+  background-color: pink;
+  text-align: center;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li .bottom-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li .bottom-bottom .botton-bottom-1 {
+  width: 30px;
+  height: 22px;
+  background-image: url(https://store.st.dl.pinyuncloud.com/public/shared/images/broadcast/icon_viewers.png);
+  background-repeat: no-repeat;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li video {
+  width: 306px;
+  height: 139px;
+}
+
+.game-show-yjg .title-head .video-bigbox .video-bibox-1 li div {
+  width: 306px;
+  height: 18px;
+  line-height: 18px;
+}
+
 .game-show-yjg .yjg-title {
   margin: 0 auto;
   width: 940px;
@@ -34,18 +261,17 @@
 }
 
 .game-show-yjg .yjg-carousel {
+  margin-bottom: 20px;
   width: 940px;
   margin: 0 auto;
   position: relative;
   height: 200px;
-  background-color: purple;
 }
 
 .game-show-yjg .yjg-carousel .ww-1 {
   width: 940px;
   height: 200px;
   position: absolute;
-  background-color: red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,6 +281,7 @@
   width: 229px;
   height: 134px;
   border: 1px solid;
+  text-align: end;
 }
 
 .game-show-yjg .yjg-carousel .ww-1 div img {
@@ -66,7 +293,6 @@
 .game-show-yjg .yjg-carousel .yjg-logoleft {
   width: 45px;
   height: 108px;
-  background-color: red;
   position: absolute;
   text-align: center;
   line-height: 108px;
@@ -81,7 +307,6 @@
 .game-show-yjg .yjg-carousel .yjg-logoright {
   width: 45px;
   height: 108px;
-  background-color: red;
   position: absolute;
   text-align: center;
   line-height: 108px;
@@ -181,7 +406,14 @@
   background: linear-gradient(to bottom, #2a475e 5%, rgba(42, 71, 94, 0) 70%);
 }
 
+.game-show-yjg .content .content-bigbox-2 {
+  width: 618px;
+  height: 770px;
+  position: relative;
+}
+
 .game-show-yjg .content .content-Left {
+  position: absolute;
   width: 618px;
   height: 770px;
 }
@@ -216,6 +448,7 @@
   height: 69px;
   display: flex;
   border: 1px solid;
+  overflow: hidden;
 }
 
 .game-show-yjg .content .content-Left .content-2 .small-Left {
@@ -238,12 +471,19 @@
 .game-show-yjg .content .content-Left .content-2 .small-Right .small-1 .small-s-top {
   width: 284px;
   height: 18px;
-  font-size: 18px;
+  font-size: 16px;
+  color: #c7d5e0;
 }
 
 .game-show-yjg .content .content-Left .content-2 .small-Right .small-1 .small-s-bottom {
   width: 284px;
   height: 40px;
+}
+
+.game-show-yjg .content .content-Left .content-2 .small-Right .small-1 .small-s-bottom span {
+  font-size: 13px;
+  color: #384959;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .game-show-yjg .content .content-Left .content-2 .small-Right .small-2 {
@@ -328,5 +568,16 @@
 
 .game-show-yjg .content-2 :hover {
   background-color: #c7d5e0;
+}
+
+.all-found-1:hover {
+  border-radius: 2px;
+  border: none;
+  padding: 1px;
+  display: inline-block;
+  text-decoration: none !important;
+  color: #fff !important;
+  background: transparent;
+  cursor: pointer;
 }
 /*# sourceMappingURL=yjg-home.css.map */
