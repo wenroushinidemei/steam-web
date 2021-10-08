@@ -216,8 +216,76 @@ body {
 
     // 左侧的条件目录1
     .searchCondition {
-        width: 0;
+        width: 238px;
         margin-left: 0;
         float: right;
+
+        // 每个选择的头部介绍
+        .conditionName {
+            padding: 4px 4px 4px 6px;
+            font-size: 12px;
+            color: #c7d5e0;
+            background-color: rgba($color: #fff, $alpha: 0.1);
+        }
+
+        // 每个选择中的分割线
+        .hr {
+            background: rgba(255, 255, 255, 0.1);
+            height: 1px;
+            margin: 8px;
+        }
+
+        // 每个选择中内容的show样式
+        div.show {
+            height: auto !important;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            padding: 4px 2px 4px 4px;
+        }
+
+        .checkbox {
+            line-height: 28px;
+            padding: 0 8px;
+            font-size: 13px;
+            font-family: "Motiva Sans", Sans-serif;
+            font-weight: normal;
+            color: #9fbbcb;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &:hover {
+                color: #ffffff;
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            .notcheck {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background-position: top center;
+                margin-right: 8px;
+                background-image: url(../img/store_checkbox_blue.png);
+                vertical-align: text-bottom;
+            }
+
+            .check {
+                background-position: bottom center;
+            }
+        }
+
+        // 每个选择间距和选择内容部分的过渡
+        &>div {
+            margin-bottom: 16px;
+
+            &>div:last-child {
+                transition: all .5s ease-out;
+                // 默认无高度隐藏
+                height: 0;
+                overflow: hidden;
+            }
+        }
+
+        .priceCondition {}
     }
 }

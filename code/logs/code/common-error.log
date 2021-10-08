@@ -1456,3 +1456,87 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 8980
 hostname: DESKTOP-69ODE32
 
+2021-10-07 17:37:17,441 ERROR 8604 [-/192.168.6.57/-/20029ms GET /gameModule?module=selectionAndRecommendation] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:519:28)
+    at Socket.emit (events.js:400:28)
+    at Socket._onTimeout (net.js:484:8)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+    --------------------
+    at Protocol._enqueue (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as getConnection] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at Pool.releaseConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:277:8)
+    sql: SELECT * FROM `indexgame` WHERE `module` = 'selectionAndRecommendation'
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 8604
+hostname: DESKTOP-69ODE32
+
+2021-10-07 17:37:17,458 ERROR 8604 [-/192.168.6.57/-/20048ms GET /gameModule?module=TodayRrecommendation] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:519:28)
+    at Socket.emit (events.js:400:28)
+    at Socket._onTimeout (net.js:484:8)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+    --------------------
+    at Protocol._enqueue (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as getConnection] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at Pool.releaseConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:277:8)
+    sql: SELECT * FROM `indexgame` WHERE `module` = 'TodayRrecommendation'
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 8604
+hostname: DESKTOP-69ODE32
+
+2021-10-07 17:37:17,465 ERROR 8604 [-/192.168.6.57/-/20054ms GET /gameModule?module=specialOffer] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:519:28)
+    at Socket.emit (events.js:400:28)
+    at Socket._onTimeout (net.js:484:8)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+    --------------------
+    at Protocol._enqueue (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as getConnection] (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at Pool.releaseConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (F:\LIYOU\个人发展\华清远见\GitHub\steam-web\code\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:277:8)
+    sql: SELECT * FROM `indexgame` WHERE `module` = 'specialOffer'
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ETIMEDOUTError"
+pid: 8604
+hostname: DESKTOP-69ODE32
+

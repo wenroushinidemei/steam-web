@@ -207,8 +207,69 @@ body {
 }
 
 .search_ly .searchCondition {
-  width: 0;
+  width: 238px;
   margin-left: 0;
   float: right;
+}
+
+.search_ly .searchCondition .conditionName {
+  padding: 4px 4px 4px 6px;
+  font-size: 12px;
+  color: #c7d5e0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search_ly .searchCondition .hr {
+  background: rgba(255, 255, 255, 0.1);
+  height: 1px;
+  margin: 8px;
+}
+
+.search_ly .searchCondition div.show {
+  height: auto !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  padding: 4px 2px 4px 4px;
+}
+
+.search_ly .searchCondition .checkbox {
+  line-height: 28px;
+  padding: 0 8px;
+  font-size: 13px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  color: #9fbbcb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search_ly .searchCondition .checkbox:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search_ly .searchCondition .checkbox .notcheck {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-position: top center;
+  margin-right: 8px;
+  background-image: url(../img/store_checkbox_blue.png);
+  vertical-align: text-bottom;
+}
+
+.search_ly .searchCondition .checkbox .check {
+  background-position: bottom center;
+}
+
+.search_ly .searchCondition > div {
+  margin-bottom: 16px;
+}
+
+.search_ly .searchCondition > div > div:last-child {
+  transition: all .5s ease-out;
+  height: 0;
+  overflow: hidden;
 }
 /*# sourceMappingURL=ly-sreach.css.map */
