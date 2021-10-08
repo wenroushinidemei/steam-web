@@ -236,11 +236,13 @@ body {
         }
 
         // 每个选择中内容的show样式
-        div.show {
-            height: auto !important;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 2px;
-            padding: 4px 2px 4px 4px;
+        &>div>div:last-child.unshow {
+            // 默认无高度隐藏
+            height: 0;
+            overflow: hidden;
+            line-height: 0;
+            padding: 0;
+            border: none
         }
 
         .checkbox {
@@ -279,10 +281,13 @@ body {
             margin-bottom: 16px;
 
             &>div:last-child {
-                transition: all .5s ease-out;
-                // 默认无高度隐藏
-                height: 0;
+                transition: all .5s linear;
+                height: auto;
+                line-height: 28px;
                 overflow: hidden;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 2px;
+                padding: 4px 2px 4px 4px;
             }
         }
 
