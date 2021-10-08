@@ -1,5 +1,5 @@
 let carousel = document.querySelector(".carousel");
-let indexf = 0;
+
 let gameList = []
 
 function show(game) {
@@ -10,19 +10,19 @@ function show(game) {
     //     console.log(game);
     // }
     // console.log(JSON.parse(game.imgurls)[0]);
+    // console.log(game.imgurls);
 
-    console.log(game.imgurls);
 
     let price
-    if(game.price[0]=='['){
+    if (game.price[0] == '[') {
         price = JSON.parse(game.price);
-    }else{
+    } else {
         price = game.price;
     }
-    console.log(game.id)
+    // console.log(game.id)
     // game.imgurls[0]=='['?JSON.parse(game.imgurls)[0]:game.imgurls[0]
     carousel.innerHTML = `
-    <div class="left leftImg" style="background-image: url(${JSON.parse(game.imgurls)[0]})"></div>
+    <div class="left leftImg" style="background-image: url(${JSON.parse(game.imgurls)[0]})" data-id="${game.id}" onclick="jump()"></div>
     <div class="right">
         <div class="game_name">${game.gameName}</div>
         <div class="screenshots">
@@ -46,6 +46,17 @@ function show(game) {
         </div>
     </div>
     `
+
+    let gameId = 0;
+    let firstImg = document.querySelector('.carousel .leftImg');
+    // console.log(firstImg);
+    firstImg.addEventListener('click', jump);
+
+    function jump(event) {
+        console.log(this);
+        gameId = this.dataset.id;
+        console.log(gameId);
+    }
 }
 
 let lis = document.querySelectorAll('.carousel_thumbs li');
@@ -55,11 +66,16 @@ let index1 = 0; //第一板块下面的li的属性
 function carouselClick(event) {
     // 全局游戏序号通过自定义属性来需改。
     index1 = this.dataset.index;
+    // console.log(this);
+
+    console.log(gameList[index1]);
+
     show(gameList[index1])
     // 将所有li进行遍历，将此时唯一的带有focus类名的li中类名消除。
     Array.from(this.parentNode.children).every(li => li.className == 'focus' ? li.className = '' : true)
     // 当前点击给予类名。
-    this.className = "focus"
+    this.className = "focus";
+
 }
 
 
@@ -88,6 +104,7 @@ rightArrow.onclick = function () {
 
 
 //设置定时器  图片自动轮播
+let indexf = 0;
 setInterval(() => {
     lis[indexf].style.backgroundColor = 'hsla(202, 60%, 100%, 0.2)';
     indexf++;
@@ -102,9 +119,9 @@ setInterval(() => {
     let rightImgs = document.querySelectorAll(".screenshots .rightImgs");
     //重新获取当前记录的四张图片
     let imgAll
-    if(gameList[indexf].imgurls[0]=='['){
+    if (gameList[indexf].imgurls[0] == '[') {
         imgAll = JSON.parse(gameList[indexf].imgurls)
-    }else{
+    } else {
         imgAll = [gameList[indexf].imgurls]
     }
     for (let i = 0; i < rightImgs.length; i++) {
@@ -112,7 +129,9 @@ setInterval(() => {
             leftImg.style.backgroundImage = `url(${imgAll[i]})`
         }
     }
+
 }, 3000)
+
 
 axios({
     method: 'Get',
@@ -163,7 +182,7 @@ function showpart3(game) {
 
     appBox.innerHTML = `
     <div class="left_img">
-        <img src="${game.imgurls}" >
+        <img src="${game.imgurls}" data-id="${game.id}" onclick=jump()>
         <div class="box_price">
             <span class="percentage">${price3[0]}</span>
             <div class="price">
@@ -318,6 +337,7 @@ axios({
     // console.log(res.data)
     // console.log(JSON.parse(res.data[0].imgurls));
 
+
     gameList4 = res.data;
     showpart4([gameList4[0], gameList4[1], gameList4[2], gameList4[3]]);
     // console.log(specialFoucs);
@@ -333,9 +353,12 @@ function showpart4(game) {
     // console.log(specialFoucs);
     // console.log(typeof game[2].time);//string
 
+
+
+
     specialFoucs.innerHTML = `
     <div class="left">
-        <img src="${JSON.parse(game[0].imgurls)}" alt="">
+        <img src="${JSON.parse(game[0].imgurls)}" alt="" data-id="${game[0].id}" onclick=jump()>
         <div class="spotlight_content">
             <h2>疯狂周三</h2>
             <div class="spotlight_time">${game[0].time}</div>
@@ -349,7 +372,7 @@ function showpart4(game) {
         </div>
     </div>
     <div class="middle">
-        <img src="${JSON.parse(game[1].imgurls)}" alt="">
+        <img src="${JSON.parse(game[1].imgurls)}" alt="" data-id="${game[1].id}" onclick=jump()>
         <div class="spotlight_content">
             <h2>疯狂周三</h2>
             <div class="spotlight_time">${game[1].time}</div>
@@ -364,7 +387,7 @@ function showpart4(game) {
     </div>
     <div class="right">
         <div class="right_top">
-            <img src="${JSON.parse(game[2].imgurls)}" alt="">
+            <img src="${JSON.parse(game[2].imgurls)}" alt="" data-id="${game[2].id}" onclick=jump()>
             <div class="dailydeal_desc">
                 <div>今日特惠!</div>
                 <div class="ttip">23:11:19</div>
@@ -378,7 +401,7 @@ function showpart4(game) {
             </div>
         </div>
         <div class="right_buttom">
-            <img src="${JSON.parse(game[3].imgurls)}" alt="">
+            <img src="${JSON.parse(game[3].imgurls)}" alt="" data-id="${game[3].id}" onclick=jump()>
             <div class="dailydeal_desc">
                 <div>今日特惠!</div>
                 <div class="ttip">23:23:23</div>
@@ -410,3 +433,16 @@ function specialClick(event) {
     // 当前点击给予类名。
     this.className = "focus";
 }
+
+
+// let gameId = 0;
+// // let firstImg = document.querySelector('.carousel .leftImg');
+// // console.log(firstImg);
+// // lis.forEach(li => li.addEventListener('click', carouselClick))
+
+// function jump(event){
+
+//     console.log(this);
+//     gameId = this.dataset.id;
+//     console.log(gameId);
+// }
