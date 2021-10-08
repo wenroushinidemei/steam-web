@@ -17,7 +17,6 @@
     <div class="header-box_lwx">
         <!-- 头部 -->
         <div class="header">
-
             <!-- 头部logo -->
             <img src="../img/logo_steam.svg" alt="Steam" onclick="back()">
             <script>
@@ -50,23 +49,33 @@
                         <li><a href="">实况直播</a></li>
                     </ul>
                 </li>
+                <li> <a href="">用户昵称</a>
+                    <!-- 头部导航栏中隐藏的小导航-->
+                    <ul class="hidden-nav3">
+                        <li><a href="">动态</a></li>
+                        <li><a href="">个人资料</a></li>
+                        <li><a href="">好友</a></li>
+                        <li><a href="">组</a></li>
+                        <li><a href="">内容</a></li>
+                        <li><a href="">徽章</a></li>
+                        <li><a href="">库存</a></li>
+                    </ul>
+                </li>
                 <li> <a href="">关于</a></li>
                 <li> <a href="">客服</a></li>
             </ul>
-
             <!-- 头部右边的内容 -->
-            <div class="header-right">
-
+            <!-- <div class="header-right">
                 <!-- 显示安装的图标 -->
-                <img src="../img/下载.png" alt="下载">
-                <a href="">安装Steam</a>
+            <!-- <img src="../img/下载.png" alt="下载">
+                <a href="">安装Steam</a> -->
 
-                <!-- 登录 -->
-                <a href="">登录</a>
-                <span>|</span>
+            <!-- 登录 -->
+            <!-- <a href="">登录</a>
+                <span>|</span> -->
 
-                <!-- 语言下拉框 -->
-                <div class="lanuage">
+            <!-- 语言下拉框 -->
+            <!-- <div class="lanuage">
                     <a href="" id="lanuage">语言</a>
                     <div class="select">
                         <p><a href="">繁體中文 ( 繁体中文 )</a></p>
@@ -97,6 +106,31 @@
                         <p><a href="">帮助我们翻译Steam</a></p>
 
                     </div>
+                </div> -->
+
+
+
+            <!-- 登录成功之后显示的的头部 -->
+            <div class="navright">
+                <!-- 显示安装的图标 -->
+                <img src="../img/下载.png" alt="下载">
+                <a href="">安装Steam</a>
+                <img src="../img/信封.png" alt="信封">
+                 <!-- <a href="">用户昵称</a> -->
+
+                  <div class="usernames">
+                    <a href="" id="usernames">用户昵称</a>
+                    <div class="selects">
+                        <p><a href="">查看个人资料</a></p>
+                        <p><a href="">账户明细</a></p>
+                        <span><a href="">注销：</a></span><span>用户昵称</span>
+                        <p><a href="">偏好</a></p>
+                        <p><a href="">更改语言</a></p>
+                    </div>
+                  </div>
+
+                <div class="confuse">
+                    <img src="../img/问号.jpg" alt="问号">
                 </div>
             </div>
         </div>
@@ -198,79 +232,30 @@
 
     </div>
 
-    <!-- 点击显示隐藏语言列表 -->
     <script>
-        let lanuage = document.getElementById("lanuage");
-        let select = document.getElementsByClassName(".select");
-        lanuage.onclick = function () {
-            console.log(1)
-            event.preventDefault()
-            let langlist = document.querySelector(".lanuage>.select")
-            document.onclick = function () {
-                if (event.target == lanuage) {
-                    if (langlist.classList[1] == "select-show") {
-                        langlist.classList.remove("select-show")
-                    } else {
-                        langlist.classList.add("select-show")
-                    }
-                } else
-                    langlist.classList.remove("select-show")
+        var usernames = document.getElementById("usernames");
+var selects = document.getElementsByClassName(".selects");
+usernames.onclick = function () {
+    console.log(1);
+    event.preventDefault();
+    var userlist = document.querySelector(".usernames>.selects");
+    document.onclick = function () {
+        if (event.target == usernames) {
+            if (userlist.classList[1] == "selects-show") {
+                userlist.classList.remove("selects-show");
+            }
+            else {
+                userlist.classList.add("selects-show");
             }
         }
+        else
+            userlist.classList.remove("selects-show");
+    };
+};
+var flag = false;
     </script>
 
-    <!-- 登录 -->
-    <script>
-        let flag = false;
-
-        let contentBox = document.querySelector(".content-lwx");
-        let flagContent = false;
-        let close = document.querySelector(".close");
-        close.onclick = function () {
-            flagContent = !flagContent;
-            contentBox.style.display = "none";
-        }
-
-
-        let account = document.getElementById("account");
-        let password = document.getElementById("password");
-        let btn = document.getElementById("btn-login");
-        btn.onclick = function () {
-            if (account.value != '' && password.value != '') {
-                // console.dir(account.value);
-                // console.dir(password.value);
-                axios({ //单个字符串必须是url绝对地址，否则就是请求参数的对象。
-                    url: '/login',
-                    method: 'post',
-                    baseURL: 'http://steam.web:80/',
-                    data: {
-                        account: account.value,
-                        password: password.value
-                    },
-                    headers: {
-                        'content-type': 'application/json'
-                    }
-                }).then(res => {
-                    console.log(res)
-                    if (res.data.code != 600) {
-                        let tipbox = document.querySelector(".tipbox")
-                        console.log(tipbox.classList)
-                        tipbox.classList.add("tipbox-show")
-                    } else {
-                        flagContent = !flagContent;
-                        if (flagContent) {
-                            contentBox.style.display = "block";
-                        }
-                    }
-                }).catch(err => {
-                    console.log(err);
-                })
-            } else {
-                console.log('没写账户或密码！')
-            }
-        }
-    </script>
-
+    <script src="../js/login_lwx.js"></script>
 </body>
 
 </html>
