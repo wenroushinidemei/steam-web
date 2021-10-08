@@ -318,7 +318,6 @@ axios({
     // console.log(res.data)
     // console.log(JSON.parse(res.data[0].imgurls));
 
-
     gameList4 = res.data;
     showpart4([gameList4[0], gameList4[1], gameList4[2], gameList4[3]]);
     // console.log(specialFoucs);
